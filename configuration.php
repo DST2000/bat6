@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'Сайт закрыт на техническое обслуживание.<br />Пожалуйста, зайдите позже.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'bat5';
+	public $sitename = 'bat6';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -17,7 +17,7 @@ class JConfig {
 	public $password = '';
 	public $db = 'batby_batby';
 	public $dbprefix = 'xl9ks_';
-	public $live_site = 'http://bat5/';
+	public $live_site = 'http://bat6/';
 	public $secret = '9pXICA5rHRpD8Qfw';
 	public $gzip = '0';
 	public $error_reporting = 'default';
@@ -32,7 +32,7 @@ class JConfig {
 	public $mailonline = '1';
 	public $mailer = 'mail';
 	public $mailfrom = 'admin@mail.ru';
-	public $fromname = 'bat5';
+	public $fromname = 'bat6';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -56,8 +56,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = 'F:\\OPS\\OSPanel\\domains\\bat5/administrator/logs';
-	public $tmp_path = 'F:\\OPS\\OSPanel\\domains\\bat5/tmp';
+	public $log_path = 'F:\\OPS\\OSPanel\\domains\\bat6/administrator/logs';
+	public $tmp_path = 'F:\\OPS\\OSPanel\\domains\\bat6/tmp';
 	public $lifetime = '180';
 	public $session_handler = 'database';
 	public $shared_session = '0';
