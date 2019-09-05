@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<request>
+	<actions>
+		<action>clients</action>
+	</actions>
+	<data>
+		<clients>
+			<client>
+				<id>4cf7f949-4524-11e7-91ae-005056c00008</id>
+				<name>8-я городская детская клиническая поликлиника</name>
+				<fullname>Учреждение здравоохранения "8-я городская детская клиническая поликлиника"</fullname>
+				<inn>250000000</inn>
+				<discounts/>
+			</client>
+			<client>
+				<id>7cb06073-608b-11e7-a21f-005056c00008</id>
+				<name>АЛЬТРА ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ</name>
+				<fullname>АЛЬТРА ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ</fullname>
+				<inn>191482333</inn>
+				<discounts>
+					<discount>
+						<id>ba45179d-fb66-11e7-b267-005056c00008</id>
+						<product_path>00000000007</product_path>
+						<name>Масла</name>
+						<value>5</value>
+					</discount>
+					<discount>
+						<id>ba451794-fb66-11e7-b267-005056c00008</id>
+						<product_path>00000000006</product_path>
+						<name>ТоварыОбщие</name>
+						<value>3</value>
+					</discount>
+				</discounts>
+			</client>
+			<client>
+				<id>21bacc72-ed62-11e8-8dc6-005056c00008</id>
+				<name>Розничный покупатель - bat.by</name>
+				<fullname>Розничный покупатель - bat.by</fullname>
+				<inn>0000000000</inn>
+				<discounts>
+					<discount>
+						<id>ba45179d-fb66-11e7-b267-005056c00008</id>
+						<product_path>00000000007</product_path>
+						<name>Масла</name>
+						<value>10</value>
+					</discount>
+				</discounts>
+			</client>
+		</clients>
+	</data>
+</request>

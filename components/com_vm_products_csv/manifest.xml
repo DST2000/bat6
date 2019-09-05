@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<extension type="component" method="upgrade" version="2.5">
+	<name>com_vm_products_csv</name>
+	<author>eKerner.com</author>
+	<creationDate>December 2012</creationDate>
+	<copyright>Copyright (C) 2012-2014 eKerner.com</copyright>
+	<license>Commercial http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+	<authorEmail>ekerner@ekerner.com</authorEmail>
+	<authorUrl>http://www.ekerner.com/</authorUrl>
+	<version>3.1.3h</version>
+	<description><![CDATA[
+	<div>
+		<h2 style="margin-left:40px;">
+			VM Products CSV <span style="color:#204D02;">!ULTIMATE!</span> v3 by <a href="http://www.ekerner.com/" title="Developer website" onclick="window.open(this.href); return false;">ekerner.com</a>
+		</h2>
+		<div style="margin:0 40px;">CSV Bulk Product import/export/update for VirtueMart.</div>
+		<div style="margin:0 40px;">
+			<h3>To get started ...</h3>
+			<div style="margin:0 40px;">
+				Instruction Manual: <a title="Joomla Administrator" href="index.php">Administrator</a> -&gt; Main Menu -&gt; Components -&gt; VM Products CSV -&gt; <a href="index.php?option=com_vm_products_csv" title="Doco for VM Products CSV !ULTIMATE! v3 by eKerner.com">Instruction Manual</a><br />
+				Export Products: <a title="Joomla Administrator" href="index.php">Administrator</a> -&gt; Main Menu -&gt; Components -&gt; VM Products CSV -&gt; <a title="Export Products" href="index.php?option=com_vm_products_csv&amp;view=export_products">Export Products</a><br />
+				Import Products: <a title="Joomla Administrator" href="">Administrator</a> -&gt; Main Menu -&gt; Components -&gt; VM Products CSV -&gt; <a title="Import Products" href="index.php?option=com_vm_products_csv&amp;view=import_products">Import Products</a>
+			</div>
+		</div>
+		<div style="margin:20px 40px;">Have fun,<br />Eugene Kerner.</div>
+		<div style="margin:0 40px;">
+			<a href="http://www.ekerner.com.au/" title="eKerner - Application Developer" onclick="window.open(this.href); return false;">
+				<img src="http://www.ekerner.com.au/images/logos/ekerner_technical_development_logo_nobg.png" alt="eKerner Logo" title="eKerner - App Developer" />
+			</a>
+		</div>
+	</div>
+	]]></description>
+
+	<files>
+		<filename>index.html</filename>
+		<filename>manifest.xml</filename>
+		<filename>vm_products_csv_manual.php</filename>
+	</files>
+
+	<media folder="administrator/components/com_vm_products_csv/images" destination="com_vm_products_csv">
+		<filename>vm_products_csv_logo.png</filename>
+		<filename>vm_products_csv_logo_48.png</filename>
+		<filename>vm_products_csv_logo_16.png</filename>
+	</media>
+
+	<administration>
+		<languages folder="administrator/language">
+			<language tag="en-GB">en-GB/en-GB.com_vm_products_csv.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_vm_products_csv.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_vm_products_csv.sys.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_vm_products_csv.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_vm_products_csv.sys.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_vm_products_csv.ini</language>
+		</languages>
+
+		<menu link="option=com_vm_products_csv" img="components/com_vm_products_csv/images/vm_products_csv_logo_16.png">COM_VMPCSV_TITLE</menu>
+		<submenu>
+			<menu link="option=com_vm_products_csv&amp;view=import_products">COM_VMPCSV_PRODUCTS_IMPORT_TITLE</menu>
+			<menu link="option=com_vm_products_csv&amp;view=export_products">COM_VMPCSV_PRODUCTS_EXPORT_TITLE</menu>
+			<menu link="option=com_vm_products_csv">COM_VMPCSV_MANUAL_TITLE</menu>
+		</submenu>
+		
+		<files folder="administrator/components/com_vm_products_csv">
+			<filename>LICENSE.txt</filename>
+			<filename>controller.php</filename>
+			<filename>vm_products_csv.php</filename>
+			<filename>character_sets.php</filename>
+			<filename>character_translations.php</filename>
+			<filename>File_CSV_DataSource.php</filename>
+			<filename>vm_products_csvUtils.php</filename>
+			<filename>index.html</filename>
+			<filename>vm_products_csv_manual.php</filename>
+			<filename>virtuemart_products_blank.csv</filename>
+			<filename>virtuemart_products_example.csv</filename>
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>csv</folder>
+			<folder>man</folder>
+			<folder>images</folder>
+		</files>
+
+	</administration>
+	<config/>
+</extension>

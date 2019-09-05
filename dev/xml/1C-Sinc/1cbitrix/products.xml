@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<request>
+	<actions>
+		<action>products</action>
+	</actions>
+	<data>
+		<name>Масла</name>
+		<products>
+			<product>
+				<product_sku>0fa5d457-4a8c-11e7-91ae-005056c00008</product_sku>
+				<product_path>00000000007/00000000001</product_path>
+				<shopper_group_name>base</shopper_group_name>
+				<product_price>87</product_price>
+				<product_in_stock>100</product_in_stock>
+			</product>
+		</products>
+		<name>ТоварыОбщие</name>
+		<products>
+			<product>
+				<product_sku>f946d358-9c75-11e7-a6f6-005056c00008</product_sku>
+				<product_path>00000000006/00000000002</product_path>
+				<shopper_group_name>base</shopper_group_name>
+				<product_price>86</product_price>
+				<product_in_stock>85</product_in_stock>
+			</product>
+			<product>
+				<product_sku>e5b92d1b-9df3-11e7-a38f-005056c00008</product_sku>
+				<product_path>00000000006/00000000003</product_path>
+				<shopper_group_name>base</shopper_group_name>
+				<product_price>85</product_price>
+				<product_in_stock>100</product_in_stock>
+			</product>
+		</products>
+	</data>
+</request>

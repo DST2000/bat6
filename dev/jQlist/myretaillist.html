@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test list</title>
+	<script src="../../templates/vmbeez3/js/jui/jquery.min_.js"></script>
+</head>
+
+<body>
+	
+	<div class="myretaillist">Список магазинов
+	</div>
+
+	
+	<script>
+	$(function(){
+		var $mylistretail = "";
+		$mylistretail = $mylistretail + '';
+		$mylistretail = $mylistretail + '';
+		$mylistretail = $mylistretail + '';
+		$mylistretail = $mylistretail + '';
+		$mylistretail = $mylistretail + '';
+		$mylistretail = $mylistretail + '';
+		$mylistretail = $mylistretail + '';
+		$('.myretaillist')
+			.append('' + $mylistretail);
+
+	});
+	</script>
+	
+	<script>
+		$('<div>',
+		 { class: 'retaillist', value: 'Список магазинов'}
+		 )
+		.append('.myretaillist');
+	</script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="jform">
+		<fieldset name="general">
+			<field name="language"
+				type="CsviVirtuemartLanguage"
+				size="1"
+				class="advancedSelect"
+				onchange="Csvi.loadCategoryTree(this.value, jform_component.value);" />
+		</fieldset>
+
+		<fieldset name="multipleprices">
+			<field name="shopper_groups"
+				type="sql"
+				size="7"
+				query="SELECT virtuemart_shoppergroup_id AS value, shopper_group_name AS text FROM #__virtuemart_shoppergroups"
+				key_field="value"
+				value_field="text"
+				translate="true"
+				multiple="true"
+				default="none"
+				class="input-xxlarge advancedSelect">
+				<option value="none">COM_CSVI_ALL_SHOPPERGROUPS</option>
+			</field>
+
+			<field name="product_categories"
+			       size="7"
+			       type="CsviVirtuemartProductCategories"
+			       multiple="true"
+			       class="advancedSelect"
+			/>
+
+			<field name="incl_subcategory"
+				   type="list"
+				   size="1"
+				   default="0"
+				   class="input-small advancedSelect">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+
+			<field name="targetcurrency"
+				   type="CsviVirtuemartCurrency"
+				   size="1"
+				   class="advancedSelect"
+				   default="">
+				<option value="">COM_CSVI_DONT_USE</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

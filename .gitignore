@@ -1,0 +1,13 @@
+/administrator/logs/
+/cache/
+/administrator/cache/
+/tmp/
+/administrator/components/com_akeeba/BackupEngine/serverkey.php
+/administrator/components/com_akeeba/backup/akeeba.backend.id1.log
+/administrator/components/com_akeeba/backup/akeeba.log
+/administrator/components/com_akeeba/backup/site-bat5-20190301-120651utc.jpa
+/administrator/components/com_akeeba/backup/akeeba.backend.log
+/images/virtuemart/product/_DSC09005.jpg
+/images/virtuemart/product/resized/_DSC09005_0x90.jpg
+/images/virtuemart/product/
+/images/
