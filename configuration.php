@@ -15,7 +15,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'batby_batby6';
+	public $db = 'batby_batby';
 	public $dbprefix = 'xl9ks_';
 	public $live_site = 'http://bat6/';
 	public $secret = '9pXICA5rHRpD8Qfw';
