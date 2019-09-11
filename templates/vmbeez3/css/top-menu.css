@@ -1,0 +1,123 @@
+/*************************/
+#topMenuPanel {padding: 0}
+
+
+
+
+/**************************************/
+#topMenuMobile {}
+
+#topMenuMobile ul.mobileMenu {padding: 10px 0 10px 0; list-style: none}
+
+#topMenuMobile ul.mobileMenu li a {display: block; border: 1px solid #EF655B; padding:15px 15px; width: 100%; text-align: left; color: #FFFFFF; font-size: 12px; margin-top: 0px; border-top:0; }
+
+.catalog-Mobile-Button a {background: #000000;}
+
+/***/
+#toggleAkbMobile {background: white; margin: -5px -15px 15px -15px; min-width: 100%; min-height: 45px; padding: 20px; list-style: none;}
+
+
+#toggleAkbMobile ul.paramBlock {padding: 10px 0 0px 0; list-style: none; clear: both; overflow: hidden}
+#toggleAkbMobile .paramBlock li a {clear:both; list-style:none; padding: 0; border-top: 1px solid #bbb !important; border-right: 0 !important; border-left: 0 !important;  border-bottom: 0px !important; color: grey !important;}
+
+#toggleAkbMobile .displayProd {min-height: 160px;}
+
+
+/******/
+.displayProd {overflow: hidden; margin-top: 30px; border-top:1px solid #bbb !important;}
+
+.displayProd .col-xs-6 a {display: block; padding: 10px; overflow: hidden}
+
+.displayProd .col-xs-6 {border-bottom:1px solid #bbb !important; overflow: hidden;}
+
+.displayProd .col-xs-6:nth-child(odd) {padding: 10px 0; padding-right: 10px;}
+.displayProd .col-xs-6:nth-child(even) {border-left:1px solid #bbb !important; padding: 10px 0; padding-left: 10px;}
+
+.displayProd .col-xs-6 .inc {width: 100%; padding: 0; overflow: hidden}
+.displayProd .col-xs-6 .prodImgBg {width: 100%; height: 160px;}
+.displayProd .col-xs-6 .prodText {display: none}
+
+
+/****/
+.displayProd .inc .prodTitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.displayProd .inc .prodText {
+    font-size: 11px;
+    color: #727272;
+    line-height: 1.6;
+    height: 80px;
+    overflow: hidden;
+}
+
+.displayProd .inc .prodOldPrice {
+    font-size: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.displayProd .inc .prodPrice {
+    font-size: 10px;
+    line-height: 1;
+    float: right;
+    padding-top: 5px;
+    margin-bottom: 14px;
+}
+
+.displayProd .inc .prodPrice span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FF0004;
+}
+
+
+/******/
+.displayProd .inc .buttonAction {
+    clear: both;
+    display: block;
+    width: auto;
+    background: #E9522C;
+    color: #FFFFFF;
+    padding: 0.6em;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.displayProd .inc .prodNew {
+    background: #0083D7;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.displayProd .inc .prodTop {
+    background: #1B8E00;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.displayProd .inc .prodSale {
+    background: #FF0004;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+/****/
+
+

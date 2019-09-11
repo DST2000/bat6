@@ -1,0 +1,977 @@
+body {
+  padding-top: 0rem;
+  margin-bottom: 0rem; font-family: Arial;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 1600px !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: #f5f5f5;
+}
+	
+* {
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+a {color: #434343}
+a:hover {text-decoration: none; color: #E9522C}
+
+
+
+/**Цвета*****************/
+.bg-red {background: #E9522C}	
+.bg-white {background: #FFFFFF}	
+.bg-black {background: #000000}
+.bg-grey {background: #F3F3F3}
+/*******************/
+
+/**Одинаковая высота****************/	
+.row-flex {display: flex; flex-flow: row wrap;}	
+
+/**отступы*****************/
+.p-0 {padding:0}
+.p-1 {padding:10px}
+.p-2 {padding:20px}
+.py-1 {padding-top: 10px; padding-bottom: 10px;}
+.py-2 {padding-top: 20px; padding-bottom: 20px;}
+.py-4 {padding-top: 40px; padding-bottom: 40px;}
+.px-1 {padding-left: 10px; padding-right: 10px;}
+.px-2 {padding-left: 20px; padding-right: 20px;}
+.px-3 {padding-left: 30px; padding-right: 30px;}
+.px-4 {padding-left: 40px; padding-right: 40px;}
+/***/
+.pt-0 {padding-top: 0px;}
+.pt-2 {padding-top: 20px;}
+.pb-0 {padding-bottom: 0px;}
+.pb-2 {padding-bottom: 20px;}
+
+/** {DST **/
+
+a.PhoneNumberMenu {
+    font-size: 1.5rem !important;
+}
+
+#catalog {
+	background-color: #fff; 
+	padding-bottom: 50px;
+	height: 100vh;
+	overflow: auto
+}
+
+.colorInvert>  li > a{
+	color:#000 !important;
+}
+
+
+
+.colorInvert> .collapse  li > a{
+	color:#000 !important;
+}
+
+.invert-h3 {
+	background-color: #E9522C !important;
+}
+
+h3.invert-h3 {
+	overflow: hidden;
+	padding: 20px 0 0 20px;
+}
+h3.invert-h3 > a.a-bh3 {
+	display: block;
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+span.h3-span-subheader {
+	color:#fff;
+	padding: 2px 5px 0px 5px;
+	background:#000000;
+	font-size: 1rem;
+	float: left;
+	text-transform: uppercase;
+}
+
+hr.span-line {
+	clear:both;
+	margin-top: 0;
+	border-top: 1px solid #000000;
+	background:#000000;
+	height: 1px;
+}
+
+.row.menu-back {
+	background-color: #E9522C !important;
+}
+
+.black {
+	color:black;
+}
+
+.row.menu-back {
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+ 
+ul.colorInvert > li:nth-child(even) {
+	background-color: #e9522c0f;
+	
+}
+
+/* header, card */
+
+.cart-order-quantity {
+	background: #E9522C;
+	color: #FFFFFF;
+	font-size:9px;
+	font-family: Arial;
+	position: absolute;
+	float: right;
+	padding: 2px 3px 0px 3px;
+	border-radius: 5px;
+	line-height: 1;
+	font-weight: normal;	
+}
+    
+
+/** }DST **/
+
+/**Блоки**************************************************/
+.blockBorder {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    padding: 1.0em 1.8em 1.8em 1.8em; margin-bottom: 20px;
+}
+
+.blockBorder-p0 {
+    background: #fff; overflow: hidden;
+    border: 1px solid #ebebeb;
+    padding: 0; 
+}
+
+.inc-m-15 {overflow: hidden; margin: 15px; padding: 0}
+.bannerLogo img {width: 40%}
+
+
+/**HEADER********/
+
+/**/
+.header {}
+.stickyHeader {opacity: 0}
+/***/
+
+/**/
+.navbar {}
+.sticky-navbar {opacity: 0}
+/***/
+
+
+
+
+/*********************************************/
+.modal.fade .modal-dialog {}
+.modal.fade .modal-dialog .modal-title {text-align: center; text-transform: uppercase}
+.modal.fade .modal-dialog .btn-secondary {display: block; float: left;
+    width: auto;
+    background: #E9522C;
+    color: #FFFFFF;
+    padding: 0.6em;
+    text-align: center;
+    margin: 10px auto 0px auto;
+    border: 0;
+    border-radius: 4px;}
+
+
+/****/
+.modal .btn-secondary {margin:0px 0px 0px 0px !important;}	
+
+/**Товары в корзине******************************************/
+
+#cart-overlay .modal-header {border: 0}
+#cart-overlay .modal-body {padding:0 15px; }
+.cardProdLine {background: #FFFFFF; border: 1px solid #ebebeb; margin-bottom: 5px;}
+.cardProdLine .cardProdImg {height: 100%; overflow: hidden; background: #FFFFFF;}
+.cardProdLine .cardProdImg img {background: #FFFFFF; padding-top: 10px; padding-bottom: 10px;}	
+.cardProdLine .cardProdText {margin-bottom: 10px;}
+.cardProdLine .cardProdPrice {margin-top: 5px;}
+.cardProdLine .cardProdPrice span {font-weight: bold; font-size: 17px;}
+.cardProdSum {margin-top: 5px;}
+#cardItem
+.cardProdSum span {font-weight: bold; font-size: 18px;}
+.cardProdLine button.del {width: 16px; height: 16px; color: #000000; padding: 0; background: #E9522C; border: 0; border-radius: 15px; cursor: pointer;}
+.cardProdLine button.del span {display: block; margin-top: -4px; color: #FFFFFF}
+
+
+
+/**Шапка******************************************/
+header .navbar {border: 0}
+header .navbar *> a {color: #FFFFFF; text-transform: uppercase; font-size: 1.0rem; cursor: pointer}	
+#intro .leftIntro .item  {height: 450px;}	
+
+
+
+/**/
+header a.navbar-catalog-button {width: auto; color: #FFFFFF; text-decoration: none; background: #E9522C; float: left; padding: 18px;}
+
+
+/**/
+header a.navbar-catalog-button:hover {background: #E9522C}
+header ul.navbar-nav {width:auto; float: left}
+
+header .searchForm { margin-top:8px;}
+header .searchForm .btn {float: right; padding:6px 5px; background:#E9522C; border:0}
+header .searchForm .btn img {width: 65%; background:#E9522C}
+header .searchForm input.search  {float: right;  width: 160px; margin-right:5px; border:0}
+
+
+/***/
+a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; width: 36px; margin-top: 7px; margin-left: 6px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff; border-radius: 4px;
+	}
+
+
+/**HEADER********/
+
+
+
+/**topInfo********/
+#topInfo {padding-top: 65px;}
+#topInfo a {color: grey}
+#topInfo .topLogo a img {width: 100px; float: left; margin-right: 15px}
+#topInfo .topLogo a p {width: 190px; padding-top: 8px; float: left; text-transform: uppercase; font-size: 1.1rem;}
+/******/
+#topInfo .topTel p {line-height: 1.3;}
+#topInfo .topTel p span {font-size:1.2rem; }
+/******/
+#topInfo .topCard { margin-top: 10px;}
+#topInfo .topCard a {margin-left: 10px;}
+#topInfo .topCard a.cart span {
+    color: #fff;
+    background: #E9522C;
+    border-radius: 50%;
+    padding: 6px 10px;
+    font-weight: 400;
+}
+/**topInfo********/
+
+
+
+/**intro***************/
+
+#intro .leftIntro .slideText {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 55%;
+    text-align: left;
+    text-shadow: 0 0 1em black;
+}
+
+#intro .leftIntro .slideText img {width: 110px;}
+
+#intro .leftIntro .slideText h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255,255,255,1.00);
+    margin-bottom: 0px;
+	font-size: 2.2rem;
+}
+
+#intro .leftIntro .slideText h2 a {
+    color: rgba(255,255,255,1.00);
+    font-size: 36px; text-decoration: none;
+}
+
+#intro .leftIntro .slideText hr {
+    background: #E9522C;
+    width: 20%;
+    border: 4px solid #E9522C;
+    float: left;
+}
+
+#intro .leftIntro .slideText p {clear: both; color: rgba(255,255,255,1.00); font-size: 2rem;}
+
+
+/****/
+#intro .owl-nav {position: absolute; z-index: 9999; bottom: 20px; right: 20px;}
+#intro .owl-prev, .owl-next {float: left; padding: 1px 8px; border-radius: 2px; margin-left: 2px;}
+
+#intro .leftIntro .owl-nav .owl-prev {border: 1px solid #FFFFFF; color: #FFFFFF;}
+#intro .leftIntro .owl-nav .owl-next {border: 1px solid #FFFFFF; color: #FFFFFF;}
+
+/****/
+#intro .bannerSlider .item {min-height: 250px; overflow: hidden;}
+#intro .bannerSlider .owl-nav .owl-prev {border: 1px solid #B9B9B9; color: #B9B9B9;}
+#intro .bannerSlider .owl-nav .owl-next {border: 1px solid #B9B9B9; color: #B9B9B9;}
+
+/****/
+#intro .bannerCatalog .bannerImg {
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+#intro .bannerCatalog p {
+    font-size: 2rem; text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+#intro .bannerCatalog .title {
+    font-size: 3rem; text-transform: uppercase;
+    display: block;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #000;
+    margin: 1.3em 0 1em 0;
+}
+
+#intro .bannerCatalog .button {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px 27px;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+
+/************************************************/
+
+
+
+/*************************************************/
+#newProd .nav-tabs {margin-top: 20px; border-bottom: 0; float: right; padding-right: 30px; padding-bottom: 20px;}
+#newProd .nav-tabs li {margin: 0px 10px;}
+#newProd .nav-tabs li.active a, #newProd .nav-tabs li:hover a {background:none; border: 2px solid #E9522C; color: #fff;}
+.nav-tabs>li>a {margin-right: 2px; line-height: 1.4; color: #FFFFFF; text-transform: uppercase; border: 2px solid transparent; border-radius: 25px; padding-left: 30px; padding-right: 30px;}
+#newProd .tab-pane .item {margin-top: 20px; margin-bottom: 20px; text-align: left; }
+#newProd .tab-pane .item .inc {
+    margin: 10px;
+    padding: 10px 10px 20px 10px;
+    overflow: hidden;
+}
+
+.productSmCart .prodImgBg {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.productSmCart .prodNew {
+    background: #0083D7;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.productSmCart .prodTitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.productSmCart .prodText {
+    font-size: 1.2rem;
+    color: #727272;
+    line-height: 1.6;
+    height: 80px;
+    overflow: hidden;
+}
+
+
+.productSmCart .prodPrice {
+    font-size: 1.1rem;
+    line-height: 1;
+    float: right;
+    padding-top: 5px;
+    margin-bottom: 14px;
+}
+
+.productSmCart .prodPrice span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #E9522C;
+}
+
+
+.productSmCart .prodPriceBlock {padding-right: 15px; padding-left: 15px; margin-top: 5px;}
+
+.productSmCart .priceLeft {font-size: 10px; padding:5px 5px 0px 0px; border-bottom: 1px solid #EFEFEF; overflow: hidden; line-height: 1.3; height:45px; text-align: left;}
+
+
+.productSmCart .priceRight {background: #EFEFEF; font-size: 10px; padding:5px 5px 0px 0px; border-bottom: 1px solid #EFEFEF; overflow: hidden; line-height: 1.3; height:45px;}
+
+.productSmCart .priceRight p.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
+.productSmCart .priceRight p.redPrice {color: #4B4B4B; float: right}
+
+.productSmCart .prodPriceBlock .textPrice {font-size: 12px; font-weight: bold}	
+
+
+.productSmCart .buttonAction {
+	clear: both;
+    display: block;
+    width: auto;
+    background: #E9522C;
+    color: #FFFFFF;
+    padding: 0.6em;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.productSmCart .prodTop {
+    background: #1B8E00;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.productSmCart .prodSale {
+    background: #FF0004;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#newProd .owl-carousel .owl-nav {display: none !important}
+
+/****/
+
+
+
+/*************************************************/
+#bottomInfo .bannerBlock .carts {
+    background: #fff url(../images/carts.jpg) no-repeat bottom / contain;
+}
+
+#bottomInfo .bannerBlock .deliver {
+    background: #fff url(../images/dostavka.jpg) no-repeat bottom / contain;
+}
+
+#bottomInfo .bannerBlock .carts,
+#bottomInfo .bannerBlock .deliver {padding-bottom: 180px;}
+
+/*****************************************/
+
+#news .bannerImg {
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#news .blockBorder .title {
+    font-size: 2rem; text-transform: uppercase;
+    display: block;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #000;
+    margin: 0.5em 0 1em 0;
+}
+
+#news .blockBorder .button {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px 27px;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+
+#news .blockBorder a {color: grey}
+
+/*************************************************/
+
+#logoBlock .item {text-align: center;}
+#logoBlock .item img {width: 60%; margin: 0 20%}
+
+/****/
+#logoBlock .owl-nav {display: none;}
+
+
+/**************************************************/
+
+footer a {color:grey}
+
+footer .contact-section {
+    border-bottom: 1px solid #ebebeb;
+    padding: 0;
+}
+
+footer .different-products ul {padding: 0}
+
+footer .different-products ul li.first {
+    color: #777777;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer .different-products ul li {
+    display: inline-block;
+}
+
+footer .social-icons i {
+    width: 40px;
+    font-size: 2rem;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer .help a {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.6em;
+    background: #E9522C;
+    text-decoration: none;
+    font-weight: 600;
+	border-radius: 4px;
+}
+
+
+/************************************************
+*************************************************
+************************************************/
+
+
+/* Max-width 320px */
+@media (max-width: 320px) 
+{
+#overlay h2 {font-size: 24px}
+#overlay p {font-size: 11px}
+}
+/* Max-width 1200px and Min-width 320px */
+@media (max-width: 1400px) and (min-width: 321px) 
+{
+	
+#overlay h2 {/* 30px - 24px */ font-size: calc(1.5rem + 6 * (100vw - 320px) / 1080);}
+#overlay p {font-size: 12px; padding: 0 10px;}
+}
+/* Min-width 1200px */
+@media (min-width: 1401px) 
+{
+/****/
+#overlay h2 {font-size: 30px;}
+#overlay p {font-size: 14px}
+/****/
+	
+	
+}
+
+
+/*************************************************************************************************************************************/
+@media all and (max-width: 575px) {
+	
+a.topLogoWhite {float: left; width: 70px; margin-top: 5px; margin-right: 20px;}	
+a.topLogoWhite img {width: 100%;}
+	
+/*****/	
+#intro {margin-top: 45px;}
+	
+/*****/
+.bannerCatalog .col-sm-12 {padding: 20px}
+	
+/******************/	
+#catalogProd {margin-top: 43px;}
+#catalogProd h5 {text-align: center; font-size: 2rem; padding-bottom: 20px;  margin-bottom:10px; border-bottom: 1px solid #ebebeb; }	
+/*****/
+
+/***********/
+.catalogNews {margin-top: 43px;}
+	
+
+/****/
+.blockTopIco {opacity:1; float: right; width: auto; display: block}		
+	
+/****/
+#productFullCard {margin-top: 45px;}	
+	
+/*****/	
+
+.prodImgBg span {float: left}	
+	
+/****/	
+.allProd .inc {
+    margin: 0px !important;
+    padding: 10px 10px 20px 10px;
+    overflow: hidden;
+}
+
+/*******************/
+	
+.allSumma .text-right {text-align:left !important}	
+.allSumma .text-left { text-align:right !important}			
+
+/**buttonFilter**********/
+.buttonFilter {margin: 5px 10% 0px 10%;
+   display:inline-block; 
+   width: 80%; 
+   text-decoration: none; 
+   text-align: center; 
+   color: #E9522C; 
+   font-size: 1.0rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding: 5px 15px;
+   border: 2px solid #E9522C;
+   border-radius: 25px;}
+/**buttonFilter**********/		
+
+form.formFilter input {width:39%; float: left; padding: 5px; margin-right: 3px; border: 1px solid #ebebeb; border-radius: 3px;}	
+form.formFilter button {padding: 5px 9px; border: 1px solid #ebebeb; border-radius: 3px;}
+.filterArr {display:inline-block; transform: rotate(90deg); float: right; color: #E9522C; font-size: 18px; }
+.filterBrend li, .filterCateg li {font-size: 12px; padding-bottom: 3px; margin-bottom: 5px; margin-top: 5px; overflow: hidden}
+.filterBrend li input[type="checkbox"], .filterCateg li input[type="checkbox"] {float: left}
+
+	
+	
+.filterBrend li a, .filterCateg li a {display:block; overflow: hidden; margin-left: 20px; padding-top: 3px;}	
+
+/************/
+.item .inc {text-align: center}	
+	
+	
+/**popup**************************************/
+#overlay .popup {
+    bottom: 0px;
+    right: 10%; left: 10%;        
+    margin: auto;
+    width: 80% !important; text-align: center;
+	}
+	#overlay .popup h2 {font-size: 1.8rem;}
+	#overlay .popup p {padding:0 40px;}
+	#overlay button { width: 100%}
+/**intro**************************************/
+
+header .navbar {margin-bottom: 0}
+header a.topLogoWhite {float: left; width: 65px; margin-top: 5px; margin-right: 20px;}
+header a.topTelDub img {width: 100%;}	
+	
+	
+/**/
+header a.navbar-catalog-button {width: auto; color: #FFFFFF; text-decoration: none; background: #E9522C; float: left; padding: 18px;}
+header a.navbar-catalog-button span::before {content:"☰" }
+header a.navbar-catalog-button span::after {content:"" }	
+	
+	
+/***********/	
+#intro .leftIntro .slideText {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    text-align: left;
+    text-shadow: 0 0 1em black;
+}
+
+#intro .leftIntro .slideText img {width: 80px;}	
+	
+#intro .leftIntro .slideText h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255,255,255,1.00);
+    margin-bottom: 0px;
+	font-size: 1.5rem;
+}
+
+#intro .leftIntro .slideText h2 a {
+    color: rgba(255,255,255,1.00); display: inline-block;
+    font-size: 24px; text-decoration: none; margin-bottom: 10px;
+}
+
+#intro .leftIntro .slideText hr {
+    background: #E9522C;
+    width: 20%;
+    border: 4px solid #E9522C;
+    float: left;
+}
+
+#intro .leftIntro .slideText p {clear: both; color: rgba(255,255,255,1.00); font-size: 1.5rem;}	
+
+/*************/
+	
+#intro .bannerCatalog .bannerImg {display: none}
+#intro .bannerCatalog a {text-decoration: none}	
+#intro .bannerCatalog a p {
+    font-size: 1.0em; text-transform: uppercase; text-align: center;
+    color: #000; padding: 8px 20px; width: 80%; margin:10px auto; border: 2px solid grey;
+    font-weight: bold; border-radius: 25px;
+}
+	
+#intro .bannerCatalog a.active p, #intro .bannerCatalog a:hover p {
+    font-size: 1.0em; text-transform: uppercase; text-align: center;
+    color: #000; padding: 8px 20px; width: 80%; margin:10px auto; border: 2px solid #E9522C;
+    font-weight: bold; border-radius: 25px;
+}	
+	
+#intro .leftIntro .item {
+    min-height: 50%;
+    height: 330px;
+}	
+	
+#newProd .owl-carousel .owl-nav {display: none !important}
+#newProd .col-md-4 {text-align: center}	
+	
+}
+
+
+/*******************************************************************************************************************************************************************************/
+@media all and (min-width: 576px) {
+	
+.navbar-nav {display: block}	
+.sticky-navbar-nav {display: none}
+	
+/***/
+a.topLogoWhite {float: left; width: 0px; margin-top: 20px; margin-right: 0px;}
+a.topLogoWhite img {width: 100%;}
+a.sticky-topLogoWhite {float: left; width: 70px; margin-top: 5px; margin-right: 20px;}
+	
+/***/
+a.navbar-catalog-button span::before {content:"☰ Каталог" }
+a.sticky-navbar-catalog-button span::before {content:""}
+a.sticky-navbar-catalog-button span::after {content:"☰ Меню"}	
+
+/***/
+.topTelDub {display: none}	
+.sticky-topTelDub {
+    float: left;
+    display: block;
+    color: #E9522C;
+    margin-left: 20px;
+    padding: 10px 0 0 0;
+}
+	
+.sticky-topTelDub p {padding: 0; font-size: 1.1rem;}
+.sticky-topTelDub a {float: left;  font-size: 1.6rem;}	
+
+/***/
+.topInfo {opacity:1}
+.sticky-topInfo {opacity:0}	
+	
+/***/
+.blockTopIco {opacity:0; float: right; width: 0; display: none}	
+.sticky-blockTopIco {opacity:1; float: right; width: auto; display: block}			
+
+/*****************/
+.leftFilterBlock {padding-right: 0}	
+/**buttonFilter**********/
+.buttonFilter {margin: 5px 10% 0px 10%;
+   display:inline-block; 
+   width: 80%; 
+   text-decoration: none; 
+   text-align: center; 
+   color: #E9522C; 
+   font-size: 1.0rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding: 5px 15px;
+   border: 2px solid #E9522C;
+   border-radius: 25px;}
+/**buttonFilter**********/		
+
+form.formFilter input {width:39%; float: left; padding: 5px; margin-right: 3px; border: 1px solid #ebebeb; border-radius: 3px;}	
+form.formFilter button {padding: 5px 9px; border: 1px solid #ebebeb; border-radius: 3px;}
+.filterArr {display:inline-block; transform: rotate(90deg); float: right; color: #E9522C; font-size: 18px; }
+.filterBrend li, .filterCateg li {font-size: 12px; padding-bottom: 3px; overflow: hidden}
+.filterBrend li input[type="checkbox"], .filterCateg li input[type="checkbox"] {float: left}
+.filterBrend li a, .filterCateg li a {display:block; overflow: hidden; margin-left: 20px; padding-top: 3px;}
+	
+	
+}
+
+
+/***************************************************************************************************************************************/
+@media (min-width: 600px) and (max-width: 786px) {
+body {background: url(../images/rotate2x.png) no-repeat center}	
+body * {display: none;}	
+}
+
+/***************************************************************************************************************************************/
+@media (min-width: 787px) and (max-width: 1279px) {
+/****************/
+#toggleFilter.collapse {display: block !important}
+
+}
+
+
+/***************************************************************************************************************************************/
+@media (min-width:1280px) and (max-width: 1366px) {
+/**buttonFilter**********/
+.buttonFilter {margin: 5px 0% 0px 0%;
+   display:inline-block; 
+   width: 100%; 
+   text-align: center; 
+   color: #E9522C; 
+   font-size: 1.0rem;
+   font-weight: 700;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 5px 15px;
+   border: 2px solid #E9522C;
+   border-radius: 25px;}
+/**buttonFilter**********/
+
+form.formFilter input {width:36%; float: left; padding: 5px; margin-right: 3px; border: 1px solid #ebebeb; border-radius: 3px;}	
+form.formFilter button {padding: 5px 9px; border: 1px solid #ebebeb; border-radius: 3px;}
+.filterArr {display:inline-block; transform: rotate(90deg); float: right; color: #E9522C; font-size: 18px; }
+.filterBrend li, .filterCateg li {font-size: 12px; padding-bottom: 3px; overflow: hidden}
+.filterBrend li input[type="checkbox"], .filterCateg li input[type="checkbox"] {float: left}
+.filterBrend li a, .filterCateg li a {display:block; overflow: hidden; margin-left: 20px; padding-top: 3px;}
+
+
+/****************/
+#toggleFilter.collapse {display: block !important}
+	
+}
+
+
+
+/****************************************************************************************************************************************/
+@media (min-width:1367px) {
+/**buttonFilter**********/
+.buttonFilter {margin: 5px 10% 0px 10%;
+   display:inline-block; 
+   width: 80%; 
+   text-decoration: none; 
+   text-align: center; 
+   color: #E9522C; 
+   font-size: 1.0rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding: 5px 15px;
+   border: 2px solid #E9522C;
+   border-radius: 25px;}
+/**buttonFilter**********/		
+
+/****************/
+#toggleFilter.collapse {display: block !important}
+
+	
+/********************/	
+form.formFilter input {width:39%; float: left; padding: 5px; margin-right: 3px; border: 1px solid #ebebeb; border-radius: 3px;}	
+form.formFilter button {padding: 5px 9px; border: 1px solid #ebebeb; border-radius: 3px;}
+.filterArr {display:inline-block; transform: rotate(90deg); float: right; color: #E9522C; font-size: 18px; }
+.filterBrend li, .filterCateg li {font-size: 12px; padding-bottom: 3px; overflow: hidden}
+.filterBrend li input[type="checkbox"], .filterCateg li input[type="checkbox"] {float: left}
+.filterBrend li a, .filterCateg li a {display:block; overflow: hidden; margin-left: 20px; padding-top: 3px;}
+
+}
+
+
+/**Окно помощи************************************************************************/
+#overlay {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: none;
+    width: 33%;
+    height: 33%;
+    background: rgba(0, 0, 0, 0.0);
+    z-index: 999;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+    overflow: auto;
+}
+#overlay .popup {
+     
+    margin: 20px auto;
+    width: 80%; text-align: center;
+    padding:20px 0px;
+    border: 1px solid #ebebeb;
+    background: #fefefe;
+    z-index: 1000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    font: 14px/18px 'Tahoma', Arial, sans-serif;
+    -webkit-box-shadow: 0 7px 10px rgba(0,0,0,.15),0 12px 20px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 7px 10px rgba(0,0,0,.15),0 12px 20px rgba(0,0,0,.2);
+    -ms-box-shadow: 0 7px 10px rgba(0,0,0,.15),0 12px 20px rgba(0,0,0,.2);
+    box-shadow: 0 7px 10px rgba(0,0,0,.15),0 12px 20px rgba(0,0,0,.2);
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+}
+	
+#overlay .close {
+    top: 30px;
+    right: 12%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border: 1px solid #E9522C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color:#E9522C;
+    cursor: pointer;
+    outline: none;
+    opacity: 1 !important;
+ 
+}
+#overlay .close:before {
+    content: "×";
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 2.2rem; color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 -1px #E9522C;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/* кнопка закрытия при наведении */
+#overlay .close:hover {
+    background-color: #E9522C;
+}
+	
+/**/
+.buttonAction {display: block; width: auto; background: #E9522C; color: #FFFFFF; padding: 0.6em; text-align: center; margin: 10px 0px 0px 0px; border: 0; border-radius: 4px;}
+.buttonAction:hover {background:#E9522C; color: #FFFFFF;
+}
+/**Окно помощи********************************************************************/
+
+
+
+
+
