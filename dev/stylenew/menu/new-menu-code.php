@@ -32,7 +32,7 @@ else{
 <!--Верхнее меню---------------------------------------------------------------------------->
 <div class="container">   
 
-<a href="index.html" class="topLogoWhite"><img src="images/loglo/logo-white.png" alt=""/></a>
+<a href="index.html" class="topLogoWhite"><img src="images/logo/logo-white.png" alt=""/></a>
 
 
 <!--Кнопка десктопного меню---> 

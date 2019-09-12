@@ -115,7 +115,7 @@ $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/template.js');
 // {DST
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/jui/bootstrap.min.js');
-$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=2');
+$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=3');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/wow.min.js?v=1');
 // }DST
 require __DIR__ . '/jsstrings.php';
