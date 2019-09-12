@@ -11,7 +11,7 @@
  * details.
 	/* Typography =================================================== */
 body#shadow {
-	font-family: "Open Sans" !important,sans-serif
+	font-family: "Open Sans" !important ,sans-serif;
 }
 
 body h1,body h2,body h3,body h4,body h5,body h6 {
@@ -38,8 +38,10 @@ body h1 {
 
 body h3 {
 	margin-bottom: 1em;
+	/*
 	font-size: 1.4em;
 	line-height: 1.3;
+	*/
 	padding-bottom: 5px
 }
 

@@ -61,7 +61,7 @@ $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=35');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=6');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=13');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -69,7 +69,7 @@ $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/to
 <?php
 // }DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/position.css', 'text/css', 'screen');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/layout.css?v=5', 'text/css', 'screen');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/layout.css?v=6', 'text/css', 'screen');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/print.css', 'text/css', 'print');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/general.css?v=1', 'text/css', 'screen');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/' . htmlspecialchars($color, ENT_COMPAT, 'UTF-8') . '.css', 'text/css', 'screen');

@@ -132,7 +132,7 @@ else{
 <div class="col-sm-5">
 <h3 class="invert-h3" ><a class="a-bh3" href="catalog.html" >Аккумуляторы</a> 
 
-<a href="#" class="btn btn-primary center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top:-50px; font-size:1rem;">Сдать старый аккумулятор</a>
+<a href="#" class="btn btn-primary center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top:-50px; font-size:0.6rem;">Сдать старый аккумулятор</a>
 
 </h3>
 <div class="colorInvert col-sm-5 col-lg-7">
