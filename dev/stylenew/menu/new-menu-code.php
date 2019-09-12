@@ -32,7 +32,7 @@ else{
 <!--Верхнее меню---------------------------------------------------------------------------->
 <div class="container">   
 
-<a href="index.html" class="topLogoWhite"><img src="images/logo-white.png" alt=""/></a>
+<a href="index.html" class="topLogoWhite"><img src="images/loglo/logo-white.png" alt=""/></a>
 
 
 <!--Кнопка десктопного меню---> 
@@ -94,7 +94,7 @@ else{
 
 
 <form class="searchForm hidden-xs hidden-md" style="padding-left: 10px;">
-<button type="submit" class="btn btn-default text-center"><img src="images/ico-search.png" alt=""></button>
+<button type="submit" class="btn btn-default text-center"><img src="images/menu/ico-search.png" alt=""></button>
 <input type="text" class="form-control search" name="search" placeholder="Поиск">
 </form>                                                                                                               
                                                                               
@@ -457,7 +457,7 @@ else{
 
 
 <div class="col-xs-12 col-sm-6 col-md-4 topLogo">
-<a href="index.html"><img src="images/logo.png" alt="БатАвтотрейд"/>
+<a href="/"><img src="images/logo/logo.png" alt="БатАвтотрейд"/>
 <p>Аккумуляторы, масла Q8 от официального поставщика по выгодным ценам</p>
 </a>
 </div>

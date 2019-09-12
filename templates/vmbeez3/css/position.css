@@ -119,7 +119,9 @@ body {
     /* max-width: 1240px; */
     padding: 0;
     text-align: left;
-    font-size: 0.8em
+    /*
+	font-size: 0.8em
+	*/
 }
 
 #header {
