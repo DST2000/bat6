@@ -403,7 +403,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
     background: #0083D7;
     padding: 5px 10px;
     color: #FFFFFF;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     border-radius: 3px;
 }
@@ -417,7 +417,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 }
 
 .productSmCart .prodText {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #727272;
     line-height: 1.6;
     height: 80px;
@@ -445,7 +445,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 .productSmCart .priceLeft {font-size: 10px; padding:5px 5px 0px 0px; border-bottom: 1px solid #EFEFEF; overflow: hidden; line-height: 1.3; height:45px; text-align: left;}
 
 
-.productSmCart .priceRight {background: #EFEFEF; font-size: 10px; padding:5px 5px 0px 0px; border-bottom: 1px solid #EFEFEF; overflow: hidden; line-height: 1.3; height:45px;}
+.productSmCart .priceRight {background: #EFEFEF; font-size: 10px; padding:5px 5px 0px 0px; border-bottom: 1px solid #EFEFEF; overflow: hidden; line-height: 1.0; height:45px;}
 
 .productSmCart .priceRight p.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
 .productSmCart .priceRight p.redPrice {color: #4B4B4B; float: right}
@@ -470,7 +470,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
     background: #1B8E00;
     padding: 5px 10px;
     color: #FFFFFF;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     border-radius: 3px;
 }
@@ -479,7 +479,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
     background: #FF0004;
     padding: 5px 10px;
     color: #FFFFFF;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     border-radius: 3px;
 }
