@@ -61,14 +61,15 @@ $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=35');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=13');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=14');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <?php
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/owl.carousel.min.css?v=1');
 // }DST
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/position.css', 'text/css', 'screen');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/position.css?v=1', 'text/css', 'screen');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/layout.css?v=6', 'text/css', 'screen');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/print.css', 'text/css', 'print');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/general.css?v=1', 'text/css', 'screen');
@@ -115,8 +116,9 @@ $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/template.js');
 // {DST
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/jui/bootstrap.min.js');
-$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=3');
+$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=4');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/wow.min.js?v=1');
+$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/owl.carousel.min.js?v=1');
 // }DST
 require __DIR__ . '/jsstrings.php';
 ?>
