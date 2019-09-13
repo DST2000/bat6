@@ -99,13 +99,13 @@
 
 <!-- card -->
 <div class="item">
-<div class="row p-2">
+<div class="row">
 
 <i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
 <span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 22px;">15</strong>%</span>	
 </i>
 <div class="col-xs-12">
-<h4 style="font-size: 2rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
+<h4 style="font-size: 1.4rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
 </div>
 <br style="clear:both">
 
@@ -134,7 +134,7 @@
                
 <!-- card -->
 <div class="item">
-<div class="row p-2">
+<div class="row ">
 
 <i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
 <span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 1.5rem; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 2rem;">15</strong>%</span>	

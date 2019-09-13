@@ -351,13 +351,13 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
     margin-bottom: 0.5em;
 }
 #intro .bannerCatalog p {
-    font-size: 2rem; text-transform: uppercase;
+    font-size: 1.3rem; text-transform: uppercase;
     color: #000;
     font-weight: bold;
 }
 
 #intro .bannerCatalog .title {
-    font-size: 3rem; text-transform: uppercase;
+    font-size: 1.8rem; text-transform: uppercase;
     display: block;
     font-weight: 300;
     line-height: 1.3em;
@@ -367,7 +367,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 
 #intro .bannerCatalog .button {
     color: #000;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
@@ -513,7 +513,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 }
 
 #news .blockBorder .title {
-    font-size: 2rem; text-transform: uppercase;
+    font-size: 1.5rem; text-transform: uppercase;
     display: block;
     font-weight: 300;
     line-height: 1.3em;
