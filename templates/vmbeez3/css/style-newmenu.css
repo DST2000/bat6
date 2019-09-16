@@ -159,6 +159,18 @@ ul.colorInvert > li:nth-child(even) {
 .footer-middle > div > a >p {
 	margin: 0 0 10px;
 }
+.cf_flt_header {
+	display:inline-block;
+	width: 100%;
+	border-top: 1px solid #ebebeb;
+	margin-top: 15px;
+	padding:10px 0;
+	list-style: none;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 
 /** }DST **/
 
@@ -270,7 +282,6 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 
 
 /**topInfo********/
-#topInfo {padding-top: 65px;}
 #topInfo a {color: grey}
 #topInfo .topLogo a img {width: 100px; float: left; margin-right: 15px}
 #topInfo .topLogo a p {

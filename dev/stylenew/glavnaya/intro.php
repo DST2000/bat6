@@ -140,7 +140,7 @@
 <span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 1.5rem; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 2rem;">15</strong>%</span>	
 </i>
 <div class="col-xs-12">
-<h4 style="font-size:2.2rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
+<h4 style="font-size:1.4rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
 </div>
 <br style="clear:both">
 
