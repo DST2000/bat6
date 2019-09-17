@@ -29,6 +29,111 @@ if (vRequest::getInt('dynamic',false) and vRequest::getInt('virtuemart_product_i
 	$dynamic = true;
 }
 
+// {DST
+foreach ($viewData['products'] as $type => $products ) { 
+	if( (!empty($type) and count($products)>0) or (count($viewData['products'])>1 and count($products)>0)){
+				$productTitle = vmText::_('COM_VIRTUEMART_'.strtoupper($type).'_PRODUCT'); ?>
+		<div class="<?php echo $type ?>-view">
+			<div class="row">
+		  <h4><?php echo $productTitle ?></h4>
+			</div>
+				<?php // Start the Output
+			}
+	foreach ( $products as $product ) {
+		if(!is_object($product) or empty($product->link)) {
+			vmdebug('$product is not object or link empty',$product);
+			continue;
+		}
+		// Show Products ?>
+		<div class="product col-md-4 col-lg-3 products-height">
+			<div class="item productSmCart text-center blockBorder-p0" data-vm="product-container">
+				<div class="inc">
+				<div class=" prodImgBg">
+
+						<a title="<?php echo $product->product_name ?>" href="<?php echo $product->link.$ItemidStr; ?>">
+							<?php
+							echo $product->images[0]->displayMediaThumb('class="browseProductImage"', false);
+							?>
+						</a>
+
+				</div>
+
+
+
+
+					<div class="prodTitle">
+						<?php echo JHtml::link ($product->link.$ItemidStr, $product->product_name); ?>
+						<?php if(!empty($rowsHeight[$row]['product_s_desc'])){
+						?>
+						<p class="product_s_desc">
+							<?php // Product Short Description
+							if (!empty($product->product_s_desc)) {
+								echo shopFunctionsF::limitStringByWord ($product->product_s_desc, 60, ' ...') ?>
+							<?php } ?>
+						</p>
+				<?php  } ?>
+					</div>
+					<div class="prodText">
+						<?php
+						echo 'Артикул: '.($product->customfieldsSorted["normal"][23]->customfield_value) . '</br>';
+						if (strlen($product->customfieldsSorted["normal"][4]->customfield_value)>0) {
+							echo ($product->customfieldsSorted["normal"][4]->customfield_value.'А/ч ');
+						}
+		
+						if (((int)$product->product_length > 0) &&
+							((int)$product->product_width > 0) &&
+							((int)$product->product_height > 0)
+							) {
+							echo '<span class="product-size">'.(int)$product->product_length.'x'.(int)$product->product_width.'x'.(int)$product->product_height .' мм'.'</span>';
+						}
+						//echo '</br>'.($product->customfieldsSorted["normal"][0]->customfield_params);
+						echo '</br>'. str_replace('#', ', ', $product->customfieldsSorted["normal"][0]->customfield_params);
+						?>
+					</div>
+
+
+				<?php //echo $rowsHeight[$row]['price'] ?>
+				<div class="row prodPriceBlock">
+					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
+						<div class="vm3pr-<?php echo $rowsHeight[$row]['price'] ?>"> <?php
+							echo shopFunctionsF::renderVmSubLayout('prices',array('product'=>$product,'currency'=>$currency)); ?>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый АКБ  
+<br style="clear: both">
+<p class="skidka">-10%</p> <p class="redPrice"><span><?php echo round((($product->prices[product_price])*0.9), 2) ?></span> p.</p>
+					</div>
+					<div class="textPrice col-md-12">Рассрочка: от <?php echo round((($product->prices[product_price])/12), 2) ?> р./мес.</div>
+					
+				</div>
+				<?php //echo $rowsHeight[$row]['customs'] ?>
+
+				<div class="details-button">
+					<?php // Product Details Button
+					$link = empty($product->link)? $product->canonical:$product->link;
+					echo JHtml::link($link.$ItemidStr,vmText::_ ( 'COM_VIRTUEMART_PRODUCT_DETAILS' ), array ('title' => $product->product_name, 'class' => 'buttonAction' ) );
+					//echo JHtml::link ( JRoute::_ ( 'index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=' . $product->virtuemart_product_id . '&virtuemart_category_id=' . $product->virtuemart_category_id , FALSE), vmText::_ ( 'COM_VIRTUEMART_PRODUCT_DETAILS' ), array ('title' => $product->product_name, 'class' => 'product-details' ) );
+					?>
+				</div>
+			<?php if($dynamic){
+				echo vmJsApi::writeJS();
+			} ?>
+			</div>
+			</div>
+		</div>
+		
+		<?php
+	}
+	
+	
+	
+} // foreach ($viewData['products'] as $type => $products )
+?>	
+<div class="clear"></div>	
+<?php 
+// }DST
+/*
 foreach ($viewData['products'] as $type => $products ) {
 
 	$col = 1;
@@ -165,6 +270,7 @@ foreach ($viewData['products'] as $type => $products ) {
     // }
     }
 }
+*/
 
 /*if(vRequest::getInt('dynamic')){
 	echo vmJsApi::writeJS();

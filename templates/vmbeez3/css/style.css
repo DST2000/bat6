@@ -40,7 +40,7 @@ span.adr {
 /* > цены товаров */
 
 span.PricesalesPrice {
-	font-size: 2.0em !important;	
+	font-size: 1.5em !important;	
 }
 
 .product-price-hr > .PricesalesPrice > span.PricesalesPrice {

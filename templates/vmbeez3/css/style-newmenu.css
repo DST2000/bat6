@@ -171,6 +171,9 @@ ul.colorInvert > li:nth-child(even) {
 	font-weight: bold;
 }
 
+.productSmCart .prodPrice-black span {
+	color: #434343;
+}
 
 /** }DST **/
 
@@ -405,7 +408,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 
 .productSmCart .prodImgBg {
     width: 100%;
-    height: 150px;
+    height: 100px;
     overflow: hidden;
     margin-bottom: 10px;
 }
@@ -461,7 +464,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 .productSmCart .priceRight p.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
 .productSmCart .priceRight p.redPrice {color: #4B4B4B; float: right}
 
-.productSmCart .prodPriceBlock .textPrice {font-size: 12px; font-weight: bold}	
+.productSmCart .prodPriceBlock .textPrice {font-size: 11px; font-weight: bold}	
 
 
 .productSmCart .buttonAction {
