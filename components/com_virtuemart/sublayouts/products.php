@@ -104,7 +104,7 @@ foreach ($viewData['products'] as $type => $products ) {
 <br style="clear: both">
 <p class="skidka">-10%</p> <p class="redPrice"><span><?php echo round((($product->prices[product_price])*0.9), 2) ?></span> p.</p>
 					</div>
-					<div class="textPrice col-md-12">Рассрочка: от <?php echo round((($product->prices[product_price])/12), 2) ?> р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка: от <?php echo round((($product->prices[product_price])/3), 2) ?> р./мес.</div>
 					
 				</div>
 				<?php //echo $rowsHeight[$row]['customs'] ?>

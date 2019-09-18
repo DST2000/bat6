@@ -78,6 +78,7 @@ if(count($filters_html_array)>0){
         /*Header*/
         ?>
 		<div class="cf_flt_header" id="cfhead_<?php echo $key?>" role="tab">
+			<span class="filterArr">›</span>
 			<div class="headexpand headexpand_<?php echo $state?>" id="headexpand_<?php echo $key?>"></div>
 			<span class="cf_flt_header_text"><?php echo $filter_headers_array[$key]?></span>
 		</div>		
@@ -143,7 +144,7 @@ if(count($filters_html_array)>0){
 		//in case of button add some extra vars to the form
 		if($results_trigger=='btn'):?>
 		  <br /> 
-		  <input type="submit" class="cf_apply_button btn btn-primary" id="cf_apply_button_<?php echo $module->id?>"
+		  <input type="submit" class="cf_apply_button buttonAction" id="cf_apply_button_<?php echo $module->id?>"
 			value="<?php echo JText::_('MOD_CF_APPLY');?>" />
 		<?php 
 		endif;

@@ -40,7 +40,8 @@ span.adr {
 /* > цены товаров */
 
 span.PricesalesPrice {
-	font-size: 1.5em !important;	
+	font-size: 1.5em !important;
+	font-weight: bold;
 }
 
 .product-price-hr > .PricesalesPrice > span.PricesalesPrice {
@@ -59,8 +60,15 @@ span.PricesalesPrice {
 
 /* < название фильтра */
 
-span.cf_flt_header_text {
-    color: #D83224;
+.cf_flt_header {
+	display: inline-block;
+	width: 90%;
+	border-top: 1px solid #ebebeb;
+	list-style: none;
+	color: #333;
+	text-decoration: none;
+	padding: 10px 0;
+	font-weight: bold;
 }
 
 /* > название фильтра */
@@ -266,6 +274,14 @@ input.push {
     position: absolute;
     color: #82281E;
     background-color: #B8DADA;
+}
+
+.virtuemart_search {
+	background: white;
+}
+
+.product-container {
+background: white;
 }
 
 /* кнопка корзина */

@@ -6,9 +6,11 @@ defined('_JEXEC') or die('Restricted access');
 // ALL THE DISPLAY IS Done by Ajax using "hiddencontainer" ?>
 
 <!-- Virtuemart 2 Ajax Card -->
-<div class="vmCartModule <?php echo $params->get('moduleclass_sfx'); ?>" id="vmCartModule<?php echo $params->get('moduleid_sfx'); ?>">
+<span class="hidden vmCartModule <?php echo $params->get('moduleclass_sfx'); ?>" id="vmCartModule<?php echo $params->get('moduleid_sfx'); ?>">
+<input class="total_products_from_cart" type="hidden"><?php echo  $data->totalProduct?></input>
 <?php
-if ($show_product_list) {
+// {DST if ($show_product_list) {
+if (false) {
 	?>
 	<div class="hiddencontainer" style=" display: none; ">
 		<div class="vmcontainer">
@@ -43,7 +45,11 @@ if ($show_product_list) {
 		</div>
 	</div>
 <?php } ?>
-
+<?php
+// {DST
+if (false) {
+// }DST
+?>
 	<div class="total" style="float: right;">
 		<?php if ($data->totalProduct and $show_price and $currencyDisplay->_priceConfig['salesPrice'][0]) { ?>
 		<?php echo $data->billTotal; ?>
@@ -61,8 +67,14 @@ if($view!='cart' and $view!='user'){
 	?><div class="payments-signin-button" ></div><?php
 }
 ?>
+<?php
+// {DST
+}
+// }DST
+?>
+	
 <noscript>
 <?php echo vmText::_('MOD_VIRTUEMART_CART_AJAX_CART_PLZ_JAVASCRIPT') ?>
 </noscript>
-</div>
+</span>
 

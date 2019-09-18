@@ -60,8 +60,8 @@ $this->setHtml5(true);
 $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=36');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=25');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=43');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=46');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -116,7 +116,7 @@ $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/template.js');
 // {DST
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/jui/bootstrap.min.js');
-$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=4');
+$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=6');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/wow.min.js?v=1');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/owl.carousel.min.js?v=1');
 // }DST
@@ -144,13 +144,13 @@ require __DIR__ . '/jsstrings.php';
 		<!--[if IE 7]><link href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/ie7only.css" rel="stylesheet" /><![endif]-->
 		<!--[if lt IE 9]><script src="<?php echo JUri::root(true); ?>/media/jui/js/html5.js"></script><![endif]-->
 	</head>
-	<body id="shadow">
+	<body id="shadow" >
 		<div id="all" <?php /* if ($templateparams->get('change_content_width')) {
 			echo ' style="max-width: ' . $this->params->get('content_width') . 'px"';
 			} */ ?>
-			class="container"
+			class=" bg-g rey"
 			>
-			<div id="back">
+			<div id="back " >
 				<header id="header">
 					<?php if ($this->params->get('fontsizeselect') OR $this->countModules('positon-0')) { ?>
 					<div id="line">
@@ -179,10 +179,16 @@ require __DIR__ . '/jsstrings.php';
 					<?php } ?>
 				</header><!-- end header -->
 				<div id="<?php echo $showRightColumn ? 'contentarea2' : 'contentarea'; ?>">
-					<div id="breadcrumbs">
+					<div id="breadcrumbs" class="container">
 						<jdoc:include type="modules" name="position-2" />
 					</div>
-					<div class="row">
+					<div class="bg-grey">
+
+
+						
+						
+					<div class="container">
+					<div class="row bg-grey">
 						<div class="col-xs-12 col-md-3 col-lg-2 row-flex">
 							<div class="hidden-xs hidden-sm">
 							<jdoc:include type="modules" name="position-15" />
@@ -198,9 +204,13 @@ require __DIR__ . '/jsstrings.php';
 							<jdoc:include type="component" />
 						</div>
 					</div>
+					</div></div>
 					<?php
 					$r = $templateparams->get('nav2cont_ratio','25');
-					if ($navposition == 'left' and $showleft) :
+					// {DST
+					// if ($navposition == 'left' and $showleft) :
+					// }DST
+					if ($navposition == 'left' and $showleft and false) :
 						?>
 						<nav class="left1"  <?php if ($showRightColumn == null) { echo 'style="width:'.$r.'%;min-width:100px" ';} ?> id="nav">
 							<jdoc:include type="modules" name="position-7" style="beezDivision" headerLevel="3" />
@@ -208,7 +218,11 @@ require __DIR__ . '/jsstrings.php';
 							<jdoc:include type="modules" name="position-5" style="beezTabs" headerLevel="2"  id="3" />
 						</nav><!-- end navi -->
 					<?php endif; ?>
-
+					<?php 
+					// {DST
+					if (false) :
+					// }DST
+					?>
 					<div id="<?php echo $showRightColumn ? 'wrapper' : 'wrapper2'; ?>"
 					<?php if (isset($showno)){
 						echo 'class="shownocolumns" ';
@@ -232,6 +246,11 @@ require __DIR__ . '/jsstrings.php';
 							
 						</div><!-- end main -->
 					</div><!-- end wrapper -->
+					<?php
+					// {DST
+					endif; 
+					// }DST
+					?>
 
 					<?php if ($showRightColumn) : ?>
 						<div id="close">

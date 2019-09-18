@@ -14,7 +14,11 @@
 
 .headexpand {
 	float: left;
+	/*
+	// {DST
 	width: 14px;
+	// }DST
+	*/
 	height: 15px;
 	margin-right: 5px;
 }
@@ -67,6 +71,8 @@
 	float: none !important;
 }
 
+/*
+// {DST
 .headexpand_show {
 	background: url(arrows_exp.png) left bottom no-repeat;
 }
@@ -74,6 +80,8 @@
 .headexpand_hide {
 	background: url(arrows_exp.png) left top no-repeat;
 }
+// }DST
+*/
 
 /*Smart search*/
 .cf_flt_wrapper label {

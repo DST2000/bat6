@@ -159,22 +159,37 @@ ul.colorInvert > li:nth-child(even) {
 .footer-middle > div > a >p {
 	margin: 0 0 10px;
 }
-.cf_flt_header {
-	display:inline-block;
-	width: 100%;
-	border-top: 1px solid #ebebeb;
-	margin-top: 15px;
-	padding:10px 0;
-	list-style: none;
-	color: #333;
-	text-decoration: none;
-	font-weight: bold;
-}
 
 .productSmCart .prodPrice-black span {
 	color: #434343;
 }
+.cf_wrapp_all, .browse-view {
+	background-color: white !important;
+	padding: 10px 0 0 12px;
+}
 
+.productSmCart .prodText {
+    font-size: 0.7rem;
+    color: #727272;
+    line-height: 1.2;
+    height: 55px;
+    overflow: hidden;
+}
+
+.inc {
+    margin: 10px;
+    padding: 10px 0px 20px 0px;
+    overflow: hidden;
+}
+
+ .item {
+    margin-bottom: 20px;
+}
+
+
+.row.bg-grey {
+    padding-top: 20px;
+}
 /** }DST **/
 
 /**Блоки**************************************************/
@@ -293,6 +308,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 	float: left;
 	text-transform: uppercase;
 	font-size: 0.7rem;
+	line-height: 1rem;
 }
 /******/
 #topInfo .topTel p {line-height: 1.3;}
@@ -464,7 +480,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 .productSmCart .priceRight p.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
 .productSmCart .priceRight p.redPrice {color: #4B4B4B; float: right}
 
-.productSmCart .prodPriceBlock .textPrice {font-size: 11px; font-weight: bold}	
+.productSmCart .prodPriceBlock .textPrice {font-size: 10px; font-weight: bold}	
 
 
 .productSmCart .buttonAction {
@@ -998,7 +1014,7 @@ form.formFilter button {padding: 5px 9px; border: 1px solid #ebebeb; border-radi
 }
 	
 /**/
-.buttonAction {display: block; width: auto; background: #E9522C; color: #FFFFFF; padding: 0.6em; text-align: center; margin: 10px 0px 0px 0px; border: 0; border-radius: 4px;}
+.buttonAction {display: block; width: 100% !important; background: #E9522C; color: #FFFFFF; padding: 0.6em; text-align: center; margin: 10px 0px 0px 0px; border: 0; border-radius: 4px;}
 .buttonAction:hover {background:#E9522C; color: #FFFFFF;
 }
 /**Окно помощи********************************************************************/

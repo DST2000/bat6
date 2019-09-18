@@ -451,7 +451,8 @@
 
 <div class="col-xs-12 col-sm-6 col-md-4 hidden-sm topCard text-right">
 <a href="#" class="user" data-toggle="modal" data-target="#user-overlay"><i class="fas fa-user-circle"></i> Личный кабинет</a>
-<a href="#" class="cart" data-toggle="modal" data-target="#cart-overlay"><i class="fas fa-shopping-cart"></i> Корзина <span>5</span></a>
+<a href="#" class="cart" data-toggle="modal" data-target="#cart-overlay"><i class="fas fa-shopping-cart"></i> Корзина 
+	<span class="total_products_from_cart">5</span></a>
 </div>
 
 </div>

@@ -142,7 +142,7 @@ if ($this->showsearch or $this->keyword !== false) {
 	<!--BEGIN Search Box -->
 <!-- {DST hide search -->
 
-	<div class="virtuemart_search ">
+	<div class="virtuemart_search col-xs-12">
 		<form action="<?php echo JRoute::_ ('index.php?option=com_virtuemart&view=category&limitstart=0', FALSE); ?>" method="get">
 			<?php if(!empty($this->searchCustomList)) { ?>
 			<div class="vm-search-custom-list">
@@ -224,7 +224,7 @@ jQuery(".changeSendForm")
 	echo shopFunctionsF::renderVmSubLayout($this->productsLayout,array('products'=>$this->products,'currency'=>$this->currency,'products_per_row'=>$this->perRow,'showRating'=>$this->showRating));
 
 	if(!empty($this->orderByList)) { ?>
-		<div class="vm-pagination vm-pagination-bottom"><?php echo $this->vmPagination->getPagesLinks (); ?><span class="vm-page-counter">
+		<div class="vm-pagination vm-pagination-bottom col-xs-12"><?php echo $this->vmPagination->getPagesLinks (); ?><span class="vm-page-counter">
 		<?php // {DST ?>
 		<div class="floatright display-number"><?php echo $this->vmPagination->getResultsCounter ();?><br/><?php echo $this->vmPagination->getLimitBox ($this->category->limit_list_step); ?></div>	
 		<?php // }DST ?>	
