@@ -60,7 +60,7 @@ $this->setHtml5(true);
 $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=45');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=47');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=53');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
