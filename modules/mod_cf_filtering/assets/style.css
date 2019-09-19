@@ -152,7 +152,7 @@
 /*2 inputs - range*/
 .cf_wrapper_input_text_2 input[type="search"]{
 	width:25%;
-	min-width:50px;
+	min-width:40px;
 }
 
 .cf_message {
@@ -356,8 +356,8 @@
 }
 
 .cf_search_button {
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:5px;
+	padding-right:5px;
 	min-height:1em;	
 	cursor: pointer;
 	display:inline-block;

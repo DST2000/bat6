@@ -65,7 +65,6 @@ else { ?>
 	}
 
 	echo $currency->createPriceDiv ('salesPrice', 'COM_VIRTUEMART_PRODUCT_SALESPRICE', $product->prices);
-	echo $currency->createPriceDiv ('salesPriceTt', 'COM_VIRTUEMART_PRODUCT_SALESPRICE_TT', $product->prices);
 	$infotax = vmConfig::get('vm_prices_info_tax', 0);
 	$infodelivery = vmConfig::get('vm_prices_info_delivery', 0);
 	if ($infotax == 1 OR $infodelivery == 1) { ?>

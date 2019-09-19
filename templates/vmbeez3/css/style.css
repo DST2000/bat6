@@ -53,7 +53,9 @@ span.PricesalesPrice {
 /* < заголовок категории */
 
 .browse-view>h1 {
-    color: grey;
+    /*color: grey;*/
+	text-transform:uppercase;
+	font-weight: bold;
 }
 
 /* > заголовок категории */

@@ -69,8 +69,16 @@ if(count($filters_html_array)>0){
 	<?php //if there is a header
 	if(isset($filter_headers_array[$key])):
 		//toggle state
+		/*
+		// {DST										
 		if(isset($expanded_state[$key])){
 			if($expanded_state[$key]==1)$state='show';
+			else $state='hide';
+		}else $state='show';
+		// }DST
+		*/	
+		if(isset($expanded_state[$key])){
+			if($expanded_state[$key]==1)$state='hide';
 			else $state='hide';
 		}else $state='show';
 	   ?>
@@ -78,7 +86,13 @@ if(count($filters_html_array)>0){
         /*Header*/
         ?>
 		<div class="cf_flt_header" id="cfhead_<?php echo $key?>" role="tab">
+			<?php 
+			// {DST
+			?>
 			<span class="filterArr">›</span>
+			<?php 
+			// }DST
+			?>
 			<div class="headexpand headexpand_<?php echo $state?>" id="headexpand_<?php echo $key?>"></div>
 			<span class="cf_flt_header_text"><?php echo $filter_headers_array[$key]?></span>
 		</div>		

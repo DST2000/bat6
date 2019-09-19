@@ -186,10 +186,14 @@ ul.colorInvert > li:nth-child(even) {
     margin-bottom: 20px;
 }
 
-
 .row.bg-grey {
     padding-top: 20px;
 }
+
+span.vm-price-desc {
+    display: inherit;
+}
+
 /** }DST **/
 
 /**Блоки**************************************************/
