@@ -194,6 +194,61 @@ span.vm-price-desc {
     display: inherit;
 }
 
+.product-container.productdetails-view.productdetails {
+    padding: 15px;
+}
+
+.rowPrice {
+	border-top: 1px solid #EFEFEF;
+}
+
+.prodPrice {
+    font-size: 11px;
+    line-height: 1;
+    float: right;
+    padding-top: 5px;
+    margin-bottom: 14px;
+}
+
+span.redPrice {
+    font-weight: bold;
+    font-size: 18px;
+    color: #E9522C;
+}
+
+.discount {
+	background: #EFEFEF;
+}
+
+.dolg {
+	font-size: 12px;
+}
+span.boldPrice {
+	font-weight: bold;
+    font-size: 18px;
+}
+
+.addtocart-area-special span.quantity-box, .addtocart-area-special span.quantity-controls.js-recalculate {
+    display: none;
+}
+
+.addtocart-area-special form.product.js-recalculate {
+    margin: 0; 
+}
+
+.addtocart-area-special .addtocart-bar {
+	margin: 0; 
+}
+
+.addtocart-area-special input.addtocart-button {
+    padding: 4px !important;
+	font-size: 12px !important;
+}
+
+div#breadcrumbs {
+    background: white;
+}
+
 /** }DST **/
 
 /**Блоки**************************************************/
@@ -481,7 +536,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 
 .productSmCart .priceRight {background: #EFEFEF; font-size: 10px; padding:5px 5px 0px 0px; border-bottom: 1px solid #EFEFEF; overflow: hidden; line-height: 1.0; height:45px;}
 
-.productSmCart .priceRight p.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
+.productSmCart .priceRight p.skidka, span.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
 .productSmCart .priceRight p.redPrice {color: #4B4B4B; float: right}
 
 .productSmCart .prodPriceBlock .textPrice {font-size: 10px; font-weight: bold}	
@@ -833,7 +888,10 @@ a.sticky-navbar-catalog-button span::after {content:"☰ Меню"}
 .sticky-topTelDub a {float: left;  font-size: 1.6rem;}	
 
 /***/
-.topInfo {opacity:1}
+.topInfo {
+	opacity:1;
+	padding-top: 44px;
+}
 .sticky-topInfo {opacity:0}	
 	
 /***/

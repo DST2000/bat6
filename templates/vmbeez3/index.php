@@ -60,8 +60,8 @@ $this->setHtml5(true);
 $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=47');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=53');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=48');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=74');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -201,6 +201,9 @@ require __DIR__ . '/jsstrings.php';
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-9 col-lg-10 row-flex">
+							<div id="breadcrumbs" class="container">
+								<jdoc:include type="modules" name="position-4" />
+							</div>
 							<jdoc:include type="component" />
 						</div>
 					</div>

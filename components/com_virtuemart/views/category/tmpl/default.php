@@ -142,7 +142,7 @@ if ($this->showsearch or $this->keyword !== false) {
 	<!--BEGIN Search Box -->
 <!-- {DST hide search -->
 
-	<div class="virtuemart_search col-xs-12">
+	<div class="virtuemart_search col-xs-12 hidden">
 		<form action="<?php echo JRoute::_ ('index.php?option=com_virtuemart&view=category&limitstart=0', FALSE); ?>" method="get">
 			<?php if(!empty($this->searchCustomList)) { ?>
 			<div class="vm-search-custom-list">
