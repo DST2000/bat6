@@ -1,5 +1,5 @@
 <section id="news" class="bg-grey pb-2">
-<div class="container">
+<div class="container block-size">
 <div class="row">
 <div class="col-sm-8 col-md-12">         
 
@@ -7,8 +7,8 @@
 <div class="row">
 <div class="blockBorder inc-m-15">
 <div class="col-md-3 py-4 text-center">
-<a href="info.html" class="title">Наши новости</a><br>
-<a href="info.html" class="button">Перейти</a>
+<a href="/component/content/category/10-news?Itemid=0" class="title">Наши новости</a><br>
+<a href="/component/content/category/10-news?Itemid=0" class="button">Перейти</a>
 </div>
 
 <div class="col-md-3 py-4">

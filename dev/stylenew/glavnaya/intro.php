@@ -1,6 +1,6 @@
 <!--Главный экран intro. Слайдеры и баннеры -------------------------------------------------->		
 <section id="intro" class="bg-grey">
-<div class="container">
+<div class="container block-size">
          
 <!--большой слайдер-------------------------------------------------->         
 <div class="row">
@@ -17,7 +17,7 @@
 
 <div class="row">
 <div class="col-xs-12 col-7 slideText">
-<h2><a href="catalog.html">Аккумуляторы от первого поставщика</a><br>
+<h2><a href="/catalog/akkumulators/">Аккумуляторы от первого поставщика</a><br>
 20 лет продаж</h2>
 <hr>
 <p>Быстро
@@ -36,7 +36,7 @@
 <div class="col-xs-12 col-7 slideText">
 <img src="images/logo/logo-q8.png" alt="">
 <h2>
-<a href="catalog.html">Автомобильные масла из Бельгии</a></h2>
+<a href="/catalog/q8/">Автомобильные масла из Бельгии</a></h2>
 <hr>
 <p>Гарантия
 оригинального качества</p>
@@ -52,7 +52,7 @@
 <div class="row">
 <div class="col-xs-12 col-7 slideText">
 
-<h2><a href="catalog.html">Бесплатная диагностика аккумуляторов</a></h2>
+<h2><a href="/sdat-staryj-akkumulyator">Бесплатная диагностика аккумуляторов</a></h2>
 <hr>
 <p>
 Купим отработанные аккумуляторы.<br>
@@ -76,13 +76,13 @@
 <!--banner1-------------------------------------->                         
 <div class="p-2" style="height: 189px; overflow: hidden; border-bottom:1px solid #ebebeb; text-align: center; vertical-align: middle;">
 
-<a href="" class="col-sm-12 col-md-6 bg-red" style="min-height: 100%; display: inline-block; color: #FFFFFF; text-transform: uppercase">
+<a href="/component/content/category/11-aktsii-skidki?Itemid=0" class="col-sm-12 col-md-6 bg-red" style="min-height: 100%; display: inline-block; color: #FFFFFF; text-transform: uppercase">
 <span style="display: block; min-height: 100%; position: absolute; top: 75%; bottom: 0; left: 0; right: 0; margin: auto;">
 Наши<br>
 Акции
 </span> 
 </a>
-<a href="" class="col-sm-12 col-md-6 bg-black" style="min-height: 100%; display: inline-block; color: #FFFFFF; text-transform: uppercase"> 
+<a href="/sdat-staryj-akkumulyator" class="col-sm-12 col-md-6 bg-black" style="min-height: 100%; display: inline-block; color: #FFFFFF; text-transform: uppercase"> 
 <span style="display: block; min-height: 100%; position: absolute; top: 75%; bottom: 0; left: 0; right: 0; margin: auto;"> 
 Сдать старый<br>
 аккумулятор
@@ -182,12 +182,12 @@
 <!--------->
 <div class="row">
 <div class="col-md-3 text-center hidden-xs">
-<a href="catalog.html" class="title">Наш каталог</a><br>
-<a href="catalog.html" class="button">Перейти</a>
+<a href="/catalog/akkumulators/" class="title">Наш каталог</a><br>
+<a href="/catalog/akkumulators/" class="button">Перейти</a>
 </div>
 
 <div class="col-md-3 col-xs-12">
-<a href="catalog.html" class="active">
+<a href="/catalog/akkumulators/" class="active">
 <div class="bannerImg" style="background: url(images/banner/banner-akb1.jpg) bottom right / cover no-repeat;">
 </div>
 <p>Купить аккумулятор</p>
@@ -195,7 +195,7 @@
 </div>
 
 <div class="col-md-3 col-xs-12">
-<a href="catalog.html">
+<a href="/catalog/q8/">
 <div class="bannerImg" style="background: url(images/banner/banner-q81.jpg) bottom right / cover no-repeat;">
 </div>
 <p>Купить масло Q8</p>
@@ -203,7 +203,7 @@
 </div>
 
 <div class="col-md-3 col-xs-12">
-<a href="catalog.html">
+<a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/">
 <div class="bannerImg" style="background: url(images/banner/banner-dlaakb.jpg) bottom right / cover no-repeat;">
 </div>
 <p>Купить аксессуары</p>
@@ -211,7 +211,7 @@
 </div>
 
 <div class="col-xs-12 hidden-md hidden-lg">
-<a href="#">
+<a href="/sdat-staryj-akkumulyator">
 <div class="bannerImg" style="background: url(images/banner/banner-dlaakb.jpg) bottom right / cover no-repeat;">
 </div>
 <p>Сдать аккумулятор</p>

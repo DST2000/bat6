@@ -141,6 +141,14 @@ jQuery(function($){
 					}
 				}
 			});	
-	
+	$(document).ready(function() {
+//		var textcart = $("input.total_products_from_cart").html();
+//		if (textcart.length == 0 ) {
+//		textcart = "111";
+//		}
+//		$("span.total_products_from_cart").html(textcart);
+//		$("span.cart-order-quantity").html(textcart);
+	}
+	);
 	
 });

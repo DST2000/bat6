@@ -1,7 +1,7 @@
 <!--Новинки. Слайдеры -------------------------------------------------->	
 <section id="newProd" class="bg-grey" style="padding-bottom: 40px;">
 
-<div class="container">              
+<div class="container block-size">              
 
 
 <!--------->

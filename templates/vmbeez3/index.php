@@ -60,8 +60,8 @@ $this->setHtml5(true);
 $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=48');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=74');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=53');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=91');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -116,7 +116,7 @@ $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/template.js');
 // {DST
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/jui/bootstrap.min.js');
-$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=6');
+$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=34');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/wow.min.js?v=1');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/owl.carousel.min.js?v=1');
 // }DST
@@ -179,7 +179,7 @@ require __DIR__ . '/jsstrings.php';
 					<?php } ?>
 				</header><!-- end header -->
 				<div id="<?php echo $showRightColumn ? 'contentarea2' : 'contentarea'; ?>">
-					<div id="breadcrumbs" class="container">
+					<div id="breadcrumbs" class="container block-size">
 						<jdoc:include type="modules" name="position-2" />
 					</div>
 					<div class="bg-grey">
@@ -187,7 +187,7 @@ require __DIR__ . '/jsstrings.php';
 
 						
 						
-					<div class="container">
+					<div class="container block-size">
 					<div class="row bg-grey">
 						<div class="col-xs-12 col-md-3 col-lg-2 row-flex">
 							<div class="hidden-xs hidden-sm">
@@ -201,7 +201,7 @@ require __DIR__ . '/jsstrings.php';
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-9 col-lg-10 row-flex">
-							<div id="breadcrumbs" class="container">
+							<div id="breadcrumbs" class="container block-size">
 								<jdoc:include type="modules" name="position-4" />
 							</div>
 							<jdoc:include type="component" />

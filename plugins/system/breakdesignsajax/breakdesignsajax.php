@@ -32,7 +32,7 @@ Class plgSystemBreakdesignsajax extends JPlugin{
 
 		if($format=='html' && !$is_json && !$is_xml && !$app->isAdmin()){
 			$newBuffer='
-			<div id="bd_results">
+			<div id="bd_results" class="container block-size">
 			<div id="cf_res_ajax_loader"></div>'
 			.$buffer.
 			'</div>';

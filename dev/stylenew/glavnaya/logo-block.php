@@ -1,6 +1,6 @@
 <!-- logoBlock -->
 <section id="logoBlock" class="bg-grey hidden-xs">
-<div class="container">
+<div class="container block-size">
            
                 
 <div class="owl-carousel blockBorder">

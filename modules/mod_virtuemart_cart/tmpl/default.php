@@ -7,7 +7,17 @@ defined('_JEXEC') or die('Restricted access');
 
 <!-- Virtuemart 2 Ajax Card -->
 <span class="hidden vmCartModule <?php echo $params->get('moduleclass_sfx'); ?>" id="vmCartModule<?php echo $params->get('moduleid_sfx'); ?>">
-<input class="total_products_from_cart" type="hidden"><?php echo  $data->totalProduct?></input>
+<input class="total_products_from_cart" type="text" ><?php echo  $data->totalProduct?></input>
+<?php // {DST ?>
+<script>
+jQuery(function($){
+		textcart = <?php echo  $data->totalProduct?>;
+		$("span.total_products_from_cart").html(textcart);
+		$("span.cart-order-quantity").html(textcart);
+});
+</script>
+<?php // }DST ?>
+
 <?php
 // {DST if ($show_product_list) {
 if (false) {

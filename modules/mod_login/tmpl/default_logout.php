@@ -22,6 +22,10 @@ JHtml::_('behavior.keepalive');
 	<?php //{DST ?>
 		<br/>
 		<a href="/catalog/orders/list"><button type="button" class="btn btn-default">История заказов</button></a>
+		<?php
+//		header('Location: /catalog/akkumulators/');
+//		exit;
+		?>
 	<?php //{DST ?>	
 	</div>
 <?php endif; ?>

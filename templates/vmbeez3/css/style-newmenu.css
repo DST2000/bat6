@@ -8,11 +8,10 @@ html {
   min-height: 100%;
 }
 
-.container {
-	width: 100%;
-	max-width: 1600px !important;
+.container.block-size {
+    width: 100%;
+    max-width: 1600px !important;
 }
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -62,10 +61,19 @@ a:hover {text-decoration: none; color: #E9522C}
 .pb-0 {padding-bottom: 0px;}
 .pb-2 {padding-bottom: 20px;}
 
+.row-flex #bd_results {
+	background: white;
+	padding: 0 30px;
+}
+
+.vm-products-horizon span.vm-price-desc {
+    display: inline;
+}
+
 /** {DST **/
 
 a.PhoneNumberMenu {
-    font-size: 1.0rem !important;
+    font-size: 0.9rem !important;
 }
 
 #catalog {
@@ -133,8 +141,11 @@ hr.span-line {
 }
  
 ul.colorInvert > li:nth-child(even) {
-	background-color: #e9522c0f;
-	
+	background-color: #e9522c0f;	
+}
+
+#toggleAkb > li:nth-child(even), #toggleOilType  > li:nth-child(even), #toggleAkbType  > li:nth-child(even) {
+	background-color: #e9522c0f;	
 }
 
 /* header, card */
@@ -247,6 +258,11 @@ span.boldPrice {
 
 div#breadcrumbs {
     background: white;
+}
+
+a.user {
+    font-weight: bold;
+    color: #E9522C !important;
 }
 
 /** }DST **/

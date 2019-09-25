@@ -1,5 +1,5 @@
 <section id="bottomInfo" class="bg-grey p-0">
-<div class="container py-2 bannerBlock">
+<div class="container py-2 bannerBlock block-size">
 				
 <!--------->
 <div class="row row-flex">
@@ -50,48 +50,46 @@
 
 
 <footer class="text-muted">
-      <div class="container py-4">
+      <div class="container py-4 block-size">
         <div class="contact-section">
             <div class="col-md-6 py-2 different-products">
                 <ul>
                     <li class="first"> магазин</li>
                     -
-                    <li><a href=""> аккумуляторы</a></li>
+                    <li><a href="/catalog/akkumulators/"> аккумуляторы</a></li>
                     |
-                    <li><a href=""> моторные масла</a></li>
+                    <li><a href="/catalog/q8/"> моторные масла</a></li>
                     |
-                    <li><a href=""> аксессуары</a></li>
+                    <li><a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/"> аксессуары</a></li>
                 </ul>
                 <ul>
                     <li class="first"> Помощь</li>
                     -
-                    <li><a href=""> Доставка </a></li>
+                    <li><a href="/roznichnaya-set"> Доставка </a></li>
                     |
-                    <li><a href=""> Оплата </a></li>
+                    <li><a href="/roznichnaya-set"> Оплата </a></li>
                     |
-                    <li><a href=""> Условия гарантии</a></li>
+                    <li><a href="/roznichnaya-set"> Условия гарантии</a></li>
                     |
-                    <li><a href=""> Сдать старый аккумулятор </a></li>
+                    <li><a href="/sdat-staryj-akkumulyator"> Сдать старый аккумулятор </a></li>
                 </ul>
 
                 <ul>
-                    <li class="first"> Ваш аккаунт</li>
+                    <li class="first"> Аккаунт оптовых покупателей</li>
                     <li> -
                     </li>
-                    <li><a href="" title="Доступен зарегистрированным пользователям"> Вход </a></li>
+                    <li><a href="/optovye-pokupateli" title="Доступен оптовым пользователям"> Вход </a></li>
                     |
-                    <li><a href="" title="Для регистрации необходимо позвонить менеджеру"> Зарегистрироваться </a></li>
-                    |
-                    <li><a href=""> Ваша корзина </a></li>
+                    <li><a href="/catalog/cart"> Ваша корзина </a></li>
                 </ul>
                 <ul>
                     <li class="first"> О компании</li>
                     -
-                    <li><a href=""> Контакт с нами </a></li>
+                    <li><a href="/contacts"> Контакт с нами </a></li>
                     |
-                    <li><a href=""> О нас </a></li>
+                    <li><a href="/contacts"> О нас </a></li>
                     |
-                    <li><a href=""> Вакансии </a></li>
+                    <li><a href="/contacts"> Вакансии </a></li>
                 </ul>
             </div>
             <div class="col-md-6 py-2 about-text text-right">
@@ -126,7 +124,7 @@
             <div class="col-xs-12 col-md-4 py-0 help text-right hidden-xs">
                 <h3>Нужна помощь?</h3>
                 <p>Наши специалисты ответят на все ваши вопросы</p>
-                <a href="contact.html">связаться</a>
+                <a href="/contacts">связаться</a>
             </div>
             
             

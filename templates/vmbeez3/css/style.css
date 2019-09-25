@@ -84,6 +84,10 @@ span.PricesalesPrice {
 	margin: 0 0 5% 10%;
 }
 
+button#filter-mobile {
+    margin-top: 24px;
+}
+
 /* Дерево категорий */
 .cfLiLevel1 {
     text-transform: uppercase;
@@ -113,6 +117,10 @@ span.addtocart-button input.addtocart-button {
 	border-color: #d43f3a !important;
 	border: solid #d43f3a 1px !important; 
 	border-radius: 6px !important; 
+}
+
+a.continue_link {
+    display: none;
 }
 
 .vm-product-media-container {
@@ -473,6 +481,11 @@ li.mobile-menu-item {
 .breadcrumbs {
 	margin: 0 0 0 18px;
 }
+
+a.pathway {
+    color: red;
+}
+
 @media (min-width: 768px) {
 	.breadcrumbs {
 	margin: 2px;
@@ -726,7 +739,7 @@ div.spacer-20
 
 div#fancybox-wrap {
     
-    left: 10px !important;
+/*    left: 10px !important;*/
 }
 
 /* > fancybox-wrap */

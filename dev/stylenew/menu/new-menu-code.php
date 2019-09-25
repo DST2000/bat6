@@ -1,10 +1,48 @@
+
+<!-- Модальное окно контакт -->  
+<div class="modal fade" id="tel-overlay" tabindex="-1" role="dialog" aria-labelledby="tel-iconLabel" aria-hidden="true">
+<div class="modal-dialog modal-sm" role="document">
+<div class="modal-content py-4" style="background: #F3F3F3">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 15px; top: 20px; ">
+<span aria-hidden="true">&times;</span>
+</button>
+<h4 class="modal-title text-center" style="font-weight: bold; font-size:20px;">Контакт с нами</h4>
+      </div>
+<div class="modal-body row" style="line-height: 1.8">
+      
+<div class="col-xs-10 col-md-10 col-xs-offset-3 topTel">
+<p><i class="fas fa-phone-square"></i>
+<span>Интернет магазин<br></span>
+<a href="tel:+375293514747" style="font-size:18px;">+375 29 351 47 47</a><br>
+<a href="tel:+375333514747" style="font-size:18px;">+375 33 351 47 47</a></p>
+</div>
+
+<div class="col-xs-10 col-md-10 col-xs-offset-3 topTel">
+<p><i class="fas fa-phone-square"></i><span>
+Оптовым покупателям<br></span>
+<a href="tel:+375175106060" style="font-size:18px;">+375 17 510 60 60</a><br>
+<a href="tel:+375293106010" style="font-size:18px;">+375 29 310 60 10</a></p>
+</div>
+</div>
+	
+<!--
+      <div class="modal-footer text-center hidden">
+        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal" style="width: 100%;">Получить консультацию</button>
+      </div>
+-->
+    </div>
+  </div>
+</div>
+<!-- Модальное окно контакт ---------------------------------------------------------------->
+
 <header class="header">
 
 
 <div class="navbar bg-black navbar-fixed-top">
 
 <!--Верхнее меню---------------------------------------------------------------------------->
-<div class="container">   
+<div class="container block-size">   
 
 <a href="index.html" class="topLogoWhite"><img src="images/logo/logo-white.png" alt=""/></a>
 
@@ -25,13 +63,13 @@
   
 <!----->      
 <ul class="nav navbar-nav hidden-xs">                            
-        <li><a href="info.html">Новости</a></li>
-        <li><a href="info.html">Доставка</a></li>
-        <li><a href="info.html">О компании</a></li>
-        <li><a href="info.html">Техническая информация</a></li>
-        <li><a href="info.html">Сдать аккумулятор</a></li>
-        <li><a href="info.html">Розничная сеть</a></li>
-        <li><a href="info.html">Контакты</a></li>
+        <li><a href="/component/content/category/10-news?Itemid=0">Новости</a></li>
+        <li><a href="/roznichnaya-set">Доставка</a></li>
+        <li><a href="/contacts">О компании</a></li>
+        <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
+        <li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>
+        <li><a href="/roznichnaya-set">Розничная сеть</a></li>
+        <li><a href="/contacts">Контакты</a></li>
                         
 </ul>
 <!--//--->  
@@ -40,24 +78,27 @@
 <div class="topTelDub col-sm-6 col-md-8 col-lg-7 hidden-xs">
 <p class="col-md-6 col-lg-5"><i class="fas fa-phone-square"></i>
 Интернет магазин<br>
-<a class="PhoneNumberMenu" href="">+375 29 351 47 47</a> <a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="">+375 33 351 47 47</a></p>
+<a class="PhoneNumberMenu" href="tel:+375293514747">+375 29 351 47 47</a> <a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="tel:+375333514747">+375 33 351 47 47</a>
+</p>
 <p class="col-md-6 col-lg-5"><i class="fas fa-phone-square"></i>
 Оптовым покупателям<br>
-<a class="PhoneNumberMenu" href="">+375 17 510 60 60</a></p>
+<a class="PhoneNumberMenu" href="tel:+375175106060">+375 17 510 60 60</a><a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="tel:+375293106010">+375 29 310 60 10</a>
+</p>
+
 </div>
 <!--//--->
 
 
 <div class="blockTopIco">
 <!--Кнопка мобильной корзины--->  
-<a id="cart-icon" class="btn-left fas fa-shopping-cart" data-toggle="modal" data-target="#cart-overlay">
-<span class="cart-order-quantity" >15</span>	
+<a id="cart-icon" class="btn-left fas fa-shopping-cart" href="/catalog/cart">
+<span class="cart-order-quantity" >0</span>	
 </a>
 <!--Кнопка мобильной корзины--->  
 
 
 <!--Кнопка мобильного входа--->  
-<a id="user-icon" class="btn-left fas fa-user-tie" data-toggle="modal" data-target="#user-overlay"></a>
+<a id="user-icon" class="btn-left fas fa-user-tie" href="/optovye-pokupateli"></a>
 <!--Кнопка мобильного входа--->  
 
 
@@ -66,11 +107,18 @@
 <!--Кнопка мобильной тел---> 
 </div> 
 
-
-<form class="searchForm hidden-xs hidden-md" style="padding-left: 10px;">
-<button type="submit" class="btn btn-default text-center"><img src="images/menu/ico-search.png" alt=""></button>
-<input type="text" class="form-control search" name="search" placeholder="Поиск">
-</form>                                                                                                               
+<?php // { DST ?>
+<form class="searchForm hidden-xs hidden-md" style="padding-left: 10px;" action="/catalog" method="GET">
+	<div class="form-group">
+		<button type="submit" class="btn btn-default text-center" onclick="this.form.keyword.focus();"><img src="images/menu/ico-search.png" alt=""></button>
+		<input type="text" class="form-control search"  name="keyword" placeholder="Поиск..">
+		<input type="hidden" name="view" value="category">
+		<input type="hidden" name="option" value="com_virtuemart">
+		<input type="hidden" name="virtuemart_category_id" value="0">
+		<input type="hidden" name="Itemid" value="117">
+	</div>
+</form> 
+<?php // } DST ?>	
                                                                               
                                         
 </div>
@@ -84,17 +132,17 @@
 
 		
 <div id="topMenuPanel" class="collapse hidden-xs">
-<div class="container">
+<div class="container block-size">
 
 <!----->      
 <ul class="hidden-md hidden-lg">                            
-        <li><a href="info.html">Новости</a></li>
-        <li><a href="info.html">Доставка</a></li>
-        <li><a href="info.html">О компании</a></li>
-        <li><a href="info.html">Техническая информация</a></li>
-        <li><a href="info.html">Сдать аккумулятор</a></li>
-        <li><a href="info.html">Розничная сеть</a></li>
-        <li><a href="info.html">Контакты</a></li>                     
+        <li><a href="/component/content/category/10-news?Itemid=0">Новости</a></li>
+        <li><a href="/roznichnaya-set">Доставка</a></li>
+        <li><a href="/contacts">О компании</a></li>
+        <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
+        <li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>
+        <li><a href="/roznichnaya-set">Розничная сеть</a></li>
+        <li><a href="/contacts">Контакты</a></li>                    
 </ul>
 <!--//--->
 
@@ -104,9 +152,9 @@
 <div style="overflow: auto">
 <div class="row menu-back">
 <div class="col-sm-5">
-<h3 class="invert-h3" ><a class="a-bh3" href="catalog.html" >Аккумуляторы</a> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/akkumulators/">Аккумуляторы</a> 
 
-<a href="#" class="btn btn-primary center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top:-50px; font-size:0.6rem;">Сдать старый аккумулятор</a>
+<a href="/sdat-staryj-akkumulyator" class="btn btn-primary center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms"  style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top:-50px; font-size:0.6rem;">Сдать старый аккумулятор</a>
 
 </h3>
 <div class="colorInvert col-sm-5 col-lg-7">
@@ -121,7 +169,7 @@
 </div>
 <div class="col-sm-4">
 
-<h3 class="invert-h3" ><a class="a-bh3" href="catalog.html" >Моторные масла Q8</a></h3> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/q8/">Моторные масла Q8</a></h3> 
 <div class="colorInvert col-md-5 col-lg-4">
 <span class="h3-span-subheader">класс / вязкость</span>
 <hr class="span-line">
@@ -132,7 +180,7 @@
 </div>
 </div>
 <div class="col-sm-3">
-<h3 class="invert-h3" ><a class="a-bh3" href="catalog.html" >Аксессуары</a></h3> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/zaryadnye-ustrojstva-i-aksessuary/">Аксессуары</a></h3> 
 <div class="colorInvert col-sm-12">
 <span class="h3-span-subheader">Для техники</span>
 <hr class="span-line">	
@@ -148,62 +196,30 @@
 <div id="akb" class="">
 <ul class="colorInvert col-sm-5 col-lg-7" style="list-style: none; padding: 0; padding-bottom: 10px;">
 
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Автофан</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Аком</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Восток</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Bravo</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Champion Pilot</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">CтартБат-u</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Delta</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Energizer</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">Medalist</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">АКОМ(55)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">BANNER(70)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">VARTA(123)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">АВТОФАН(4)</a></li>
-
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">BRAVO(11)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">ВОСТОК(3)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">CHAMPION PILOT(10)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">BLT(3)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">DELTA(32)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">ENERGIZER(33)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">KIJO(4)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">MEDALIST(3)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">MONBAT(59)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">OPTIMA(18)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">RED ENERGY(26)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">REO NI-MH(2)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">РУСБАТ(5)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">SECURITY FORСE(5)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">SECURITY POWER(9)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">START.BAT(48)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">TENAX(24)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">TOPLA(6)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">VEGA(7)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">WINMAXX(8)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">КУРСКИЙ АККУМУЛЯТОР(1)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">SONNENSCHEIN(1)</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/avtofan/">Автофан</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Аком</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner/">BANNER</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vostok/">Восток</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/bravo/">Bravo</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt/">BLT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot/">Champion Pilot</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat/">CтартБат</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/delta/">Delta</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/kijo/">Kijo</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/monbat/">MONBAT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima/">Optima</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/red-energy/">Red Energy</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh/">REO NI-MH</a></li>
 <a data-toggle="collapse" data-target="#toggleAkb" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleAkb" class="collapse">
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">ENERGIZER(33)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">KIJO(4)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">MEDALIST(3)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">MONBAT(59)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">OPTIMA(18)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">RED ENERGY(26)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">REO NI-MH(2)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">РУСБАТ(5)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">SECURITY FORСE(5)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">SECURITY POWER(9)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">START.BAT(48)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">TENAX(24)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">TOPLA(6)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">VEGA(7)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">WINMAXX(8)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">КУРСКИЙ АККУМУЛЯТОР(1)</a></li>
-<li class="col-md-12 col-lg-6 p-0"><a href="catalog.html">SONNENSCHEIN(1)</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/rusbat/">РУСБАТ</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse/">SECURITY FORCE</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax/">TENAX</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/topla/">TOPLA</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta/">VARTA</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega/">VEGA</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx/">WINMAXX</a></li>
 </div>
 
 
@@ -213,30 +229,21 @@
       
                 
 <ul class="colorInvert col-sm-7 col-lg-5" style="list-style: none; padding-left: 0">  
-<li><a href="catalog.html">Аккумуляторы для легковых автомобилей</a></li>
-<li><a href="catalog.html">Аккумуляторы для азиатских авто</a></li>
-<li><a href="catalog.html">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
-<li><a href="catalog.html">Аккумуляторы для грузовых автомобилей и спецтехники</a></li>
-<li><a href="catalog.html">Аккумуляторы для микроавтобусов и фургонов</a></li>
-<li><a href="catalog.html">Аккумуляторы для ИБП</a></li>
-<li><a href="catalog.html">Аккумуляторы для Start Stop (AGM)</a></li>
-<li><a href="catalog.html">АКБ для поломоечных машин, погрузчиков</a></li>
-<li><a href="catalog.html">Аккумуляторы для лодок, автодомов</a></li>
-<li><a href="catalog.html">ВВБ для гибридный автомобилей </a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3133">Аккумуляторы для легковых автомобилей</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3138">Аккумуляторы для азиатских авто</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3131">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3136">Аккумуляторы для грузовых автомобилей и спецтехники</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3134">Аккумуляторы для микроавтобусов и фургонов</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3139">Аккумуляторы для ИБП</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3137">Аккумуляторы для Start Stop (AGM)</a></li>
+
 
 <a data-toggle="collapse" data-target="#toggleAkbType" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleAkbType" class="collapse">
-<li><a href="catalog.html">Аккумуляторы для легковых автомобилей</a></li>
-<li><a href="catalog.html">Аккумуляторы для азиатских авто</a></li>
-<li><a href="catalog.html">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
-<li><a href="catalog.html">Аккумуляторы для грузовых автомобилей и спецтехники</a></li>
-<li><a href="catalog.html">Аккумуляторы для микроавтобусов и фургонов</a></li>
-<li><a href="catalog.html">Аккумуляторы для ИБП</a></li>
-<li><a href="catalog.html">Аккумуляторы для Start Stop (AGM)</a></li>
-<li><a href="catalog.html">АКБ для поломоечных машин, погрузчиков</a></li>
-<li><a href="catalog.html">Аккумуляторы для лодок, автодомов</a></li>
-<li><a href="catalog.html">ВВБ для гибридный автомобилей </a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3132">АКБ для поломоечных машин, погрузчиков</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3135">Аккумуляторы для лодок, автодомов</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313331">ВВБ для гибридный автомобилей </a></li>
 </div>
 
 
@@ -256,30 +263,21 @@
 <div id="maslo" class="">
 <ul class="colorInvert col-md-5 col-lg-4" style="list-style: none; padding-left: 0">
 
-<li><a href="catalog.html">0w-30</a></li>
-<li><a href="catalog.html">5w-30</a></li>
-<li><a href="catalog.html">5w-40</a></li>
-<li><a href="catalog.html">10w-40</a></li>
-<li><a href="catalog.html">75w-90</a></li>
-<li><a href="catalog.html">80W-90</a></li>
-<li><a href="catalog.html">80W-140</a></li>
-<li><a href="catalog.html">SAE 30</a></li>
-<li><a href="catalog.html">SAE 40</a></li>
-
-
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=30572d3330">0W-30</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=35572d3330">5W-30</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=35572d3430">5W-40</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3330">10W-30</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3430">10W-40</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3735572d3830">75W-80</a></li>
 <a data-toggle="collapse" data-target="#toggleOilType" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleOilType" class="collapse">
-<li><a href="catalog.html">0w-30</a></li>
-<li><a href="catalog.html">5w-30</a></li>
-<li><a href="catalog.html">5w-40</a></li>
-<li><a href="catalog.html">10w-40</a></li>
-<li><a href="catalog.html">75w-90</a></li>
-<li><a href="catalog.html">80W-90</a></li>
-<li><a href="catalog.html">80W-140</a></li>
-<li><a href="catalog.html">SAE 30</a></li>
-<li><a href="catalog.html">SAE 40</a></li>
-</div>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3530">10W-50</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3135572d3430">15W-40</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3735572d3930">75W-90</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=3830572d313430">80W-140</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=534145203330">SAE 30</a></li>
+<li><a href="/catalog/filter/q8/?custom_f_320[0]=534145203430">SAE 40</a></li>
 
 <br style="clear:both;">
 <br>
@@ -287,19 +285,21 @@
 </ul>
 
 <ul class="colorInvert col-md-7 col-lg-8" style="list-style: none; padding-left: 0">
-<li><a href="catalog.html">Масла для газовых двигателей</a></li>
-<li><a href="catalog.html">Масла для мото и садовой техники</a></li>
-<li><a href="catalog.html">Моторные масла для грузовых автомобилей</a></li>
-<li><a href="catalog.html">Моторные масла для легковых автомобилей</a></li>
-<li><a href="catalog.html">Трансмиссионные масла, смазки, технические жидкости</a></li>
+<li><a href="/catalog/моторные-масла-для-легковых-автомобилей/">Моторные масла для легковых автомобилей</a></li>
+<li><a href="/catalog/моторные-масла-для-грузовых-автомобилей/">Моторные масла для грузовых автомобилей</a></li>
+<li><a href="/catalog/масла-для-мото-и-садовой-техники/">Масла для мото и садовой техники</a></li>
+<li><a href="/catalog/масла-для-газовых-двигателей/">Масла для газовых двигателей</a></li>
+<li><a href="/catalog/трансмиссионные-масла,-смазки,-технические-жидкости/">Трансмиссионные масла, смазки, технические жидкости</a></li>
 <a data-toggle="collapse" data-target="#toggleOil" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleOil" class="collapse">
-<li><a href="catalog.html">Масла для газовых двигателей</a></li>
+<li><a href="/catalog/gnv/">GNV</a></li>
+<!--
 <li><a href="catalog.html">Масла для мото и садовой техники</a></li>
 <li><a href="catalog.html">Моторные масла для грузовых автомобилей</a></li>
 <li><a href="catalog.html">Моторные масла для легковых автомобилей</a></li>
 <li><a href="catalog.html">Трансмиссионные масла, смазки, технические жидкости</a></li>
+-->
 </div>
 
 
@@ -317,10 +317,10 @@
 
 <div id="acsess">
 <ul class="colorInvert col-sm-12" style="list-style: none; padding-left: 0">
-<li><a href="catalog.html">Зарядные и пуско-зарядные устройства</a></li>
-<li><a href="catalog.html">Клеммы</a></li>
-<li><a href="catalog.html">Автолампы</a></li>
-<li><a href="catalog.html">Щетки стеклоочистителя</a></li>
+<li><a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/">Зарядные и пуско-зарядные устройства</a></li>
+<!--<li><a href="catalog.html">Клеммы</a></li>-->
+<li><a href="/catalog/lamps/">Автолампы</a></li>
+<li><a href="/catalog/schetki-stekloochistitelya/">Щетки стеклоочистителя</a></li>
 <br style="clear:both;">
 <br>
 
@@ -363,10 +363,10 @@
 
 <div id="catalogMobile" class="collapse">
 <ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
-<a href="catalog.html" style="float:left; color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.6rem; margin:20px 0; padding-left:15px; padding-right:15px;">Аккумуляторы 
+<a href="/catalog/akkumulators/" style="float:left; color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.6rem; margin:20px 0; padding-left:15px; padding-right:15px;">Аккумуляторы 
 </a>
 
-<a href="#" class="btn center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top: 10px; font-size:1rem;">Сдать аккумулятор</a>
+<a href="/sdat-staryj-akkumulyator" class="btn center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top: 10px; font-size:1rem;">Сдать аккумулятор</a>
 
 <br style="clear: both">
 
@@ -379,7 +379,7 @@
 
 <ul  style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
 <h3 style="color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.8rem; margin-bottom: 20px; padding-left:15px; padding-right:15px;">
-<a href="catalog.html" style="color: #FFFFFF; text-transform: uppercase; font-size:1.6rem; padding-right:15px;">Моторные масла Q8</a>
+<a href="/catalog/q8/" style="color: #FFFFFF; text-transform: uppercase; font-size:1.6rem; padding-right:15px;">Моторные масла Q8</a>
 </h3>   
 </ul>
 
@@ -388,7 +388,7 @@
 
 <ul  style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
 <h3 style="color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.6rem; margin-bottom: 20px; padding-left:15px; padding-right:15px;">
-<a href="catalog.html" style="color: #FFFFFF; text-transform: uppercase; font-size:1.6rem; padding-right:15px;">Аксессуары</a>
+<a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/" style="color: #FFFFFF; text-transform: uppercase; font-size:1.6rem; padding-right:15px;">Аксессуары</a>
 </h3>   
 </ul>
 
@@ -398,13 +398,13 @@
 
 <!--//Catalog Mobile------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
                             
-<li><a href="info.html">Новости</a></li>
-<li><a href="info.html">Доставка</a></li>
-<li><a href="info.html">О компании</a></li>
-<li><a href="info.html">Техническая информация</a></li>
-<li><a href="info.html">Сдать аккумулятор</a></li>
-<li><a href="info.html">Розничная сеть</a></li>
-<li><a href="info.html">Контакты</a></li>                     
+<li><a href="/component/content/category/10-news?Itemid=0">Новости</a></li>
+<li><a href="/roznichnaya-set">Доставка</a></li>
+<li><a href="/contacts">О компании</a></li>
+<li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
+<li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>
+<li><a href="/roznichnaya-set">Розничная сеть</a></li>
+<li><a href="/contacts">Контакты</a></li>                     
 </ul>
 <!--//--->
 
@@ -426,7 +426,7 @@
 						
 <!--Лого + контактная группа ------------------------------------------------------------------->
 <section id="topInfo" class="topInfo hidden-xs">
-<div class="container">
+<div class="container block-size">
 <div class="row">
 
 
@@ -439,20 +439,21 @@
 <div class="col-xs-12 col-sm-6 col-md-2 topTel">
 <p><i class="fas fa-phone-square"></i>
 <span>Интернет магазин<br></span>
-<a href="">+375 29 351 47 47</a><br>
-<a href="">+375 33 351 47 47</a></p>
+<a href="tel:+375293514747">+375 29 351 47 47</a><br>
+<a href="tel:+375333514747">+375 33 351 47 47</a></p>
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-2 topTel">
 <p><i class="fas fa-phone-square"></i><span>
 Оптовым покупателям<br></span>
-<a href="">+375 17 510 60 60</a></p>
+<a href="tel:+375175106060">+375 17 510 60 60</a><br>
+<a href="tel:+375293106010">+375 33 351 47 47</a></p>
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4 hidden-sm topCard text-right">
-<a href="#" class="user" data-toggle="modal" data-target="#user-overlay"><i class="fas fa-user-circle"></i> Личный кабинет</a>
-<a href="#" class="cart" data-toggle="modal" data-target="#cart-overlay"><i class="fas fa-shopping-cart"></i> Корзина 
-	<span class="total_products_from_cart">5</span></a>
+<a href="/optovye-pokupateli" class="user" ><i class="fas fa-user-circle"></i> Личный кабинет</a>
+<a href="/catalog/cart" class="cart" ><i class="fas fa-shopping-cart"></i> Корзина 
+	<span class="total_products_from_cart">0</span></a>
 </div>
 
 </div>

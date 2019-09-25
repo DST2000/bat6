@@ -1,5 +1,5 @@
 <section class="bg-grey py-2">
-<div class="container">
+<div class="container block-size">
 <!--------->
 <div class="row row-flex bannerLogo">
 <div class="col-md-3 row-flex">

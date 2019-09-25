@@ -78,7 +78,9 @@ vmJsApi::vmValidator();
 			echo shopFunctions::renderVendorFullVendorList($this->cart->vendorId);
 			?><input type="submit" name="updatecart" title="<?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?>" value="<?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?>" class="button"  style="margin-left: 10px;"/><?php
 		}
-		echo $this->loadTemplate ('address');
+		// {DST
+//		echo $this->loadTemplate ('address');
+		// }DST
 		// This displays the pricelist MUST be done with tables, because it is also used for the emails
 		echo $this->loadTemplate ('pricelist');
 

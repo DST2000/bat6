@@ -1,6 +1,6 @@
 <section class="bg-grey p-0">
 
-<div class="container">
+<div class="container block-size">
 				
 <!--------->
 <div class="row row-flex bannerLogo">
