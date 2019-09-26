@@ -44,7 +44,7 @@
 <!--Верхнее меню---------------------------------------------------------------------------->
 <div class="container block-size">   
 
-<a href="index.html" class="topLogoWhite"><img src="images/logo/logo-white.png" alt=""/></a>
+<a href="/" class="topLogoWhite"><img src="images/logo/logo-white.png" alt=""/></a>
 
 
 <!--Кнопка десктопного меню---> 
@@ -361,12 +361,12 @@
 <li data-toggle="collapse" data-target="#catalogMobile" class="catalog-Mobile-Button"><a>Каталог</a></li> 
 <!------------------------------------>
 
-<div id="catalogMobile" class="collapse">
+<div id="catalogMobile" class="collapse in" aria-expanded="true" style="">
 <ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
-<a href="/catalog/akkumulators/" style="float:left; color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.6rem; margin:20px 0; padding-left:15px; padding-right:15px;">Аккумуляторы 
+<a href="/catalog.html" style="float:left;color: #FFFFFF;font-weight: bolder;text-transform: uppercase;font-size:1.0rem;margin: 20px 0;padding-left:15px;padding-right:15px;">Аккумуляторы 
 </a>
 
-<a href="/sdat-staryj-akkumulyator" class="btn center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top: 10px; font-size:1rem;">Сдать аккумулятор</a>
+<a href="#" class="btn center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms" data-toggle="modal" data-target="#ModalTel" rel="order_call_window" style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top: 10px; font-size:0.6rem;">Сдать аккумулятор</a>
 
 <br style="clear: both">
 
@@ -377,18 +377,18 @@
 
 <!------------------------------------->
 
-<ul  style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
-<h3 style="color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.8rem; margin-bottom: 20px; padding-left:15px; padding-right:15px;">
-<a href="/catalog/q8/" style="color: #FFFFFF; text-transform: uppercase; font-size:1.6rem; padding-right:15px;">Моторные масла Q8</a>
+<ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
+<h3 style="color: #FFFFFF;font-weight: bolder;text-transform: uppercase;/* font-size: 0; *//* margin-bottom: 8px; */padding-left:15px;padding-right:15px;margin: 14px 0;">
+<a href="/catalog.html" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла Q8</a>
 </h3>   
 </ul>
 
 
 <!------------------------------------->
 
-<ul  style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
-<h3 style="color: #FFFFFF; font-weight: bolder; text-transform: uppercase; font-size:1.6rem; margin-bottom: 20px; padding-left:15px; padding-right:15px;">
-<a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/" style="color: #FFFFFF; text-transform: uppercase; font-size:1.6rem; padding-right:15px;">Аксессуары</a>
+<ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
+<h3 style="color: #FFFFFF;font-weight: bolder;text-transform: uppercase;font-size:1.8rem;/* margin-bottom: 20px; */padding-left:15px;padding-right:15px;margin: 20px 0;">
+<a href="/catalog.html" style="color: #FFFFFF;text-transform: uppercase;font-size:1.0rem;padding-right:15px;">Аксессуары</a>
 </h3>   
 </ul>
 

@@ -141,6 +141,11 @@ a.continue_link {
 	margin: 5px 0;
 }
 
+.vm-cart-item-discounted-price {
+    min-width: 64px;
+    width: 5%;
+    text-align: center;
+}
 
 /* > Переопределение virtuemart */
 

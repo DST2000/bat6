@@ -265,6 +265,19 @@ a.user {
     color: #E9522C !important;
 }
 
+catalog-mobile-ul {
+	margin: 0px !important;
+	padding: 0;
+	border-bottom: 1px solid #EF655B;
+}
+
+a.catalog-mobile {
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase !important;
+	font-size:1.2rem !important;
+}
+
 /** }DST **/
 
 /**Блоки**************************************************/
