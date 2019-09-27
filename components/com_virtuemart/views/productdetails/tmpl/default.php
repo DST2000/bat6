@@ -333,7 +333,7 @@ if(vRequest::getInt('print',false)){ ?>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
 			<label class="form-check-label" style="font-weight: normal">
-				<input class="form-check-input" type="checkbox"> Самовывоз (скидка 5%)
+				<input class="form-check-input" type="checkbox"> Самовывоз (скидка 5 р.)
 			</label>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
