@@ -60,8 +60,8 @@ $this->setHtml5(true);
 $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=54');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=93');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=63');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=96');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -190,15 +190,18 @@ require __DIR__ . '/jsstrings.php';
 					<div class="container block-size">
 					<div class="row bg-grey">
 						<div class="col-xs-12 col-md-3 col-lg-2 row-flex">
-							<div class="hidden-xs hidden-sm">
+<!--							<div class="hidden-xs hidden-sm">-->
+							<div class="filter-module">
 							<jdoc:include type="modules" name="position-15" />
 							</div>
+<!--
 							<div class="hidden-sm hidden-md hidden-lg">
 								<button type="button" id="filter-mobile" class="btn btn-success btn-lg btn-block">ФИЛЬТР</button>
 								<div id="filter-mobile-content" style="display:none">
 									<jdoc:include type="modules" name="position-15" />
 								</div>
 							</div>
+-->
 						</div>
 						<div class="col-xs-12 col-md-9 col-lg-10 row-flex">
 							<div id="breadcrumbs" class="container block-size">

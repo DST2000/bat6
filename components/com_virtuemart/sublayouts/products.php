@@ -74,11 +74,22 @@ foreach ($viewData['products'] as $type => $products ) {
 				<?php  } ?>
 					</div>
 					<div class="prodText">
+						
 						<?php
-						echo 'Артикул: '.($product->customfieldsSorted["normal"][23]->customfield_value) . '</br>';
-						if (strlen($product->customfieldsSorted["normal"][4]->customfield_value)>0) {
-							echo ($product->customfieldsSorted["normal"][4]->customfield_value.'А/ч ');
+						foreach ($product->customfieldsSorted["normal"] as $keyElement=>$elementCustumfield) {
+							if ($elementCustumfield->virtuemart_custom_id == '4') {
+								echo vmText::_('COM_VM_CAPACITY').'-'.($product->customfieldsSorted["normal"][$keyElement]->customfield_value).'</br>';
+							}
+							if ($elementCustumfield->virtuemart_custom_id == '8') {
+								echo vmText::_('COM_VM_STARTING_CURRENT').'-'.($product->customfieldsSorted["normal"][$keyElement]->customfield_value).'</br>';
+							}
 						}
+
+
+//						echo 'Артикул: '.($product->customfieldsSorted["normal"][23]->customfield_value) . '</br>';
+//						if (strlen($product->customfieldsSorted["normal"][4]->customfield_value)>0) {
+//							echo ($product->customfieldsSorted["normal"][4]->customfield_value.'А/ч ');
+//						}
 		
 						if (((int)$product->product_length > 0) &&
 							((int)$product->product_width > 0) &&
@@ -86,9 +97,12 @@ foreach ($viewData['products'] as $type => $products ) {
 							) {
 							echo '<span class="product-size">'.(int)$product->product_length.'x'.(int)$product->product_width.'x'.(int)$product->product_height .' мм'.'</span>';
 						}
-						//echo '</br>'.($product->customfieldsSorted["normal"][0]->customfield_params);
-						echo '</br>'. str_replace('#', ', ', $product->customfieldsSorted["normal"][0]->customfield_params);
+						//echo '</br>'. str_replace('#', ', ', $product->customfieldsSorted["normal"][0]->customfield_params);
 						?>
+						<span class="redPrice">
+						<?php // Нет в наличии
+						echo shopFunctionsF::renderVmSubLayout('stockhandle',array('product'=>$product)); ?>
+						</span>
 					</div>
 
 
@@ -100,11 +114,24 @@ foreach ($viewData['products'] as $type => $products ) {
 							<div class="clear"></div>
 						</div>
 					</div>
-					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый АКБ  
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
-<p class="skidka">-10%</p> <p class="redPrice"><span><?php echo round((($product->prices[product_price])*0.9), 2) ?></span> p.</p>
+						<p class="redPrice"> АКБ <span>
+							<?php 
+							if ($product->product_weight > 0) {
+							//echo (int)round(($product->product_weight)*100)/100;
+							// скидка за акб
+							echo ((int)round(($product->product_weight)*0.6*2.06*100)/100);
+							}
+							?>
+							</span> p.
+							</p>
+					<?php // {DST
+					/* <p class="skidka">-10%</p> <p class="redPrice"><span><?php echo round((($product->prices[product_price])*0.9), 2) ?></span> p.</p> */
+					// }DST
+					?>
 					</div>
-					<div class="textPrice col-md-12">Рассрочка: от <?php echo round((($product->prices[product_price])/3), 2) ?> р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:</br> от <?php echo round((($product->prices[product_price])/3), 2) ?> р./мес.</div>
 					
 				</div>
 				<?php //echo $rowsHeight[$row]['customs'] ?>

@@ -17,7 +17,7 @@ defined ('_JEXEC') or die('Restricted access');
 ?>
 <fieldset class="vm-fieldset-pricelist">
 <table
-	class="cart-summary table-striped hidden-xs"
+	class="cart-summary table-striped"
 	cellspacing="0"
 	cellpadding="0"
 	border="0"

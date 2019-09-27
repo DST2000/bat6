@@ -1504,7 +1504,7 @@ div[class*="-view"] .row{
   div.product {
     float: left;
     margin: auto;
-    width: 49%;
+    /*width: 49%;*/
   }
 
   div[class*="vm-col-"] {

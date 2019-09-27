@@ -169,9 +169,23 @@ if(vRequest::getInt('print',false)){ ?>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice discount">
 		
-			<span class="oldAkb">Скидка&nbsp;за&nbsp;старый&nbsp;АКБ</span>  
+			<span class="oldAkb">Скидка&nbsp;за&nbsp;старый</span>  
 			<br >
-			<span class="skidka">-10%</span> <span class="redPrice"><?php echo round((($this->product->prices[product_price])*0.9), 2) ?> p.</span>
+			<?php 
+			/*
+			<span class="skidka">-10%</span> <span class="redPrice"><?php echo round((($this->product->prices[product_price])*0.9), 2) ?> p.
+			*/?>
+			<span>&nbsp;АКБ&nbsp; 
+			<span class="redPrice">
+							<?php 
+							if ($this->product->product_weight > 0) {
+							//echo (int)round(($product->product_weight)*100)/100;
+							// скидка за акб
+							echo ((int)round(($this->product->product_weight)*0.6*2.06*100)/100);
+							}
+							?>
+							</span>&nbsp;p.
+			</span>
 					
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
@@ -295,9 +309,23 @@ if(vRequest::getInt('print',false)){ ?>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice discount">
 		
-			<span class="oldAkb">Скидка&nbsp;за&nbsp;старый&nbsp;АКБ</span>  
+			<span class="oldAkb">Скидка&nbsp;за&nbsp;старый</span>  
 			<br >
-			<span class="skidka">-10%</span> <span class="redPrice"><?php echo round((($this->product->prices[product_price])*0.9), 2) ?> p.</span>
+			<?php 
+			/*
+			<span class="skidka">-10%</span> <span class="redPrice"><?php echo round((($this->product->prices[product_price])*0.9), 2) ?> p.
+			*/?>
+			<span>&nbsp;АКБ&nbsp; 
+			<span class="redPrice">
+							<?php 
+							if ($this->product->product_weight > 0) {
+							//echo (int)round(($product->product_weight)*100)/100;
+							// скидка за акб
+							echo ((int)round(($this->product->product_weight)*0.6*2.06*100)/100);
+							}
+							?>
+							</span>&nbsp;p.
+			</span>
 					
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">

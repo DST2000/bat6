@@ -40,7 +40,7 @@ span.adr {
 /* > цены товаров */
 
 span.PricesalesPrice {
-	font-size: 1.5em !important;
+	font-size: 1.4em !important;
 	font-weight: bold;
 }
 
@@ -146,6 +146,25 @@ a.continue_link {
     width: 5%;
     text-align: center;
 }
+
+img.browseProductImage-horison {
+    height: 20px;
+}
+
+th.product-name {
+    width: 26% !important;
+}
+
+h2.horizon-name {
+	font-size: 1.0em;
+}
+
+.addtocart-horizon .addtocart-bar {
+    margin: 0;
+    padding: 0;
+    line-height: 2px;
+}
+
 
 /* > Переопределение virtuemart */
 

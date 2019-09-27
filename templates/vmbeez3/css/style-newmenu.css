@@ -179,6 +179,7 @@ ul.colorInvert > li:nth-child(even) {
 	padding: 10px 0 0 12px;
 }
 
+/*
 .productSmCart .prodText {
     font-size: 0.7rem;
     color: #727272;
@@ -186,6 +187,7 @@ ul.colorInvert > li:nth-child(even) {
     height: 55px;
     overflow: hidden;
 }
+*/
 
 .inc {
     margin: 10px;
@@ -223,7 +225,7 @@ span.vm-price-desc {
 
 span.redPrice {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: #E9522C;
 }
 
@@ -538,7 +540,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
     font-size: 0.8rem;
     color: #727272;
     line-height: 1.6;
-    height: 80px;
+    height: 100px;
     overflow: hidden;
 }
 
@@ -568,7 +570,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 .productSmCart .priceRight p.skidka, span.skidka {background:#E9522C; display:inline-block; color: #FFFFFF; padding: 1px 2px; margin-top:3px; margin-right: 5px; border-radius: 3px;} 
 .productSmCart .priceRight p.redPrice {color: #4B4B4B; float: right}
 
-.productSmCart .prodPriceBlock .textPrice {font-size: 10px; font-weight: bold}	
+.productSmCart .prodPriceBlock .textPrice {font-size: 12px; font-weight: bold}	
 
 
 .productSmCart .buttonAction {
