@@ -280,6 +280,11 @@ a.catalog-mobile {
 	font-size:1.2rem !important;
 }
 
+.owl-carousel .owl-item img {
+    display: inline !important;
+    width: auto !important;
+}
+
 /** }DST **/
 
 /**Блоки**************************************************/
@@ -505,7 +510,7 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
 #newProd .nav-tabs li {margin: 0px 10px;}
 #newProd .nav-tabs li.active a, #newProd .nav-tabs li:hover a {background:none; border: 2px solid #E9522C; color: #fff;}
 .nav-tabs>li>a {margin-right: 2px; line-height: 1.4; color: #FFFFFF; text-transform: uppercase; border: 2px solid transparent; border-radius: 25px; padding-left: 30px; padding-right: 30px;}
-#newProd .tab-pane .item {margin-top: 20px; margin-bottom: 20px; text-align: left; }
+#newProd .tab-pane .item {margin-top: 20px; margin-bottom: 20px;  }
 #newProd .tab-pane .item .inc {
     margin: 10px;
     padding: 10px 10px 20px 10px;

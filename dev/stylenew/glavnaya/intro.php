@@ -102,7 +102,7 @@
 <div class="row">
 
 <i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
-<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 22px;">15</strong>%</span>	
+<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 22px;">10</strong>%</span>	
 </i>
 <div class="col-xs-12">
 <h4 style="font-size: 1.4rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
@@ -111,59 +111,34 @@
 
 
 <div class="col-xs-4">
-<img src="images/prod/p_5.jpg" alt="" style="width:100%;">
+<img src="/images/virtuemart/product/resized/akom-6st-90-evro-efb-3-1_0x90.jpg" alt="akom 6st 90 evro efb 3 1" style="width:100%;">
 </div>
 
 
 
 <div class="col-xs-8 py-1" style="">
-<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Горячее предложение</strong>
-<h4 style="font-weight: bold">Varta Blue Dyn (Asia)</h4>
-<p>Краткое описание товара и технические характеристики</p> 
+<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Горячее предложение </br>Скидка 10%</strong>
+<h4 style="font-weight: bold; margin-bottom: 1.0em;"><a href="/catalog/akkumulators/akom/akom-6st-90-evro-efb-3">АКОМ 6СТ-90 Евро+EFB</a></h4>
+
+	<p>				
+	<div class="prodText">
+						
+						Ёмкость (А/ч)-90<br>Ток холодной прокрутки А(EN)-820<br><span class="product-size">353x175x190 мм</span>						<span class="redPrice">
+												</span>
+					</div>
+</p> 
 </div>
 
 
 <div class="col-xs-12">
-<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 10.08.19</button>
+<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 14.10.19</button>
 </div>
 
 </div>
 </div>
 
 
-               
-<!-- card -->
-<div class="item">
-<div class="row ">
 
-<i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
-<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 1.5rem; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 2rem;">15</strong>%</span>	
-</i>
-<div class="col-xs-12">
-<h4 style="font-size:1.4rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
-</div>
-<br style="clear:both">
-
-
-<div class="col-xs-4">
-<img src="images/prod/p_5.jpg" alt="" style="width:100%;">
-</div>
-
-
-
-<div class="col-xs-8 py-1" style="">
-<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Горячее предложение</strong>
-<h4 style="font-weight: bold">Varta Blue Dyn (Asia)</h4>
-<p>Краткое описание товара и технические характеристики</p> 
-</div>
-
-
-<div class="col-xs-12">
-<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 10.08.19</button>
-</div>
-
-</div>
-</div>
 
 
                 
