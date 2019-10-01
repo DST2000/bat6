@@ -151,7 +151,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 				<div class=" prodImgBg">
 
 						<a title="Kijo 12V 7.2Ah" href="/catalog/akkumulators/kijo-7-2-ah">
-							<img src="/components/com_virtuemart/assets/images/vmgeneral/filetype_jpg.png" alt="" class="browseProductImage">						</a>
+							<img src="/images/virtuemart/product/resized/kijo-7-2-ah_1_0x90.jpg" alt="kijo-7-2-ah_1" class="browseProductImage">						</a>
 
 				</div>
 
@@ -170,7 +170,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-"> 	<div class="product-price" id="productPrice2584" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">28,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">38,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
@@ -179,7 +179,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 														</span> p.
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 9.33 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 12.67 р./мес.</div>
 					
 				</div>
 				
@@ -248,8 +248,8 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 	<div class="inc">
 				<div class=" prodImgBg">
 
-						<a title="Optima YT R 2.7 38 Ah" href="/catalog/akkumulators/optima/optima-yt-r-2-7-38-ah-2">
-							<img src="/components/com_virtuemart/assets/images/vmgeneral/noimage.gif" alt="Не настроено изображение " class="browseProductImage">						</a>
+						<a title="Optima YT S 4.2 55 Ah" href="/catalog/akkumulators/optima/optima-yt-s-4-2-55-ah-2">
+							<img src="/images/virtuemart/product/resized/optima-yt-s-4-2-55-ah-2-1_0x90.jpg" alt="optima yt s 4 2 55 ah 2 1" class="browseProductImage">						</a>
 
 				</div>
 
@@ -257,34 +257,32 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 
 
 					<div class="prodTitle">
-						<a href="/catalog/akkumulators/optima/optima-yt-r-2-7-38-ah-2">Optima YT R 2.7 38 Ah</a>											</div>
+						<a href="/catalog/akkumulators/optima/optima-yt-s-4-2-55-ah-2">Optima YT S 4.2 55 Ah</a>											</div>
 					<div class="prodText">
 						
-						Ёмкость (А/ч)-38<br>Ток холодной прокрутки А(EN)-460<br><span class="product-size">237x129x227 мм</span>						<span class="redPrice">
-								<div class="availability">
-			Нет в наличии		</div>
-							</span>
+						Ёмкость (А/ч)-55<br>Ток холодной прокрутки А(EN)-765<br><span class="product-size">254x172x200 мм</span>						<span class="redPrice">
+												</span>
 					</div>
 
 
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
-						<div class="vm3pr-"> 	<div class="product-price" id="productPrice216" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">400,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+						<div class="vm3pr-"> 	<div class="product-price" id="productPrice221" data-vm="product-prices"> 
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">535,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
-							15.45							</span> p.
+							25.09							</span> p.
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 133.33 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 178.33 р./мес.</div>
 					
 				</div>
 				
 				<div class="details-button">
-					<a href="/catalog/akkumulators/optima/optima-yt-r-2-7-38-ah-2" title="Optima YT R 2.7 38 Ah" class="buttonAction">Описание товара</a>				</div>
+					<a href="/catalog/akkumulators/optima/optima-yt-s-4-2-55-ah-2" title="Optima YT S 4.2 55 Ah" class="buttonAction">Описание товара</a>				</div>
 						</div>
 </div>
 <!--//-------> 

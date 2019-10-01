@@ -447,7 +447,7 @@
 <p><i class="fas fa-phone-square"></i><span>
 Оптовым покупателям<br></span>
 <a href="tel:+375175106060">+375 17 510 60 60</a><br>
-<a href="tel:+375293106010">+375 33 351 47 47</a></p>
+<a href="tel:+375293106010">+375 29 310-60-10</a></p>
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4 hidden-sm topCard text-right">
