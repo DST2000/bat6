@@ -199,6 +199,7 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/avtofan/">Автофан</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Аком</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner/">BANNER</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta/">VARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vostok/">Восток</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/bravo/">Bravo</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt/">BLT</a></li>
@@ -214,10 +215,10 @@
 
 <div id="toggleAkb" class="collapse">
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/rusbat/">РУСБАТ</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/rusbat-2">РУСБАТ + </a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse/">SECURITY FORCE</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax/">TENAX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/topla/">TOPLA</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta/">VARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega/">VEGA</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx/">WINMAXX</a></li>
 </div>

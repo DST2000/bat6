@@ -382,7 +382,7 @@ class cftools
                 $img_url = $media->file_url_thumb;
                 $img_path = JPATH_ROOT . DIRECTORY_SEPARATOR . $img_url;
                 if (! file_exists($img_path))
-                    $img_url = JURI::base() . 'components/com_virtuemart/assets/images/vmgeneral/' . VmConfig::get('no_image_found', 'noimage.gif');
+                    $img_url = JURI::base() . 'components/com_virtuemart/assets/images/vmgeneral/' . VmConfig::get('no_image_found', '_noimage.gif');
                 else {
                     $img_url = JURI::base() . $img_url;
                 }

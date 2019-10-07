@@ -178,10 +178,10 @@ if(vRequest::getInt('print',false)){ ?>
 			<span>&nbsp;АКБ&nbsp; 
 			<span class="redPrice">
 							<?php 
-							if ($this->product->product_weight > 0) {
+							if (($this->product->product_weight > 0) && ((int)$this->product->product_length > 0)){
 							//echo (int)round(($product->product_weight)*100)/100;
 							// скидка за акб
-							echo ((int)round(($this->product->product_weight)*0.6*2.06*100)/100);
+							echo ((int)round(($this->product->product_weight)*0.6*2.06));
 							}
 							?>
 							</span>&nbsp;p.
@@ -318,10 +318,10 @@ if(vRequest::getInt('print',false)){ ?>
 			<span>&nbsp;АКБ&nbsp; 
 			<span class="redPrice">
 							<?php 
-							if ($this->product->product_weight > 0) {
+							if (($this->product->product_weight > 0) && ((int)$this->product->product_length > 0)){
 							//echo (int)round(($product->product_weight)*100)/100;
 							// скидка за акб
-							echo ((int)round(($this->product->product_weight)*0.6*2.06*100)/100);
+							echo ((int)round(($this->product->product_weight)*0.6*2.06));
 							}
 							?>
 							</span>&nbsp;p.

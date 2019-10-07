@@ -118,10 +118,10 @@ foreach ($viewData['products'] as $type => $products ) {
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
 							<?php 
-							if ($product->product_weight > 0) {
+							if (($product->product_weight > 0) && ((int)$product->product_length > 0)) {
 							//echo (int)round(($product->product_weight)*100)/100;
 							// скидка за акб
-							echo ((int)round(($product->product_weight)*0.6*2.06*100)/100);
+							echo ((int)round(($product->product_weight)*0.6*2.06));
 							}
 							?>
 							</span> p.

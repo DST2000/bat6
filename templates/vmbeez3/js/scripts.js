@@ -37,7 +37,7 @@ jQuery(function($){
 				margin:0,
 				nav: true,
 				center: true,
-				autoplay: true,
+				autoplay: false,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -64,7 +64,7 @@ jQuery(function($){
 				margin: 0,
 				nav: true,
 				center: true,
-				autoplay: true,
+				autoplay: false,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -91,7 +91,7 @@ jQuery(function($){
 				margin: 20,
 				nav: true,
 				center: true,
-				autoplay: true,
+				autoplay: false,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -121,7 +121,7 @@ jQuery(function($){
 				margin: 0,
 				nav: true,
 				center: true,
-				autoplay: true,
+				autoplay: false,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
