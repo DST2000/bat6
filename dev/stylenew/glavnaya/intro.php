@@ -17,7 +17,7 @@
 
 <div class="row">
 <div class="col-xs-12 col-7 slideText">
-<h2><a href="/catalog/akkumulators/">Аккумуляторы от первого поставщика</a><br>
+<h2><a href="/roznichnaya-set?view=article&amp;id=39&amp;catid=17">Аккумуляторы от первого поставщика</a><br>
 20 лет продаж</h2>
 <hr>
 <p>Быстро
@@ -36,7 +36,7 @@
 <div class="col-xs-12 col-7 slideText">
 <img src="images/logo/logo-q8.png" alt="">
 <h2>
-<a href="/catalog/q8/">Автомобильные масла из Бельгии</a></h2>
+<a href="/roznichnaya-set?view=article&amp;id=40&amp;catid=17">Автомобильные масла из Бельгии</a></h2>
 <hr>
 <p>Гарантия
 оригинального качества</p>
@@ -131,7 +131,7 @@
 
 
 <div class="col-xs-12">
-<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 14.10.19</button>
+<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 20.10.19</button>
 </div>
 
 </div>

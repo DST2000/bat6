@@ -624,8 +624,14 @@ a#user-icon, a#cart-icon, a#tel-icon {border: 1px solid #E9522C; float: right; w
     background: #fff url(/images/menu/dostavka.jpg) no-repeat bottom / contain ;
 }
 
+#bottomInfo .bannerBlock .eco {
+    background: #fff url(/images/ads/eco_recycling_2.jpg) no-repeat bottom / contain ;
+}
+
 #bottomInfo .bannerBlock .carts,
 #bottomInfo .bannerBlock .deliver {padding-bottom: 180px;}
+
+
 
 /*****************************************/
 

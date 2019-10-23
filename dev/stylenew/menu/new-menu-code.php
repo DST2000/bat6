@@ -211,6 +211,7 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima/">Optima</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/red-energy/">Red Energy</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh/">REO NI-MH</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft/">Startcraft</a></li>
 <a data-toggle="collapse" data-target="#toggleAkb" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleAkb" class="collapse">
@@ -230,21 +231,21 @@
       
                 
 <ul class="colorInvert col-sm-7 col-lg-5" style="list-style: none; padding-left: 0">  
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3133">Аккумуляторы для легковых автомобилей</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3138">Аккумуляторы для азиатских авто</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3131">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3136">Аккумуляторы для грузовых автомобилей и спецтехники</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3134">Аккумуляторы для микроавтобусов и фургонов</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3139">Аккумуляторы для ИБП</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3137">Аккумуляторы для Start Stop (AGM)</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313530">Аккумуляторы для легковых автомобилей</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[1]=313536">Аккумуляторы для азиатских авто</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313439">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313534">Аккумуляторы для грузовых автомобилей и спецтехники</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313531">Аккумуляторы для микроавтобусов и фургонов</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313537">Аккумуляторы для ИБП</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313535">Аккумуляторы для Start Stop (AGM)</a></li>
 
 
 <a data-toggle="collapse" data-target="#toggleAkbType" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleAkbType" class="collapse">
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3132">АКБ для поломоечных машин, погрузчиков</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=3135">Аккумуляторы для лодок, автодомов</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313331">ВВБ для гибридный автомобилей </a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313532">АКБ для поломоечных машин, погрузчиков</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313533">Аккумуляторы для лодок, автодомов</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[1]=313636">ВВБ для гибридный автомобилей </a></li>
 </div>
 
 

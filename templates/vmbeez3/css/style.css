@@ -768,3 +768,8 @@ div#fancybox-wrap {
 
 /* > fancybox-wrap */
 
+/* < материалы */
+article.item-page >p {
+    line-height: 2.0em;
+}
+/* > материалы */

@@ -109,7 +109,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 						<a href="/catalog/oils/q8/excel-5w40-4l">Excel 5W40, (4л)</a>											</div>
 					<div class="prodText">
 						
-						Ёмкость (А/ч)-<br>Ток холодной прокрутки А(EN)-<br>						<span class="redPrice">
+						<br><br>						<span class="redPrice">
 												</span>
 					</div>
 
@@ -123,7 +123,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
-							4.62							</span> p.
+														</span> 
 							</p>
 										</div>
 					<div class="textPrice col-md-12">Рассрочка:<br> от 15.33 р./мес.</div>
@@ -212,7 +212,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 						<a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/zarjadnoe-ustrojstvo-vympel-57-rf-avtomat-0-20a-7-4-18v-zhk-indikator-2">Зарядное устройство Вымпел 57/РФ (автомат,0-20А, 7.4-18V, жк- индикатор)</a>											</div>
 					<div class="prodText">
 						
-						Ёмкость (А/ч)-<br>Ток холодной прокрутки А(EN)-<br>						<span class="redPrice">
+						<br><br>						<span class="redPrice">
 												</span>
 					</div>
 
@@ -226,7 +226,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
-							1.11							</span> p.
+													</span> 
 							</p>
 										</div>
 					<div class="textPrice col-md-12">Рассрочка:<br> от 36.67 р./мес.</div>
