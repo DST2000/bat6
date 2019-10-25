@@ -196,12 +196,10 @@
 <div id="akb" class="">
 <ul class="colorInvert col-sm-5 col-lg-7" style="list-style: none; padding: 0; padding-bottom: 10px;">
 
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/avtofan/">Автофан</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Аком</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Akom</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner/">BANNER</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta/">VARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vostok/">Восток</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/bravo/">Bravo</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt/">BLT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot/">Champion Pilot</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat/">CтартБат</a></li>
@@ -215,13 +213,12 @@
 <a data-toggle="collapse" data-target="#toggleAkb" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleAkb" class="collapse">
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/rusbat/">РУСБАТ</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/rusbat-2">РУСБАТ + </a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse/">SECURITY FORCE</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax/">TENAX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/topla/">TOPLA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega/">VEGA</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx/">WINMAXX</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akkumulators/">Открыть все аккумуляторы</a></li>
 </div>
 
 
