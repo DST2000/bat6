@@ -43,6 +43,31 @@ if(vRequest::getInt('print',false)){ ?>
 		<div class="product-neighbours">
 		
 		<?php
+		// {DST
+//		echo '<pre>';
+//		var_dump($this->product->categoryItem[0]);
+//		echo '</pre>';
+//		stop();
+		$prev_link = JRoute::_('index.php?option=com_virtuemart&view=category&virtuemart_category_id=' . $this->product->categoryItem[0]["virtuemart_category_id"]) ;
+		echo JHtml::_('link', $prev_link, $this->product->categoryItem[0]["category_name"] , array('rel'=>'prev', 'class' => 'previous-page','data-dynamic-update' => '0'));
+		
+		
+		
+		
+		if ($this->product->virtuemart_category_id) {
+			$next_link =  JRoute::_('index.php?option=com_virtuemart&view=category&virtuemart_category_id='.$this->product->virtuemart_category_id, FALSE);
+			$categoryName = vmText::_($this->product->category_name) ;
+		} else {
+			$next_link =  JRoute::_('index.php?option=com_virtuemart');
+			$categoryName = vmText::_('COM_VIRTUEMART_SHOP_HOME') ;
+		}
+		$next_link = JRoute::_('index.php?option=com_virtuemart&view=category&virtuemart_category_id=' . $this->product->categoryItem[0]["virtuemart_category_id"]) ;
+		echo JHtml::_('link', $prev_link, $categoryName , array('rel'=>'next', 'class' => 'next-page','data-dynamic-update' => '0'));
+		// }DST
+		?>
+			
+		<?php
+		/*
 		if (!empty($this->product->neighbours ['previous'][0])) {
 		$prev_link = JRoute::_('index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=' . $this->product->neighbours ['previous'][0] ['virtuemart_product_id'] . '&virtuemart_category_id=' . $this->product->virtuemart_category_id, FALSE);
 		echo JHtml::_('link', $prev_link, $this->product->neighbours ['previous'][0]
@@ -52,6 +77,7 @@ if(vRequest::getInt('print',false)){ ?>
 		$next_link = JRoute::_('index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=' . $this->product->neighbours ['next'][0] ['virtuemart_product_id'] . '&virtuemart_category_id=' . $this->product->virtuemart_category_id, FALSE);
 		echo JHtml::_('link', $next_link, $this->product->neighbours ['next'][0] ['product_name'], array('rel'=>'next','class' => 'next-page','data-dynamic-update' => '1'));
 		}
+		*/
 		?>
 		<div class="clear"></div>
 		</div>
@@ -59,6 +85,8 @@ if(vRequest::getInt('print',false)){ ?>
 	?>
 
 	<?php // Back To Category Button
+	// {DST
+	/*
 	if ($this->product->virtuemart_category_id) {
 		$catURL =  JRoute::_('index.php?option=com_virtuemart&view=category&virtuemart_category_id='.$this->product->virtuemart_category_id, FALSE);
 		$categoryName = vmText::_($this->product->category_name) ;
@@ -66,11 +94,14 @@ if(vRequest::getInt('print',false)){ ?>
 		$catURL =  JRoute::_('index.php?option=com_virtuemart');
 		$categoryName = vmText::_('COM_VIRTUEMART_SHOP_HOME') ;
 	}
+	
 	?>
 	<div class="back-to-category">
 		<a href="<?php echo $catURL ?>" class="product-details" title="<?php echo $categoryName ?>"><?php echo vmText::sprintf('COM_VIRTUEMART_CATEGORY_BACK_TO',$categoryName) ?></a>
 	</div>
-	
+	*/
+	// }DST
+	?>
 	<div class="clear"></div>
 	
 	<div class="col-md-12 col-lg-4">

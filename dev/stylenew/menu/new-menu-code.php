@@ -210,16 +210,12 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/red-energy/">Red Energy</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh/">REO NI-MH</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft/">Startcraft</a></li>
-<a data-toggle="collapse" data-target="#toggleAkb" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
-
-<div id="toggleAkb" class="collapse">
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse/">SECURITY FORCE</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax/">TENAX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/topla/">TOPLA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega/">VEGA</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx/">WINMAXX</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akkumulators/">Открыть все аккумуляторы</a></li>
-</div>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akkumulators/" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
 
 
 <br style="clear:both;">
@@ -235,8 +231,11 @@
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313531">Аккумуляторы для микроавтобусов и фургонов</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313537">Аккумуляторы для ИБП</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313535">Аккумуляторы для Start Stop (AGM)</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313532">АКБ для поломоечных машин, погрузчиков</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313533">Аккумуляторы для лодок, автодомов</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[1]=313636">ВВБ для гибридный автомобилей </a></li>
 
-
+<?php /*
 <a data-toggle="collapse" data-target="#toggleAkbType" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleAkbType" class="collapse">
@@ -244,7 +243,7 @@
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313533">Аккумуляторы для лодок, автодомов</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[1]=313636">ВВБ для гибридный автомобилей </a></li>
 </div>
-
+*/ ?>
 
 <br style="clear:both;">
 <br>
@@ -268,7 +267,7 @@
 <li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3330">10W-30</a></li>
 <li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3430">10W-40</a></li>
 <li><a href="/catalog/filter/q8/?custom_f_320[0]=3735572d3830">75W-80</a></li>
-<a data-toggle="collapse" data-target="#toggleOilType" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
+<a data-toggle="collapse" data-target="#toggleOilType" style="padding:2px 0px; border: 0; color: #000; border-radius: 1.8px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleOilType" class="collapse">
 <li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3530">10W-50</a></li>
@@ -289,7 +288,9 @@
 <li><a href="/catalog/масла-для-мото-и-садовой-техники/">Масла для мото и садовой техники</a></li>
 <li><a href="/catalog/масла-для-газовых-двигателей/">Масла для газовых двигателей</a></li>
 <li><a href="/catalog/трансмиссионные-масла,-смазки,-технические-жидкости/">Трансмиссионные масла, смазки, технические жидкости</a></li>
-<a data-toggle="collapse" data-target="#toggleOil" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/oils" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
+<?php /*
+	<a data-toggle="collapse" data-target="#toggleOil" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleOil" class="collapse">
 <li><a href="/catalog/gnv/">GNV</a></li>
@@ -300,7 +301,7 @@
 <li><a href="catalog.html">Трансмиссионные масла, смазки, технические жидкости</a></li>
 -->
 </div>
-
+*/ ?>
 
 
 <br style="clear:both;">

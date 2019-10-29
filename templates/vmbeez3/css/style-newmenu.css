@@ -835,7 +835,8 @@ header a.topTelDub img {width: 100%;}
 	
 /**/
 header a.navbar-catalog-button {width: auto; color: #FFFFFF; text-decoration: none; background: #E9522C; float: left; padding: 18px;}
-header a.navbar-catalog-button span::before {content:"☰" }
+header a.navbar-catalog-button[aria-expanded="false"] span::before {content:"☰" }
+header a.navbar-catalog-button[aria-expanded="true"] span::before {content:"X" }
 header a.navbar-catalog-button span::after {content:"" }	
 	
 	
