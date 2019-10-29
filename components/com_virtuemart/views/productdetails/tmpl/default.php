@@ -61,8 +61,8 @@ if(vRequest::getInt('print',false)){ ?>
 			$next_link =  JRoute::_('index.php?option=com_virtuemart');
 			$categoryName = vmText::_('COM_VIRTUEMART_SHOP_HOME') ;
 		}
-		$next_link = JRoute::_('index.php?option=com_virtuemart&view=category&virtuemart_category_id=' . $this->product->categoryItem[0]["virtuemart_category_id"]) ;
-		echo JHtml::_('link', $prev_link, $categoryName , array('rel'=>'next', 'class' => 'next-page','data-dynamic-update' => '0'));
+		$next_link = JRoute::_($next_link) ;
+		echo JHtml::_('link', $next_link, $categoryName , array('rel'=>'next', 'class' => 'next-page','data-dynamic-update' => '0'));
 		// }DST
 		?>
 			
