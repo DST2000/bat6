@@ -772,4 +772,24 @@ div#fancybox-wrap {
 article.item-page >p {
     line-height: 2.0em;
 }
+
+.article-info dd, span.list-date {
+	color: #fff;
+    background-color: red;
+}
+
+span.intro {
+    line-height: 1.6em;
+}
+
+
+.list-block {
+	padding-bottom: 1.5em;
+    clear: both;
+
+}
+
+span.intro>p:last-child {
+    display: inline;
+}
 /* > материалы */

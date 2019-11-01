@@ -64,6 +64,42 @@ $listDirn = $this->escape($this->state->get('list.direction'));
 
 	<div class="clr"></div>
 
+	<?php 
+	// {DST
+	?>
+	<div class="category">	
+		<?php foreach ($this->items as $i => &$article) : ?>
+			<div class="list-block">
+			<span class="list-date">
+				<?php
+					echo JHtml::_(
+							'date', $article->displayDate, $this->escape(
+									$this->params->get('date_format', JText::_('DATE_FORMAT_LC3'))
+							)
+					);
+				?>
+			</span>
+			<div class="list-title">
+				<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($article->slug, $article->catid, $article->language)); ?>">
+							<h2><?php echo $this->escape($article->title); ?></h2>	
+					<span class="intro">
+					<?php echo ($article->introtext); ?>
+					</span>
+					<span>... далее</span>
+				</a>
+			</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+	<?php 
+	// }DST
+	?>
+	
+	<?php 
+	// {DST
+	if (false) :
+	?>
+	
 	<table class="category">
 		<?php if ($this->params->get('show_headings')) :?>
 		<thead>
@@ -163,6 +199,10 @@ $listDirn = $this->escape($this->state->get('list.direction'));
 			<?php endforeach; ?>
 		</tbody>
 	</table>
+	<?php 
+	endif;
+	// }DST
+	?>
 <?php endif; ?>
 
 <?php // Code to add a link to submit an article. ?>

@@ -63,7 +63,7 @@
   
 <!----->      
 <ul class="nav navbar-nav hidden-xs">                            
-        <li><a href="/component/content/category/10-news?Itemid=0">Новости</a></li>
+        <li><a href="/news?start=0">Новости</a></li>
         <li><a href="/roznichnaya-set">Доставка</a></li>
         <li><a href="/contacts">О компании</a></li>
         <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
@@ -136,7 +136,7 @@
 
 <!----->      
 <ul class="hidden-md hidden-lg">                            
-        <li><a href="/component/content/category/10-news?Itemid=0">Новости</a></li>
+        <li><a href="/news?start=0">Новости</a></li>
         <li><a href="/roznichnaya-set">Доставка</a></li>
         <li><a href="/contacts">О компании</a></li>
         <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>

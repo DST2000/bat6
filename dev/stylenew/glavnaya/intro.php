@@ -76,7 +76,7 @@
 <!--banner1-------------------------------------->                         
 <div class="p-2" style="height: 189px; overflow: hidden; border-bottom:1px solid #ebebeb; text-align: center; vertical-align: middle;">
 
-<a href="/component/content/category/11-aktsii-skidki?Itemid=0" class="col-sm-12 col-md-6 bg-red" style="min-height: 100%; display: inline-block; color: #FFFFFF; text-transform: uppercase">
+<a href="/aktsii-skidki" class="col-sm-12 col-md-6 bg-red" style="min-height: 100%; display: inline-block; color: #FFFFFF; text-transform: uppercase">
 <span style="display: block; min-height: 100%; position: absolute; top: 75%; bottom: 0; left: 0; right: 0; margin: auto;">
 Наши<br>
 Акции
