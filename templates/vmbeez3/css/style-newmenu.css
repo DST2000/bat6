@@ -21,7 +21,7 @@ html {
     background-color: #f5f5f5;
 }
 	
-* {
+#header > * {
     -moz-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
