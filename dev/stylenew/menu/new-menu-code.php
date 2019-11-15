@@ -199,7 +199,6 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Akom</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner/">BANNER</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta/">VARTA</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vostok/">Восток</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt/">BLT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot/">Champion Pilot</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat/">CтартБат</a></li>
@@ -212,7 +211,6 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft/">Startcraft</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse/">SECURITY FORCE</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax/">TENAX</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/topla/">TOPLA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega/">VEGA</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx/">WINMAXX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akkumulators/" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>

@@ -129,10 +129,12 @@ foreach ($viewData['products'] as $type => $products ) {
 							?>
 							</span> p.
 							</p>
+					</div>
 					<?php // {DST
-					/* <p class="skidka">-10%</p> <p class="redPrice"><span><?php echo round((($product->prices[product_price])*0.9), 2) ?></span> p.</p> */
+					else:
 					// }DST
 					?>
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">
 					</div>
 					<?php endif; ?>
 					<div class="textPrice col-md-12">Рассрочка:</br> от <?php echo round((($product->prices[product_price])/3), 2) ?> р./мес.</div>

@@ -79,7 +79,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
-							21.63							</span> p.
+							19							</span> p.
 							</p>
 										</div>
 					<div class="textPrice col-md-12">Рассрочка:<br> от 55 р./мес.</div>
@@ -120,9 +120,9 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">46,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
-					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right"> 
 <br style="clear: both">
-						<p class="redPrice"> АКБ <span>
+						<p class="redPrice">  <span>
 														</span> 
 							</p>
 										</div>
@@ -223,9 +223,9 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">110,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
-					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right"> 
 <br style="clear: both">
-						<p class="redPrice"> АКБ <span>
+						<p class="redPrice">  <span>
 													</span> 
 							</p>
 										</div>
@@ -274,7 +274,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
-							25.09							</span> p.
+							22							</span> p.
 							</p>
 										</div>
 					<div class="textPrice col-md-12">Рассрочка:<br> от 178.33 р./мес.</div>

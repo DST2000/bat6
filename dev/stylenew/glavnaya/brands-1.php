@@ -36,9 +36,11 @@
 
             <div class="col-md-3 row-flex">
               <div class="mb-4 blockBorder">
+				  <a href="/brands/47-optima">
                 <img src="images/logo/c4.png" alt=""/>
                 <p>Первоклассные аккумуляторы OPTIMA AGM. Питают все, что у Вас есть и даже больше. RED TOP, YELLOW TOP,
                     BLUE TOP</p>
+				</a>
               </div>
             </div>
 </div>
