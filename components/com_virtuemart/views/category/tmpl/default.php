@@ -98,7 +98,7 @@ if ($this->showcategory and empty($this->keyword)) {
 }
 		// {DST
 	// Show child categories
-		if(!empty($this->orderByList) and FALSE) { ?>
+		if(!empty($this->orderByList) ) { ?>
 		<div class="orderby-displaynumber <?php 
 					// {DST
 					if ($this->showcategory) {
@@ -109,9 +109,9 @@ if ($this->showcategory and empty($this->keyword)) {
 					// }DST
 					?> ">
 			<?php // {DST ?>
-			<!--
+			
 			<div class="floatleft vm-order-list">
-				<?php //echo $this->orderByList['orderby']; ?>
+				<?php echo $this->orderByList['orderby']; ?>
 				<?php //echo $this->orderByList['manufacturer']; ?>
 			</div>
 			<div class="vm-pagination vm-pagination-top">
@@ -119,7 +119,7 @@ if ($this->showcategory and empty($this->keyword)) {
 				<span class="vm-page-counter"><?php //echo $this->vmPagination->getPagesCounter (); ?></span>
 			</div>
 			<div class="floatright display-number"><?php //echo $this->vmPagination->getResultsCounter ();?><br/><?php //echo $this->vmPagination->getLimitBox ($this->category->limit_list_step); ?></div>
-			-->
+			
 			<?php // }DST ?>
 			<div class="clear"></div>
 		</div> <!-- end of orderby-displaynumber -->

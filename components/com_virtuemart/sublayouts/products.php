@@ -114,6 +114,9 @@ foreach ($viewData['products'] as $type => $products ) {
 							<div class="clear"></div>
 						</div>
 					</div>
+					<?php
+					if (($product->product_weight > 0) && ((int)$product->product_length > 0)) :
+					?>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
@@ -131,6 +134,7 @@ foreach ($viewData['products'] as $type => $products ) {
 					// }DST
 					?>
 					</div>
+					<?php endif; ?>
 					<div class="textPrice col-md-12">Рассрочка:</br> от <?php echo round((($product->prices[product_price])/3), 2) ?> р./мес.</div>
 					
 				</div>

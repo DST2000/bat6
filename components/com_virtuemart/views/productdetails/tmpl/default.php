@@ -199,7 +199,9 @@ if(vRequest::getInt('print',false)){ ?>
 			</div>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice discount">
-		
+		<?php
+		if (($this->product->product_weight > 0) && ((int)$this->product->product_length > 0)) :
+		?>
 			<span class="oldAkb">Скидка&nbsp;за&nbsp;старый</span>  
 			<br >
 			<?php 
@@ -217,7 +219,7 @@ if(vRequest::getInt('print',false)){ ?>
 							?>
 							</span>&nbsp;p.
 			</span>
-					
+		<?php endif; ?>			
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
 			<span class="dolg">Рассрочка: </br>от <span class="boldPrice"><?php echo round((($this->product->prices[product_price])/3), 2) ?></span> р./мес.</span>
@@ -229,7 +231,11 @@ if(vRequest::getInt('print',false)){ ?>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
 			<label class="form-check-label" style="font-weight: normal">
+				<?php
+				if (($this->product->product_weight > 0) && ((int)$this->product->product_length > 0)) :
+				?>
 				<input class="form-check-input" type="checkbox"> Сдать аккумулятор
+				<?php endif; ?>
 			</label>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
@@ -339,7 +345,9 @@ if(vRequest::getInt('print',false)){ ?>
 			</div>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice discount">
-		
+		<?php
+		if  (($this->product->product_weight > 0) && ((int)$this->product->product_length > 0)) :
+		?>
 			<span class="oldAkb">Скидка&nbsp;за&nbsp;старый</span>  
 			<br >
 			<?php 
@@ -357,7 +365,7 @@ if(vRequest::getInt('print',false)){ ?>
 							?>
 							</span>&nbsp;p.
 			</span>
-					
+		<?php endif; ?>		
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
 			<span class="dolg">Рассрочка: </br>от <span class="boldPrice"><?php echo round((($this->product->prices[product_price])/3), 2) ?></span> р./мес.</span>
@@ -369,7 +377,11 @@ if(vRequest::getInt('print',false)){ ?>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
 			<label class="form-check-label" style="font-weight: normal">
+				<?php
+				if (($this->product->product_weight > 0) && ((int)$this->product->product_length > 0)) :
+				?>
 				<input class="form-check-input" type="checkbox"> Сдать аккумулятор
+				<?php endif; ?>
 			</label>
 		</div>
 		<div class="col-md-2 col-xs-6 prodPrice">
