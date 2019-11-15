@@ -64,7 +64,7 @@
 <!----->      
 <ul class="nav navbar-nav hidden-xs">                            
         <li><a href="/news?start=0">Новости</a></li>
-        <li><a href="/roznichnaya-set">Доставка</a></li>
+        <li><a href="/roznichnym-pokupatelyam/46-dostavka">Доставка</a></li>
         <li><a href="/contacts">О компании</a></li>
         <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
         <li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>

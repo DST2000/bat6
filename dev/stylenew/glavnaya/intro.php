@@ -131,7 +131,7 @@
 
 
 <div class="col-xs-12">
-<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 03.11.19</button>
+<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 25.11.19</button>
 </div>
 
 </div>

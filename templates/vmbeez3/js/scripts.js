@@ -37,7 +37,7 @@ jQuery(function($){
 				margin:0,
 				nav: true,
 				center: true,
-				autoplay: false,
+				autoplay: true,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -46,13 +46,13 @@ jQuery(function($){
 					0: {
 						items: 1
 					},
-					600: {
+					4000: {
 						items: 1
 					},
-					750: {
+					8000: {
 						items: 1
 					},
-					1000: {
+					12000: {
 						items: 1
 					}
 				}
@@ -64,7 +64,7 @@ jQuery(function($){
 				margin: 0,
 				nav: true,
 				center: true,
-				autoplay: false,
+				autoplay: true,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -91,7 +91,7 @@ jQuery(function($){
 				margin: 20,
 				nav: true,
 				center: true,
-				autoplay: false,
+				autoplay: true,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -121,7 +121,7 @@ jQuery(function($){
 				margin: 0,
 				nav: true,
 				center: true,
-				autoplay: false,
+				autoplay: true,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
@@ -141,14 +141,14 @@ jQuery(function($){
 					}
 				}
 			});	
-	$(document).ready(function() {
+//	$(document).ready(function() {
 //		var textcart = $("input.total_products_from_cart").html();
 //		if (textcart.length == 0 ) {
 //		textcart = "111";
 //		}
 //		$("span.total_products_from_cart").html(textcart);
 //		$("span.cart-order-quantity").html(textcart);
-	}
-	);
+//	}
+//	);
 	
 });
