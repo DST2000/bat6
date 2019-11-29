@@ -111,19 +111,19 @@
 
 
 <div class="col-xs-4">
-<img src="/images/virtuemart/product/resized/rusbat-6st-100-evro-1_0x90.jpg" alt="rusbat-6st-100-evro-1" style="width:100%;">
+<img src="/images/virtuemart/product/resized/rusbat-6st-75-evro-2-1_0x90.jpg" alt="rusbat-6st-75-evro-2-1" style="width:100%;">
 </div>
 
 
 
 <div class="col-xs-8 py-1" style="">
 <strong style="color: #fff; background: #E9522C; padding:1px 2px;">Горячее предложение </br>Скидка 10%</strong>
-<h4 style="font-weight: bold; margin-bottom: 1.0em;"><a href="/catalog/akkumulators/akom/rusbat-6st-100-evro">РУСБАТ+ 6СТ-100 Евро</a></h4>
+<h4 style="font-weight: bold; margin-bottom: 1.0em;"><a href="/catalog/akkumulators/akom/rusbat-6st-75-evro-2">РУСБАТ+ 6СТ-75 Евро</a></h4>
 
 	<p>				
 	<div class="prodText">
 						
-						Ёмкость (А/ч)-100<br>Ток холодной прокрутки А(EN)-830<br><span class="product-size">353x175x190 мм</span>						<span class="redPrice">
+						Ёмкость (А/ч)-75<br>Ток холодной прокрутки А(EN)-680<br><span class="product-size">278x175x190 мм</span>						<span class="redPrice">
 												</span>
 					</div>
 </p> 
@@ -131,7 +131,7 @@
 
 
 <div class="col-xs-12">
-<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 25.11.19</button>
+<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 31.12.19</button>
 </div>
 
 </div>

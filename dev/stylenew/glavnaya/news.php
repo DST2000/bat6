@@ -7,8 +7,8 @@
 <div class="row">
 <div class="blockBorder inc-m-15">
 <div class="col-md-3 py-4 text-center">
-<a href="/component/content/category/10-news?Itemid=0" class="title">Наши новости</a><br>
-<a href="/component/content/category/10-news?Itemid=0" class="button">Перейти</a>
+<a href="/news?start=0" class="title">Наши новости</a><br>
+<a href="/news?start=0" class="button">Перейти</a>
 </div>
 
 <div class="col-md-3 py-4">

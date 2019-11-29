@@ -157,11 +157,11 @@
 <a href="/sdat-staryj-akkumulyator" class="btn btn-primary center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms"  style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top:-50px; font-size:0.6rem;">Сдать старый аккумулятор</a>
 
 </h3>
-<div class="colorInvert col-sm-5 col-lg-7">
+<div class="colorInvert col-sm-5 col-lg-5">
 	<span class="h3-span-subheader" >По производителю</span>
 	<hr class="span-line">
 </div>	
-<div class="colorInvert col-sm-7 col-lg-5">
+<div class="colorInvert col-sm-7 col-lg-7">
 	<span class="h3-span-subheader" >По назначению</span>
 	<hr class="span-line">	
 </div>
@@ -194,7 +194,7 @@
 
 
 <div id="akb" class="">
-<ul class="colorInvert col-sm-5 col-lg-7" style="list-style: none; padding: 0; padding-bottom: 10px;">
+<ul class="colorInvert col-sm-5 col-lg-5" style="list-style: none; padding: 15px 0 10px 0;">
 
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Akom</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner/">BANNER</a></li>
@@ -221,7 +221,7 @@
 </ul>
       
                 
-<ul class="colorInvert col-sm-7 col-lg-5" style="list-style: none; padding-left: 0">  
+<ul class="colorInvert col-sm-7 col-lg-7" style="list-style: none; padding-left: 0; padding-top: 15px;">  
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313530">Аккумуляторы для легковых автомобилей</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[1]=313536">Аккумуляторы для азиатских авто</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313439">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
@@ -257,7 +257,7 @@
 <ul style="margin-top: 0px; padding: 0">
 
 <div id="maslo" class="">
-<ul class="colorInvert col-md-5 col-lg-4" style="list-style: none; padding-left: 0">
+<ul class="colorInvert col-md-5 col-lg-4" style="list-style: none; padding-left: 0; padding-top: 15px;">
 
 <li><a href="/catalog/filter/q8/?custom_f_320[0]=30572d3330">0W-30</a></li>
 <li><a href="/catalog/filter/q8/?custom_f_320[0]=35572d3330">5W-30</a></li>
@@ -280,7 +280,7 @@
 
 </ul>
 
-<ul class="colorInvert col-md-7 col-lg-8" style="list-style: none; padding-left: 0">
+<ul class="colorInvert col-md-7 col-lg-8" style="list-style: none; padding-left: 0; padding-top: 15px;">
 <li><a href="/catalog/моторные-масла-для-легковых-автомобилей/">Моторные масла для легковых автомобилей</a></li>
 <li><a href="/catalog/моторные-масла-для-грузовых-автомобилей/">Моторные масла для грузовых автомобилей</a></li>
 <li><a href="/catalog/масла-для-мото-и-садовой-техники/">Масла для мото и садовой техники</a></li>
@@ -314,7 +314,7 @@
 <div class="col-sm-3">
 
 <div id="acsess">
-<ul class="colorInvert col-sm-12" style="list-style: none; padding-left: 0">
+<ul class="colorInvert col-sm-12" style="list-style: none; padding-left: 0; padding-top: 15px;">
 <li><a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/">Зарядные и пуско-зарядные устройства</a></li>
 <!--<li><a href="catalog.html">Клеммы</a></li>-->
 <li><a href="/catalog/lamps/">Автолампы</a></li>
