@@ -11,16 +11,66 @@
 <a href="/news?start=0" class="button">Перейти</a>
 </div>
 
-<div class="col-md-3 py-4">
-<a href="">
-<div class="bannerImg" style="background: url(images/news/n1.jpg) top left / cover no-repeat;">
+<?php	
+$db = JFactory::getDbo();
+$catid = "10";
+$query = $db->getQuery(true);
+$query->select('introtext, alias, created, title, id, images')
+ ->from('#__content')
+ ->where('catid = '.(int)$catid.' AND state = "1"')
+ ->order('created DESC');
+$db->setQuery($query);
+	
+$rows = $db->loadObjectList();
+
+$items = 3;	
+foreach ( $rows as $row ) {
+	if ($items > 0) {
+	?>
+	
+	<div class="col-md-3 py-4">
+	<?php
+		$link = JRoute::_('news/'.$row->id.'-'.$row->alias);
+		echo '<a href="' . $link . '">';
+		$image = json_decode($row->images);
+		$imagelink = $image->{'image_intro'};
+?>
+<div class="bannerImg" style="background: url(<?php echo $imagelink;?>) top left / cover no-repeat;">
 </div>
-<strong>Рады  сообщить об открытии регионального склада в г. Брест.</strong><br>
-<p>Мы учитываем ваши потребности и постоянно развиваемся для организации взаимовыгодной работы. Открытие регионального склада позволит вам оптимизировать сроки и затраты на доставку. 
-Адрес склада: город Брест, улица Советской Конституции, 10
+		
+<strong><?php echo substr($row->title, 0, 250); ?></strong><br>
+	
+<p><?php
+		//<img
+		$beforeimg = strpos( $row->introtext , '<img' );
+
+		if ($beforeimg > 0) {
+			$firstpart = substr($row->introtext, 0, (int)$beforeimg);	
+			$secondpart = substr($row->introtext, (int)$beforeimg);
+			$afterimg = strpos( $secondpart , '>' ) + 1;
+			$secondpart = substr($secondpart, (int)$afterimg);
+			$resulText = $firstpart . $secondpart;  
+			echo substr($resulText , 0, 500);
+		}
+		elseif ($beforeimg = 'FALSE') {
+			echo substr($row->introtext, 0, 500);
+		} 	
+	
+	?>
 </p>
 </a>
 </div>
+<?
+		$items--;
+	}
+	elseif ($items < 0)  {
+		break;
+	}
+	 
+}
+?>
+	
+<!--
 
 <div class="col-md-3 py-4">
 <a href="">
@@ -32,18 +82,9 @@ style="background: url(images/news/n2.jpg) top left / contain no-repeat;">
 KIJO GROUP, основанная в 1993 году, является предприятием, собравшую в себе науку, промышленность и торговлю. С годовой производственной мощностью 30 миллионов единиц.
 </p>
 </a>
-</div>
+</div>-->
 
-<div class="col-md-3 py-4">
-<a href="">
-<div class="bannerImg"
-style="background: url(images/news/n3.png) top left / cover no-repeat;">
-</div>
-<strong>Новинка ассортимента Q8Oils - жидкость для автоматических трансмиссий Q8Auto MV</strong>
-<p>Синтетическая топливосберегающая жидкость пониженной вязкости для автоматических трансмиссий разнообразных марок. Для широкого спектра европейских, японских и корейских легковых автомобилей с автоматическими трансмиссиями. 
-</p>
-</a>
-</div>
+
 
 </div>
 <!--------->

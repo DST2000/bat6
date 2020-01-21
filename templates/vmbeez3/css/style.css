@@ -37,7 +37,7 @@ span.adr {
 
 /* > Список городов для акции */
 
-/* > цены товаров */
+/* < цены товаров */
 
 span.PricesalesPrice {
 	font-size: 1.4em !important;
@@ -48,7 +48,7 @@ span.PricesalesPrice {
     font-size: 1.4em !important;
 }
 
-/* < цены товаров */
+/* > цены товаров */
 
 /* < заголовок категории */
 
@@ -59,6 +59,14 @@ span.PricesalesPrice {
 }
 
 /* > заголовок категории */
+
+/* < заголовок новости */
+
+div.list-title > a > h2 {
+    padding: 2px 0 14px 0;
+}
+
+/* > заголовок новости */
 
 /* < название фильтра */
 

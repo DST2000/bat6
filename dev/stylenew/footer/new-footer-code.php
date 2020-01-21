@@ -108,7 +108,7 @@
             <a href="index.html" style="display: block"><img src="images/logo/logo.png" alt="БатАвтотрейд" style="width: 120px; float: left; margin-right: 10px; overflow: hidden">
                     <p style="float: left; padding-top:5px; max-width: 220px;">Аккумуляторы, масла Q8 от официального поставщика по выгодным ценам</p>
             </a>
-            <p style="clear: both">2003-2019 © БатАвтоТрейд. Все права защищены</p>
+            <p style="clear: both">2003-2020 © БатАвтоТрейд. Все права защищены</p>
             </div>
             
              <div class="col-xs-12 col-md-3 py-0 follow text-left hidden-xs">
