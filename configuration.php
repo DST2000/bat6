@@ -42,7 +42,7 @@ class JConfig {
 	public $smtpport = '25';
 	public $caching = '0';
 	public $cache_handler = 'file';
-	public $cachetime = '15';
+	public $cachetime = '1';
 	public $cache_platformprefix = '0';
 	public $MetaDesc = '';
 	public $MetaKeys = '';

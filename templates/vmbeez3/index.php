@@ -132,21 +132,27 @@ require __DIR__ . '/jsstrings.php';
 		<meta name="apple-mobile-web-app-capable" content="YES" />
 		<jdoc:include type="head" />
 		<?php // {DST ?>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91758530-2"></script>
+		<!-- Google Tag Manager -->
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-91758530-2');
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KFQ4766');
 		</script>
+		<!-- End Google Tag Manager -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=cyrillic-ext" rel="stylesheet">
 		<?php // }DST ?>
 		<!--[if IE 7]><link href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/ie7only.css" rel="stylesheet" /><![endif]-->
 		<!--[if lt IE 9]><script src="<?php echo JUri::root(true); ?>/media/jui/js/html5.js"></script><![endif]-->
 	</head>
 	<body id="shadow" >
+		<?php // {DST ?>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFQ4766"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<?php // }DST ?>
 		<div id="all" <?php /* if ($templateparams->get('change_content_width')) {
 			echo ' style="max-width: ' . $this->params->get('content_width') . 'px"';
 			} */ ?>
