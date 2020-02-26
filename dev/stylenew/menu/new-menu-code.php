@@ -14,15 +14,23 @@
 <div class="col-xs-10 col-md-10 col-xs-offset-3 topTel">
 <p><i class="fas fa-phone-square"></i>
 <span>Интернет магазин<br></span>
-<a href="tel:+375293514747" style="font-size:18px;">+375 29 351 47 47</a><br>
-<a href="tel:+375333514747" style="font-size:18px;">+375 33 351 47 47</a></p>
+<a href="tel:+375293514747" style="font-size:18px;" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;" >+375 29 351 47 47</a><br>
+<a href="tel:+375333514747" style="font-size:18px;" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 33 351 47 47</a></p>
 </div>
 
 <div class="col-xs-10 col-md-10 col-xs-offset-3 topTel">
 <p><i class="fas fa-phone-square"></i><span>
 Оптовым покупателям<br></span>
-<a href="tel:+375175106060" style="font-size:18px;">+375 17 510 60 60</a><br>
-<a href="tel:+375293106010" style="font-size:18px;">+375 29 310 60 10</a></p>
+<a href="tel:+375175106060" style="font-size:18px;" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 17 510 60 60</a><br>
+<a href="tel:+375293106010" style="font-size:18px;" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 29 310 60 10</a></p>
 </div>
 </div>
 	
@@ -78,11 +86,19 @@
 <div class="topTelDub col-sm-6 col-md-8 col-lg-7 hidden-xs">
 <p class="col-md-6 col-lg-5"><i class="fas fa-phone-square"></i>
 Интернет магазин<br>
-<a class="PhoneNumberMenu" href="tel:+375293514747">+375 29 351 47 47</a> <a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="tel:+375333514747">+375 33 351 47 47</a>
+<a class="PhoneNumberMenu" href="tel:+375293514747" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 29 351 47 47</a> <a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="tel:+375333514747" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 33 351 47 47</a>
 </p>
 <p class="col-md-6 col-lg-5"><i class="fas fa-phone-square"></i>
 Оптовым покупателям<br>
-<a class="PhoneNumberMenu" href="tel:+375175106060">+375 17 510 60 60</a><a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="tel:+375293106010">+375 29 310 60 10</a>
+<a class="PhoneNumberMenu" href="tel:+375175106060" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 17 510 60 60</a><a href="" class="PhoneNumberMenu"><span class="black">123</span></a> <a class="PhoneNumberMenu" href="tel:+375293106010" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 29 310 60 10</a>
 </p>
 
 </div>
@@ -437,15 +453,23 @@
 <div class="col-xs-12 col-sm-6 col-md-2 topTel">
 <p><i class="fas fa-phone-square"></i>
 <span>Интернет магазин<br></span>
-<a href="tel:+375293514747">+375 29 351 47 47</a><br>
-<a href="tel:+375333514747">+375 33 351 47 47</a></p>
+<a href="tel:+375293514747" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 29 351 47 47</a><br>
+<a href="tel:+375333514747" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 33 351 47 47</a></p>
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-2 topTel">
 <p><i class="fas fa-phone-square"></i><span>
 Оптовым покупателям<br></span>
-<a href="tel:+375175106060">+375 17 510 60 60</a><br>
-<a href="tel:+375293106010">+375 29 310-60-10</a></p>
+<a href="tel:+375175106060" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 17 510 60 60</a><br>
+<a href="tel:+375293106010" onclick="dataLayer.push({'event':'UAevent', 'eventCategory':'forma', 'eventAction':'clicknumber', 'eventLabel':'location.href'});
+yaCounter56448997.reachGoal('clicknumber');
+ return=true;">+375 29 310-60-10</a></p>
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4 hidden-sm topCard text-right">
