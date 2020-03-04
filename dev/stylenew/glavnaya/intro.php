@@ -100,9 +100,9 @@
 <!-- card -->
 <div class="item">
 <div class="row">
-	<a href="/catalog/akkumulators/rusbat-6st-100-evro">
+	<a href="/catalog/akkumulators/monbat/monbat-agm-95-ah">
 		<i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
-		<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;">-<strong style=" font-size: 22px;">10</strong>%</span>	
+		<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;"><strong style=" font-size: 22px;"></strong></span>	
 		</i>
 		<div class="col-xs-12">
 		<h4 style="font-size: 1.4rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
@@ -112,19 +112,19 @@
 		<div class="col-xs-1">
    		</div>
 		<div class="col-xs-3">
-		<img src="/images/virtuemart/product/resized/rusbat-6st-100-evro-1_0x90.jpg" alt="rusbat-6st-100-evro" style="width:100%;">
+		<img src="/images/virtuemart/product/resized/monbat-agm-95-ah-1_0x90.jpg" alt="monbat-agm-95-ah-1" style="width:100%;">
 		</div>
 
 
 
 		<div class="col-xs-8 py-1" style="">
-		<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Горячее предложение </br>Скидка 10%</strong>
-		<h4 style="font-weight: bold; margin-bottom: 1.0em;">РУСБАТ+ 6СТ-100 ЕВРО</h4>
+		<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Супер цена </br> </strong>
+		<h4 style="font-weight: bold; margin-bottom: 1.0em;">Monbat AGM (95 Ah)</h4>
 
 			<p>				
 			<div class="prodText">
 
-								Ёмкость (А/ч)-100<br>Ток холодной прокрутки А(EN)-830<br><span class="product-size">353x175x190 мм</span>						<span class="redPrice">
+								Ёмкость (А/ч)-95<br>Ток холодной прокрутки А(EN)-860<br><span class="product-size">353x175x190 мм</span>						<span class="redPrice">
 														</span>
 							</div>
 		</p>
@@ -133,7 +133,7 @@
 
 
 		<div class="col-xs-12">
-		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 29.02.20</button>
+		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 31.03.2020</button>
 		</div>
 	</a>
 </div>

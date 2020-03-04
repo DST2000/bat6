@@ -12,10 +12,15 @@ if ($user->guest) {
 	$search_id_check = htmlspecialchars($post_array[phonenumber]);
 
 	if (strlen($search_id_check) == 9) {
+		echo '<h3>Для розничных покупателей:</h3>';
 		echo '<p>Для получения информации о товаре, отданном на диагностику, введите Ваш номер телефона, который Вы сообщили нам в качестве контактного в сервисном центре. Заполните девятизначный номер телефона (без +375) с кодом оператора. Например 175106060.</p>';
+		echo '<div>Бланк заявления для физических лиц в формате <a href='.'"'.'media/docs/zayavleniye_fiz_lic.pdf'.'"'.' target='.'"'.'_blank'.'"'.' rel='.'"'.'noopener noreferrer'.'"'.'> .pdf</a> , <a href='.'"'.'media/docs/zayavleniye_fiz_lic.doc'.'"'.' target='.'"'.'_blank'.'"'.' rel='.'"'.'noopener noreferrer'.'"'.'> .doc</a></div>';
+		
 		$search_id = $search_id_check;
 	} elseif (strlen($search_id_check) != 9) {
+		echo '<h3>Для розничных покупателей:</h3>';
 		echo '<p>Для получения информации о товаре, отданном на диагностику, введите Ваш номер телефона, который Вы сообщили нам в качестве контактного в сервисном центре. Заполните девятизначный номер телефона (без +375) с кодом оператора. Например 175106060.</p>';
+		echo '<div>Бланк заявления для физических лиц в формате <a href='.'"'.'media/docs/zayavleniye_fiz_lic.pdf'.'"'.' target='.'"'.'_blank'.'"'.' rel='.'"'.'noopener noreferrer'.'"'.'> .pdf</a> , <a href='.'"'.'media/docs/zayavleniye_fiz_lic.doc'.'"'.' target='.'"'.'_blank'.'"'.' rel='.'"'.'noopener noreferrer'.'"'.'> .doc</a></div>';
 	}
 	?>
 	<form action="<?php echo JRoute::_('index.php?option=com_content&view=article&id=59'); ?>" method="post">

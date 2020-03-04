@@ -1,4 +1,3 @@
-
 <!-- Модальное окно контакт -->  
 <div class="modal fade" id="tel-overlay" tabindex="-1" role="dialog" aria-labelledby="tel-iconLabel" aria-hidden="true">
 <div class="modal-dialog modal-sm" role="document">
@@ -78,6 +77,7 @@ yaCounter56448997.reachGoal('clicknumber');
         <li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>
         <li><a href="/roznichnaya-set">Розничная сеть</a></li>
         <li><a href="/contacts">Контакты</a></li>
+		<li><a href="/warranty">Гарантия</a></li>
                         
 </ul>
 <!--//--->  
@@ -158,7 +158,8 @@ yaCounter56448997.reachGoal('clicknumber');
         <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
         <li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>
         <li><a href="/roznichnaya-set">Розничная сеть</a></li>
-        <li><a href="/contacts">Контакты</a></li>                    
+        <li><a href="/contacts">Контакты</a></li>
+		<li><a href="/warranty">Гарантия</a></li>
 </ul>
 <!--//--->
 
@@ -297,11 +298,17 @@ yaCounter56448997.reachGoal('clicknumber');
 </ul>
 
 <ul class="colorInvert col-md-7 col-lg-8" style="list-style: none; padding-left: 0; padding-top: 15px;">
-<li><a href="/catalog/моторные-масла-для-легковых-автомобилей/">Моторные масла для легковых автомобилей</a></li>
-<li><a href="/catalog/моторные-масла-для-грузовых-автомобилей/">Моторные масла для грузовых автомобилей</a></li>
-<li><a href="/catalog/масла-для-мото-и-садовой-техники/">Масла для мото и садовой техники</a></li>
-<li><a href="/catalog/масла-для-газовых-двигателей/">Масла для газовых двигателей</a></li>
-<li><a href="/catalog/трансмиссионные-масла,-смазки,-технические-жидкости/">Трансмиссионные масла, смазки, технические жидкости</a></li>
+
+<li><a href="/catalog/oils/q8/motornye-masla-dlya-legkovykh-avtomobilej">Моторные масла для легковых автомобилей</a></li>
+<li><a href="/catalog/oils/q8/motornye-masla-dlya-gruzovykh-avtomobilej">Моторные масла для грузовых автомобилей</a></li>
+<li><a href="/catalog/oils/q8/masla-dlya-moto-i-sadovoj-tekhniki">Масла для мото и садовой техники</a></li>
+<li><a href="/catalog/oils/q8/masla-dlya-gazovykh-dvigatelej">Масла для газовых двигателей</a></li>
+<li><a href="/catalog/oils/q8/antifrizy-i-tekhnicheskie-zhidkosti">Антифризы и технические жидкости</a></li>
+<li><a href="/catalog/oils/q8/industrialnye-masla">Индустриальные масла</a></li>
+<li><a href="/catalog/oils/q8/gidravlicheskie-masla">Гидравлические масла</a></li>
+<li><a href="/catalog/oils/q8/universalnye-traktornye-zhidkosti">Универсальные тракторные жидкости</a></li>
+<li><a href="/catalog/oils/q8/transmissionnye-masla">Трансмиссионные масла</a></li>
+<li><a href="/catalog/oils/q8/smazki">Смазки</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/oils" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
 <?php /*
 	<a data-toggle="collapse" data-target="#toggleOil" style="padding:2px 0px; border: 0; color: #E9522C; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
@@ -331,7 +338,9 @@ yaCounter56448997.reachGoal('clicknumber');
 
 <div id="acsess">
 <ul class="colorInvert col-sm-12" style="list-style: none; padding-left: 0; padding-top: 15px;">
-<li><a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/">Зарядные и пуско-зарядные устройства</a></li>
+<li><a href="/catalog/zaryadnye-ustrojstva">Зарядные и пуско-зарядные устройства</a></li>
+<li><a href="/catalog/akb-testers">Тестеры АКБ</a></li>
+<li><a href="/catalog/akb-aksessuary">Аксессуары АКБ</a></li>
 <!--<li><a href="catalog.html">Клеммы</a></li>-->
 <li><a href="/catalog/lamps/">Автолампы</a></li>
 <li><a href="/catalog/schetki-stekloochistitelya/">Щетки стеклоочистителя</a></li>
@@ -402,7 +411,7 @@ yaCounter56448997.reachGoal('clicknumber');
 
 <ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
 <h3 style="color: #FFFFFF;font-weight: bolder;text-transform: uppercase;font-size:1.8rem;/* margin-bottom: 20px; */padding-left:15px;padding-right:15px;margin: 20px 0;">
-<a href="/catalog/zaryadnye-ustrojstva-i-aksessuary/" style="color: #FFFFFF;text-transform: uppercase;font-size:1.0rem;padding-right:15px;">Аксессуары</a>
+<a href="/catalog/zaryadnye-ustrojstva" style="color: #FFFFFF;text-transform: uppercase;font-size:1.0rem;padding-right:15px;">Зарядные и пуско-зарядные устройства</a>
 </h3>   
 </ul>
 
@@ -418,7 +427,8 @@ yaCounter56448997.reachGoal('clicknumber');
 <li><a href="/component/content/category/12-tekhnicheskaya-informatsiya?Itemid=0">Техническая информация</a></li>
 <li><a href="/sdat-staryj-akkumulyator">Сдать аккумулятор</a></li>
 <li><a href="/roznichnaya-set">Розничная сеть</a></li>
-<li><a href="/contacts">Контакты</a></li>                     
+<li><a href="/contacts">Контакты</a></li>
+<li><a href="/warranty">Гарантия</a></li>
 </ul>
 <!--//--->
 
