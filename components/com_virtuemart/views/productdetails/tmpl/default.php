@@ -124,7 +124,14 @@ if(vRequest::getInt('print',false)){ ?>
 	<div class="col-md-12 col-lg-8">
 	
 	<?php // Product Title   ?>
-	<h1><?php echo $this->product->product_name ?></h1>
+	<?php // {DST
+	/*
+	//<h1><?php echo $this->product->product_name ?></h1>
+	*/
+	?>
+	<h1><?php echo $this->product->customtitle ?></h1>
+	<?php
+	// }DST   ?>
 	<?php // Product Title END   ?>
 		
 	<?php // afterDisplayTitle Event

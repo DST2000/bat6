@@ -169,7 +169,7 @@ yaCounter56448997.reachGoal('clicknumber');
 <div style="overflow: auto">
 <div class="row menu-back">
 <div class="col-sm-5">
-<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/akkumulators/">Аккумуляторы</a> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/akkumulators">Аккумуляторы</a> 
 
 <a href="/sdat-staryj-akkumulyator" class="btn btn-primary center-block popup_button" data-wow-duration="1000ms" data-wow-delay="300ms"  style="float: right; background: #000000 !important; color: #FFFFFF; border: 0; padding: 10px; border-radius: 3px; text-transform: uppercase; margin-top:-50px; font-size:0.6rem;">Сдать старый аккумулятор</a>
 
@@ -186,7 +186,7 @@ yaCounter56448997.reachGoal('clicknumber');
 </div>
 <div class="col-sm-4">
 
-<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/q8/">Моторные масла Q8</a></h3> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/q8">Моторные масла Q8</a></h3> 
 <div class="colorInvert col-md-5 col-lg-4">
 <span class="h3-span-subheader">класс / вязкость</span>
 <hr class="span-line">
@@ -197,7 +197,7 @@ yaCounter56448997.reachGoal('clicknumber');
 </div>
 </div>
 <div class="col-sm-3">
-<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/zaryadnye-ustrojstva-i-aksessuary/">Аксессуары</a></h3> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/zaryadnye-ustrojstva">Аксессуары</a></h3> 
 <div class="colorInvert col-sm-12">
 <span class="h3-span-subheader">Для техники</span>
 <hr class="span-line">	
@@ -213,24 +213,24 @@ yaCounter56448997.reachGoal('clicknumber');
 <div id="akb" class="">
 <ul class="colorInvert col-sm-5 col-lg-5" style="list-style: none; padding: 15px 0 10px 0;">
 
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom/">Akom</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner/">BANNER</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta/">VARTA</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt/">BLT</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot/">Champion Pilot</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat/">CтартБат</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="catalog/delta/">Delta</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/kijo/">Kijo</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/monbat/">MONBAT</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima/">Optima</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/red-energy/">Red Energy</a></li>	
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh/">REO NI-MH</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft/">Startcraft</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse/">SECURITY FORCE</a></li>	
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax/">TENAX</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega/">VEGA</a></li>	
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx/">WINMAXX</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akkumulators/" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom">Akom</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner">BANNER</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta">VARTA</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt">BLT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot">Champion Pilot</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat">CтартБат</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/delta">Delta</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/kijo">Kijo</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/monbat">MONBAT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima">Optima</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/red-energy">Red Energy</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh">REO NI-MH</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft">Startcraft</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse">SECURITY FORCE</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax">TENAX</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega">VEGA</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx">WINMAXX</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akkumulators" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
 
 
 <br style="clear:both;">
@@ -342,8 +342,8 @@ yaCounter56448997.reachGoal('clicknumber');
 <li><a href="/catalog/akb-testers">Тестеры АКБ</a></li>
 <li><a href="/catalog/akb-aksessuary">Аксессуары АКБ</a></li>
 <!--<li><a href="catalog.html">Клеммы</a></li>-->
-<li><a href="/catalog/lamps/">Автолампы</a></li>
-<li><a href="/catalog/schetki-stekloochistitelya/">Щетки стеклоочистителя</a></li>
+<li><a href="/catalog/lamps">Автолампы</a></li>
+<li><a href="/catalog/schetki-stekloochistitelya">Щетки стеклоочистителя</a></li>
 <br style="clear:both;">
 <br>
 
@@ -402,7 +402,7 @@ yaCounter56448997.reachGoal('clicknumber');
 
 <ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
 <h3 style="color: #FFFFFF;font-weight: bolder;text-transform: uppercase;/* font-size: 0; *//* margin-bottom: 8px; */padding-left:15px;padding-right:15px;margin: 14px 0;">
-<a href="/catalog/q8/" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла Q8</a>
+<a href="/catalog/q8" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла Q8</a>
 </h3>   
 </ul>
 
