@@ -24,7 +24,7 @@ if ($user->guest) {
 	}
 	?>
 	<form action="<?php echo JRoute::_('index.php?option=com_content&view=article&id=59'); ?>" method="post">
-	<p><b>Введите номер телефона</b> (175106060): <input type="number" class="btn-success" name="phonenumber" placeholder="НОМЕР ТЕЛЕФОНА" value="<?php echo $search_id_check; ?>" required="required" /> <i class="fas fa-phone"></i></p>
+	<p><b>Введите номер телефона</b> (175106060): <input type="number" class="btn btn-default btn-lg active" name="phonenumber" placeholder="НОМЕР ТЕЛЕФОНА" value="<?php echo $search_id_check; ?>" required="required" /> <i class="fas fa-phone"></i></p>
 	<p><input type="submit" /></p>
 	</form>
 	<?
