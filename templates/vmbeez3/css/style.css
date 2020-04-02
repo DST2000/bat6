@@ -30,6 +30,16 @@ span.warrantyElement {
 }
 /* > Гарантия */
 
+/* > Новости */
+.news-style {
+    line-height: 2em;
+}
+.news-style>p>a {
+    color: red;
+}
+/* < Новости */
+
+
 /* < Список городов для акции */
 
 p.city {

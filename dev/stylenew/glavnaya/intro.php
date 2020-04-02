@@ -133,7 +133,7 @@
 
 
 		<div class="col-xs-12">
-		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 31.03.2020</button>
+		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 30.04.2020</button>
 		</div>
 	</a>
 </div>
