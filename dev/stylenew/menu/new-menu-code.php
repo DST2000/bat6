@@ -217,9 +217,11 @@ yaCounter56448997.reachGoal('clicknumber');
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner">BANNER</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta">VARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt">BLT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/centra">CENTRA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot">Champion Pilot</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat">CтартБат</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/delta">Delta</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/exide">EXIDE</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/kijo">Kijo</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/monbat">MONBAT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima">Optima</a></li>
