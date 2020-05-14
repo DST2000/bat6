@@ -38,11 +38,12 @@ if (vRequest::getInt('dynamic',false) and vRequest::getInt('virtuemart_product_i
 				<th scope="col">#</th>
 				<th scope="col" class="product-name">Наименование</th>
 				<th scope="col">Остаток</th>
-				<th scope="col">Базовая цена</th>
+				<th scope="col">Реко-</br>мендо-</br>ванная</br>цена</th>
+				<th scope="col">Базовая</br>цена</th>
 				<th scope="col">Скидка</th>
 				<th scope="col">Цена</th>
 				<th scope="col">Размеры</th>
-				<th scope="col">Пуск. ток</th>
+				<th scope="col">Пуск.</br>ток</th>
 				<th scope="col">#</th>
 			</tr>
 		  </thead>
@@ -104,7 +105,11 @@ foreach ($viewData['products'] as $type => $products ) {
 				<td><h2 class="horizon-name"><?php echo JHtml::link ($product->link.$ItemidStr, $product->product_name); ?></h2></td>
 				<td><?php echo '<span class="stock-level">'.$product->product_in_stock.'шт. </span>'; ?></td>
 				<td><?php
-				echo round(($product->allPrices[$product->selectedPrice][basePrice]),2) ?>
+				echo round(($product->allPrices[1][product_price]),2); ?>
+	
+				</td>
+				<td><?php
+				echo round(($product->allPrices[$product->selectedPrice][basePrice]),2); ?>						
 				</td>
 				<td><?php
 					if ($product->allPrices[$product->selectedPrice][basePrice] <> $product->allPrices[$product->selectedPrice][salesPrice]) {
