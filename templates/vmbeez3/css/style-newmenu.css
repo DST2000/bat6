@@ -87,7 +87,29 @@ a.PhoneNumberMenu {
 	color:#000 !important;
 }
 
+div#akb > ul > li {
+    font-size: 1.4rem;
+}
 
+div#akb > ul > li> a {
+    font-size: 0.8rem;
+}
+
+div#maslo > ul > li{
+    font-size: 1.4rem;
+}
+
+div#maslo > ul > li> a {
+    font-size: 0.8rem;
+}
+
+div#acsess > ul > li {
+    font-size: 1.4rem;
+}
+
+div#acsess > ul > li> a {
+    font-size: 0.8rem;
+}
 
 .colorInvert> .collapse  li > a{
 	color:#000 !important;

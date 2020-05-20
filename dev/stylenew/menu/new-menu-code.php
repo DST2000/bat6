@@ -307,9 +307,7 @@ yaCounter56448997.reachGoal('clicknumber');
 <li><a href="/catalog/oils/q8/masla-dlya-moto-i-sadovoj-tekhniki">Масла для мото и садовой техники</a></li>
 <li><a href="/catalog/oils/q8/masla-dlya-gazovykh-dvigatelej">Масла для газовых двигателей</a></li>
 <li><a href="/catalog/oils/q8/antifrizy-i-tekhnicheskie-zhidkosti">Антифризы и технические жидкости</a></li>
-<li><a href="/catalog/oils/q8/industrialnye-masla">Индустриальные масла</a></li>
 <li><a href="/catalog/oils/q8/gidravlicheskie-masla">Гидравлические масла</a></li>
-<li><a href="/catalog/oils/q8/universalnye-traktornye-zhidkosti">Универсальные тракторные жидкости</a></li>
 <li><a href="/catalog/oils/q8/transmissionnye-masla">Трансмиссионные масла</a></li>
 <li><a href="/catalog/oils/q8/smazki">Смазки</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/oils" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
