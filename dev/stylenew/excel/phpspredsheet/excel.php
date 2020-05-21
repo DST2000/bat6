@@ -1,5 +1,13 @@
 <?php
 
+/* /{DST */
+$user=JFactory::getUser();
+if($user->id<1){ 
+	exit();
+}  
+/* /}DST */
+
+//require '../vendor/autoload.php';
 require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Helper\Sample;
@@ -19,13 +27,13 @@ if ($helper->isCli()) {
 $spreadsheet = new Spreadsheet();
 
 // Set document properties
-$spreadsheet->getProperties()->setCreator('Maarten Balliauw')
-    ->setLastModifiedBy('Maarten Balliauw')
-    ->setTitle('Office 2007 XLSX Test Document')
-    ->setSubject('Office 2007 XLSX Test Document')
-    ->setDescription('Test document for Office 2007 XLSX, generated using PHP classes.')
-    ->setKeywords('office 2007 openxml php')
-    ->setCategory('Test result file');
+$spreadsheet->getProperties()->setCreator('Kuk Sergei')
+    ->setLastModifiedBy('Kuk Sergei')
+    ->setTitle('Price-list_bat_by')
+    ->setSubject('Price-list_bat_by')
+    ->setDescription('Price-list_bat_by')
+    ->setKeywords('price bat_by')
+    ->setCategory('price');
 
 // Add some data
 $spreadsheet->setActiveSheetIndex(0)
@@ -47,7 +55,7 @@ $spreadsheet->setActiveSheetIndex(0);
 
 // Redirect output to a client’s web browser (Xls)
 header('Content-Type: application/vnd.ms-excel');
-header('Content-Disposition: attachment;filename="01simple.xls"');
+header('Content-Disposition: attachment;filename="bat_by_price-list.xls"');
 header('Cache-Control: max-age=0');
 // If you're serving to IE 9, then the following may be needed
 header('Cache-Control: max-age=1');
