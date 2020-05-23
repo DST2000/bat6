@@ -10,10 +10,18 @@
 defined('_JEXEC') or die;
 
 /* // {DST */
-
+/*
 if (($this->error->getCode()) == '404') {
 header('Location: /index.php?option=com_content&view=article&id=17');
 exit;
+}
+*/
+
+if($this->error->getCode()=='404') {
+	header("HTTP/1.0 404 Not Found");
+	$url=JURI::root()."index.php?option=com_content&view=article&id=17";
+	$data = file_get_contents($url) or die("Cannot open URL");
+    echo $data; 
 }
 
 /* // }DST */

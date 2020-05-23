@@ -1,5 +1,7 @@
 <?php
 
+defined('_JEXEC') or die;
+
 /* /{DST */
 $user=JFactory::getUser();
 if($user->id<1){ 
@@ -48,7 +50,7 @@ $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue('A5', 'Тест прайс-листа');
 
 // Rename worksheet
-$spreadsheet->getActiveSheet()->setTitle('Simple');
+$spreadsheet->getActiveSheet()->setTitle('bat');
 
 // Set active sheet index to the first sheet, so Excel opens this as the first sheet
 $spreadsheet->setActiveSheetIndex(0);
