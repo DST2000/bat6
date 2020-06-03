@@ -33,6 +33,7 @@ span.warrantyElement {
 /* > Новости */
 .news-style {
     line-height: 2em;
+	text-align: justify;
 }
 .news-style>p>a {
     color: red;

@@ -124,7 +124,7 @@ foreach ($viewData['products'] as $type => $products ) {
 							if (($product->product_weight > 0) && ((int)$product->product_length > 0)) {
 							//echo (int)round(($product->product_weight)*100)/100;
 							// скидка за акб
-							echo ((int)round(($product->product_weight)*0.6*1.8));
+							echo ((int)round(($product->product_weight)*0.6*1.3));
 							}
 							?>
 							</span> p.
