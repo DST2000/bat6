@@ -247,7 +247,7 @@ yaCounter56448997.reachGoal('clicknumber');
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313439">Аккумуляторы для мотоциклов, квадроциклов, скутеров</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313534">Аккумуляторы для грузовых автомобилей и спецтехники</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313531">Аккумуляторы для микроавтобусов и фургонов</a></li>
-<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313537">Аккумуляторы для ИБП</a></li>
+<li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313537">Промышленные аккумуляторы</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313535">Аккумуляторы для Start Stop (AGM)</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313532">АКБ для поломоечных машин, погрузчиков</a></li>
 <li><a href="/catalog/filter/akkumulators/?custom_f_321[0]=313533">Аккумуляторы для лодок, автодомов</a></li>

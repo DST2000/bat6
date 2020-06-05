@@ -105,7 +105,8 @@ foreach ($viewData['products'] as $type => $products ) {
 				<td><h2 class="horizon-name"><?php echo JHtml::link ($product->link.$ItemidStr, $product->product_name); ?></h2></td>
 				<td><?php echo '<span class="stock-level">'.$product->product_in_stock.'шт. </span>'; ?></td>
 				<td><?php
-				echo round(($product->allPrices[1][product_price]),2); ?>
+				//echo round(($product->allPrices[1][product_price]),2); 
+				echo round(($product->allPrices[0][product_price]),2)?>
 	
 				</td>
 				<td><?php
