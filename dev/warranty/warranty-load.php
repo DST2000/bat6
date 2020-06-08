@@ -33,6 +33,12 @@ if ($user->guest) {
 }
 elseif (!$user->guest) {
 	$search_id = $user->username;
+	echo '<h3>Контактные данные для оптовых покупателей по вопросам возврата товара:</h3>';
+	echo '<p>Ф.И.О.: Микулич Ольга Геннадьевна</p>';
+	echo '<p><i class="fas fa-phone-square"></i> Телефон: <a href="tel:+375296906155" >+375 29 690 61 55</a></p>';
+	echo '<p><i class="fa fa-envelope"></i> Viber: <a href="tel:+375291804088" >+375 29 180 40 88</a></p>';
+	echo '<p><i class="fa fa-envelope"></i> Skype: <a href="skype:koncervatoria?chat">koncervatoria</a></p>';
+	echo '<p><i class="fa fa-envelope"></i> E-mail: <a href="mailto:mio@bat.by">mio@bat.by</a></p>';
 }
 if (strlen($search_id) !== 9) {
 	//echo 'no key';
@@ -61,7 +67,7 @@ foreach ($array as $key =>$value){
 }
 
 if (count($arraywarranty) == 0){
-	echo '<p>По вашему заросу нет данных для отображения</p>';
+	echo '<p>Нет текущей информации о гарантийных аккумуляторах</p>';
 }	
 } 
 
