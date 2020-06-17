@@ -158,21 +158,6 @@
 				<td>
 				30				</td>
 			</tr>
-
-	<tr>
-				<td>
-					<a title="Varta POWERSPORTS 507012 (7 Ah)" href="/catalog/akkumulators/varta/varta-powersports-507012-7-ah-2">
-						<img src="/images/virtuemart/product/resized/varta-powersports-507012-7-ah-2-1_0x90.jpg" alt="varta-powersports-507012-7-ah-2-1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-507012-7-ah-2">Varta POWERSPORTS 507012 (7 Ah)</a></h2></td>
-				<td><span class="stock-level">3шт. </span></td>
-				<td>81.19				</td>
-				<td>44,89</td>
-				<td>
-					<span class="product-size">136-76-134</span>					</td>
-				<td>
-				74				</td>
-			</tr>
 	
 	<tr>
 				<td>
