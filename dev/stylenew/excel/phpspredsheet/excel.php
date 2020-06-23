@@ -1,5 +1,4 @@
 <?php
-
 defined('_JEXEC') or die;
 
 /* /{DST */
@@ -11,6 +10,7 @@ if($user->id<1){
 
 //require '../vendor/autoload.php';
 require 'vendor/autoload.php';
+//require 'plugins/csviaddon/virtuemart/com_virtuemart/model/export/price.php';
 
 use PhpOffice\PhpSpreadsheet\Helper\Sample;
 use PhpOffice\PhpSpreadsheet\IOFactory;
@@ -24,6 +24,110 @@ if ($helper->isCli()) {
 
     return;
 }
+
+/* {DST */
+/* Get data for table*/
+
+
+
+
+//$https_user 	= '191033183';
+//$https_password = '191033183BB';
+$url = 'http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export';
+
+function HttpPost ($url, $data, $json = false, $selfsigned = false, $token = '', $user = '', $pass = ''){
+   
+    $data_url = http_build_query ($data);
+    $data_len = strlen ($data_url);
+
+    if($json == true){
+        // text/html,
+        // content-type application/x-www-form-urlencoded
+        $content = "Content-type: application/json; charset=utf-8";
+        $data_url = json_encode($data);
+        $data_len = strlen ($data_url);
+    }
+
+    if(!empty($user) && !empty($pass)){
+        $auth = "Authorization: Basic ".base64_encode("$user:$pass")."\r\n";
+    }
+
+    if(!empty($token)){
+        $token = "Authorization: Bearer ".$token;
+    }
+
+    if($selfsigned == true){
+        $ssl = array(
+            "verify_peer" => false,
+            "allow_self_signed" => true,
+        );
+    }else{
+        $ssl = array(
+            "verify_peer" => true,
+            "allow_self_signed" => false,
+        );
+    }
+
+    return array (
+        'content' =>
+            file_get_contents (
+                $url,
+                false,
+                stream_context_create (
+                    array (
+                        'ssl' => $ssl,
+                        'http'=>
+                        array (
+                            'timeout' => 60,
+                            'method'=> 'POST'
+                            , 'header'=>
+                                    $content .
+                                    "Access-Control-Allow-Origin: *".
+                                    "X-Frame-Options: sameorigin".
+                                    "Connection: close\r\n"
+                                    ."Content-Length: $data_len\r\n"
+                                    .$auth
+                                    .$token
+                            , 'content'=>$data_url
+                        )
+                    )
+                )
+            )
+        ,'headers'=>$http_response_header       
+    );
+}
+?>
+
+<?php
+// api.php file
+function api(){
+    if(!empty($_POST)){
+        print_r($_POST);
+    }else{
+        echo file_get_contents('php://input');
+    }
+}
+// Открываем файл с помощью установленных выше HTTP-заголовков
+//$file = file_get_contents('http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export', false, $context);
+
+
+
+
+// Return array with content and headers
+$res = HttpPost($url, array('name' => 'Jombo', 'id' => 247), true);
+
+
+
+print_r($res);
+
+//$goodstable = curl_get_file_contents('http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export');
+//echo 'begin';
+//echo $goodstable;
+exit();
+
+
+
+/* }DST */
 
 // Create new Spreadsheet object
 $spreadsheet = new Spreadsheet();
