@@ -129,7 +129,7 @@ $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("C1", "Бренд")
     ->setCellValue("D1", "Продуктовая лиейка")
     ->setCellValue("E1", "Ёмкость")
-    ->setCellValue("F1", "Высота Длина Ширина")
+    ->setCellValue("F1", "Габариты")
     ->setCellValue("G1", "Полярность")
     ->setCellValue("H1", "Код")
     ->setCellValue("I1", "Пусковой ток")
@@ -146,8 +146,8 @@ $spreadsheet->setActiveSheetIndex(0)
 //	->setCellValue("S1", "product_sku")
 //	->setCellValue("T1", "virtuemart_product_id");
 
-for ($i = 1; $i <= $DataArrayCount; $i++) {
-//for ($i = 1; $i <= 5; $i++) {
+//for ($i = 1; $i <= $DataArrayCount; $i++) {
+for ($i = 1; $i <= 10; $i++) {
 	$ArrayOfString = explode("|",  $DataArray[$i]);
 	$j = $i + 1;
 	
@@ -290,7 +290,7 @@ for ($i = 1; $i <= $DataArrayCount; $i++) {
 					}
 					}
 					if ($discount_value > 0) {
-						$price_discounted = $ArrayOfString[15]*((100-$discount_value)/100);
+						$price_discounted = sprintf("%01.2f", $ArrayOfString[15]*((100-$discount_value)/100));
 					}else {
 						$price_discounted = $ArrayOfString[15];
 					}
@@ -299,8 +299,11 @@ for ($i = 1; $i <= $DataArrayCount; $i++) {
 	//} //if ($product->get('product_discontinued') < 1) 
 
 		/* }/DST basePrice */
-	
-	
+	if (strlen($ArrayOfString[5]) > 0) {
+	$product_size = "$ArrayOfString[5]/$ArrayOfString[6]/$ArrayOfString[7]";
+	} else {
+		$product_size = '';
+	}
 	
 	$spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("A$j", "$ArrayOfString[0]")
@@ -308,7 +311,7 @@ for ($i = 1; $i <= $DataArrayCount; $i++) {
     ->setCellValue("C$j", "$ArrayOfString[2]")
     ->setCellValue("D$j", "$ArrayOfString[3]")
     ->setCellValue("E$j", "$ArrayOfString[4]")
-    ->setCellValue("F$j", "$ArrayOfString[5]/$ArrayOfString[6]/$ArrayOfString[7]")
+    ->setCellValue("F$j", "$product_size")
 //    ->setCellValue("G$j", "$ArrayOfString[6]")
 //    ->setCellValue("H$j", "$ArrayOfString[7]")
     ->setCellValue("G$j", "$ArrayOfString[8]")
