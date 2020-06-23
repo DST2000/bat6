@@ -116,9 +116,9 @@ function api(){
 // Return array with content and headers
 $res = HttpPost($url, array('name' => 'Jombo', 'id' => 247), true);
 
+$DataTable = $res[content]; 
 
-
-print_r($res);
+print_r($DataTable);
 
 //$goodstable = curl_get_file_contents('http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export');
 //echo 'begin';
@@ -141,17 +141,30 @@ $spreadsheet->getProperties()->setCreator('Kuk Sergei')
     ->setKeywords('price bat_by')
     ->setCategory('price');
 
+if ($res != '') {
+	$currentNumber = 1;
+	$element = $res[$currentNumber-1];
+	// Add some data
+$spreadsheet->setActiveSheetIndex(0)
+    ->setCellValue("A$currentNumber", "$element")
+    ->setCellValue('B2', 'world!')
+    ->setCellValue('C1', 'Hello')
+    ->setCellValue('D2', 'world!');
+}
+/*
 // Add some data
 $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue('A1', 'Hello')
     ->setCellValue('B2', 'world!')
     ->setCellValue('C1', 'Hello')
     ->setCellValue('D2', 'world!');
-
+*/
+/*
 // Miscellaneous glyphs, UTF-8
 $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue('A4', 'Miscellaneous glyphs')
     ->setCellValue('A5', 'Тест прайс-листа');
+*/
 
 // Rename worksheet
 $spreadsheet->getActiveSheet()->setTitle('bat');
