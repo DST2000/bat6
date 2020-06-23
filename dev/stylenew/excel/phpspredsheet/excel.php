@@ -140,13 +140,14 @@ $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("N1", "Цена Базовая")
 	->setCellValue("O1", "Скидка")
 	->setCellValue("P1", "Цена")
-    ->setCellValue("Q1", "Остаток")
-    ->setCellValue("R1", "Путь")
-	->setCellValue("S1", "product_sku")
-	->setCellValue("T1", "virtuemart_product_id");
+	 ->setCellValue("Q1", "Остаток");
+//    ->setCellValue("Q1", "Остаток")
+//    ->setCellValue("R1", "Путь")
+//	->setCellValue("S1", "product_sku")
+//	->setCellValue("T1", "virtuemart_product_id");
 
-//for ($i = 1; $i <= $DataArrayCount; $i++) {
-for ($i = 1; $i <= 5; $i++) {
+for ($i = 1; $i <= $DataArrayCount; $i++) {
+//for ($i = 1; $i <= 5; $i++) {
 	$ArrayOfString = explode("|",  $DataArray[$i]);
 	$j = $i + 1;
 	
@@ -320,31 +321,13 @@ for ($i = 1; $i <= 5; $i++) {
     ->setCellValue("N$j", "$ArrayOfString[15]")
 	->setCellValue("O$j", "$discount_value")
     ->setCellValue("P$j", "$price_discounted")
-	->setCellValue("Q$j", "$ArrayOfString[16]")
-	->setCellValue("R$j", "$ArrayOfString[17]")
-    ->setCellValue("S$j", "$ArrayOfString[18]")
-	->setCellValue("T$j", "$ArrayOfString[19]");	
+	->setCellValue("Q$j", "$ArrayOfString[16]");
+//	->setCellValue("Q$j", "$ArrayOfString[16]")	
+//	->setCellValue("R$j", "$ArrayOfString[17]")
+//    ->setCellValue("S$j", "$ArrayOfString[18]")
+//	->setCellValue("T$j", "$ArrayOfString[19]");	
 	
 	
-//	echo $ArrayOfString[0];
-//	echo $ArrayOfString[1];
-//	echo $ArrayOfString[2];
-//	echo $ArrayOfString[3];
-//	echo $ArrayOfString[4];
-//	echo $ArrayOfString[5];
-//	echo $ArrayOfString[6];
-//	echo $ArrayOfString[7];
-//	echo $ArrayOfString[8];
-//	echo $ArrayOfString[9];
-//	echo $ArrayOfString[10];
-//	echo $ArrayOfString[11];
-//	echo $ArrayOfString[12];
-//	echo $ArrayOfString[13];
-//	echo $ArrayOfString[14];
-//	echo $ArrayOfString[15];
-//	echo $ArrayOfString[16];
-//	echo $ArrayOfString[17];
-//	echo $ArrayOfString[18];
 }
 
 //$spreadsheet->setActiveSheetIndex(0)
