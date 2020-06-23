@@ -129,45 +129,201 @@ $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("C1", "Бренд")
     ->setCellValue("D1", "Продуктовая лиейка")
     ->setCellValue("E1", "Ёмкость")
-    ->setCellValue("F1", "Высота")
-    ->setCellValue("G1", "Длина")
-    ->setCellValue("H1", "Ширина")
-    ->setCellValue("I1", "Полярность")
-    ->setCellValue("J1", "Код")
-    ->setCellValue("K1", "Пусковой ток")
-    ->setCellValue("L1", "Напряжение")
-    ->setCellValue("M1", "Объем")
-    ->setCellValue("N1", "Вес")
-    ->setCellValue("O1", "Вес2")
-    ->setCellValue("P1", "Гарантия")
-    ->setCellValue("Q1", "Цена Базовая")
-    ->setCellValue("R1", "Остаток")
-    ->setCellValue("S1", "Путь");
+    ->setCellValue("F1", "Высота Длина Ширина")
+    ->setCellValue("G1", "Полярность")
+    ->setCellValue("H1", "Код")
+    ->setCellValue("I1", "Пусковой ток")
+    ->setCellValue("J1", "Напряжение")
+    ->setCellValue("K1", "Объем")
+    ->setCellValue("L1", "Вес")
+    ->setCellValue("M1", "Гарантия")
+    ->setCellValue("N1", "Цена Базовая")
+	->setCellValue("O1", "Скидка")
+	->setCellValue("P1", "Цена")
+    ->setCellValue("Q1", "Остаток")
+    ->setCellValue("R1", "Путь")
+	->setCellValue("S1", "product_sku")
+	->setCellValue("T1", "virtuemart_product_id");
 
-for ($i = 1; $i <= $DataArrayCount; $i++) {
-//for ($i = 1; $i <= 5; $i++) {
+//for ($i = 1; $i <= $DataArrayCount; $i++) {
+for ($i = 1; $i <= 5; $i++) {
 	$ArrayOfString = explode("|",  $DataArray[$i]);
 	$j = $i + 1;
+	
+	//*****
+	
+	$path = $ArrayOfString[17];
+	$product_sku  = $ArrayOfString[18];
+	$product_id = $ArrayOfString[19];
+	
+	/* {/DST basePrice  */
+		$userid = $user->get('id');		 
+
+	//if ($product->get('product_discontinued') < 1) {
+	
+			//$product_sku = $product->get('product_sku');
+			//$product_id = $product->get('virtuemart_product_id');
+			$discount_value = 0;
+			if (strlen($product_sku) > 0) {
+				// Получен $product_sku
+				// Получение базы скидок для клиента
+				
+				$db = JFactory::getDBO();
+				$query = 'SELECT `discounts` '.' FROM `#__virtuemart_userinfos` '.' WHERE `virtuemart_user_id` = '.$userid;
+				$db->setQuery($query);
+				$result1 = $db->LoadResult();
+				
+				//print_r($result1);
+				
+				$discounts_j_arr = explode("|", $result1);
+
+				foreach ($discounts_j_arr as $discounts_j) {
+					$discounts[] = json_decode($discounts_j, true);	
+				} 
+				$discount_id = '';
+				$discount_product_path = '';
+				
+//				echo '<br/> product sku = '.$product_sku.'<br/>';
+				if (count($discounts) > 0) {
+					foreach ($discounts as $discount) {
+//						echo '<pre class="discount">';
+//						echo '<pre>';
+//						print_r($discount);
+//						echo '</pre>';
+							if (is_array($discount)) {
+								if (count($discount) > 0) {
+									foreach ($discount as $key => $value) {
+										if (0 == $discount_value) {
+											if ($key=='id') {
+												if ($product_sku == $value) {
+													/*echo ('equivalent $product_sku = '.$product_sku
+														  .'<br/> id = '.$value
+														  .'<br/><br/>');*/
+													$discount_id = $value;
+												}
+											}					
+											if (($key=='value') && (strlen($discount_id) > 0) && ($product_sku == $discount_id)) {
+												/*echo ('discount value with $discount_id = '.$discount_id
+														  .'<br/> value = '.$value
+														  .'<br/><br/>');*/
+												$discount_value = (int)$value;
+												//break; // unblock after
+											}
+										}
+									}
+								}
+							}
+						//echo '</pre>';
+						
+					}
+					if ((strlen($discount_id) > 0) && ($discount_value > 0)) {
+							/*echo '<pre> DISCOUNT VALUE by ID<br/>';
+							echo ('Discount '.$discount_value.'<br/>');
+							echo ('$discount_id '.$discount_id.'<br/>');*/
+						}
+					
+					elseif (0 == $discount_value) {
+						// поиск по product_path товара <product_path>00000000007/00000000001</product_path>
+						// среди последних строк product_path скидок клиента "product_path":"00000000006/00000000003"
+						//$customfieldsModel = VmModel::getModel('Customfields');
+						$virtuemart_custom_id = (int)323; // product_path id
+											
+						$db2 = JFactory::getDBO();
+						$query2 = 'SELECT `customfield_value`,`virtuemart_product_id` FROM `#__virtuemart_product_customfields` WHERE  
+						`#__virtuemart_product_customfields`.`virtuemart_product_id` LIKE '.$product_id
+						.' AND `#__virtuemart_product_customfields`.`virtuemart_custom_id` LIKE '.$virtuemart_custom_id;
+						$db2->setQuery($query2);
+						$result2 = $db2->LoadResult();
+//						echo '<pre> product path from product<br/>';
+//						print_r($result2);
+//						echo '<br/>';
+//						echo '</pre>';
+						$product_paths = explode("/", $result2);
+						$product_paths_reversed = array_reverse($product_paths);
+//						echo('<br/> product_path from product <br/>');
+//						echo '<pre>';
+//							print_r($product_paths_reversed);
+//						echo '<br/>';
+//						echo '</pre>';	
+						if (count($product_paths_reversed) > 0) {
+//							echo '<br/> Start compare <br/>';
+							foreach ($product_paths_reversed as $product_paths_compare) {
+								foreach ($discounts as $discount) {
+									if (is_array($discount)) {
+										if (count($discount) > 0) {
+											foreach ($discount as $key => $value) {
+												if ($key=='product_path') {
+													$product_patch_last = explode("/", $value);
+													$product_patch_last_reversed = array_reverse($product_patch_last);
+													if ($product_patch_last_reversed[0] == $product_paths_compare) {
+		//												echo ('<pre> Product patch reversed[0] - matched<br/>');
+		//												echo ('$product_patch_last_reversed[0] '.$product_patch_last_reversed[0].'<br/>');
+		//												echo ('$product_paths_compare '.$product_paths_compare.'<br/>');
+		//												echo '<br/> --- <br/>';
+		//												echo '</pre>';
+														$discount_product_path = $value;	
+													}										
+													else {
+		//												echo '<pre> $product_paths_compare not match<br/>';
+		//												echo ('$product_patch_last_reversed[0] '.$product_patch_last_reversed[0].'<br/>');
+		//												echo ('$product_paths_compare '.$product_paths_compare.'<br/>');
+		//												echo '<br/> --- <br/>';
+		//												echo '</pre>';
+													}
+												} // if ($key=='product_path')
+												if (($key=='value') && (strlen($discount_product_path) > 0) && ($discount_value==0)) {	
+														$discount_value = (int)$value;
+		//												echo '<pre> DISCOUNT VALUE by PRODUCT_PATH<br/>';
+		//												echo ('Discount '.$discount_value.'<br/>');
+		//												echo ('Product patch '.$discount_product_path.'<br/>');
+		//												echo '</pre>';
+														break; // unblock after
+												} // if (($key=='value') && (strlen($discount_product_path) > 0))	
+											} // foreach ($discount as $key => $value) 
+										}
+									}
+								} // foreach ($discounts as $discount)
+								
+							} //foreach ($product_paths_reversed as $product_paths_compare)
+						} //if (count($product_paths_reversed) > 0)
+					}
+					}
+					if ($discount_value > 0) {
+						$price_discounted = $ArrayOfString[15]*((100-$discount_value)/100);
+					}else {
+						$price_discounted = $ArrayOfString[15];
+					}
+				}	
+	
+	//} //if ($product->get('product_discontinued') < 1) 
+
+		/* }/DST basePrice */
+	
+	
+	
 	$spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("A$j", "$ArrayOfString[0]")
     ->setCellValue("B$j", "$ArrayOfString[1]")
     ->setCellValue("C$j", "$ArrayOfString[2]")
     ->setCellValue("D$j", "$ArrayOfString[3]")
     ->setCellValue("E$j", "$ArrayOfString[4]")
-    ->setCellValue("F$j", "$ArrayOfString[5]")
-    ->setCellValue("G$j", "$ArrayOfString[6]")
-    ->setCellValue("H$j", "$ArrayOfString[7]")
-    ->setCellValue("I$j", "$ArrayOfString[8]")
-    ->setCellValue("J$j", "$ArrayOfString[9]")
-    ->setCellValue("K$j", "$ArrayOfString[10]")
-    ->setCellValue("L$j", "$ArrayOfString[11]")
-    ->setCellValue("M$j", "$ArrayOfString[12]")
-    ->setCellValue("N$j", "$ArrayOfString[13]")
-    ->setCellValue("O$j", "$ArrayOfString[14]")
-    ->setCellValue("P$j", "$ArrayOfString[15]")
-    ->setCellValue("Q$j", "$ArrayOfString[16]")
-    ->setCellValue("R$j", "$ArrayOfString[17]")
-    ->setCellValue("S$j", "$ArrayOfString[18]");	
+    ->setCellValue("F$j", "$ArrayOfString[5]/$ArrayOfString[6]/$ArrayOfString[7]")
+//    ->setCellValue("G$j", "$ArrayOfString[6]")
+//    ->setCellValue("H$j", "$ArrayOfString[7]")
+    ->setCellValue("G$j", "$ArrayOfString[8]")
+    ->setCellValue("H$j", "$ArrayOfString[9]")
+    ->setCellValue("I$j", "$ArrayOfString[10]")
+    ->setCellValue("J$j", "$ArrayOfString[11]")
+    ->setCellValue("K$j", "$ArrayOfString[12]")
+    ->setCellValue("L$j", "$ArrayOfString[13]")
+    ->setCellValue("M$j", "$ArrayOfString[14]")
+    ->setCellValue("N$j", "$ArrayOfString[15]")
+	->setCellValue("O$j", "$discount_value")
+    ->setCellValue("P$j", "$price_discounted")
+	->setCellValue("Q$j", "$ArrayOfString[16]")
+	->setCellValue("R$j", "$ArrayOfString[17]")
+    ->setCellValue("S$j", "$ArrayOfString[18]")
+	->setCellValue("T$j", "$ArrayOfString[19]");	
 	
 	
 //	echo $ArrayOfString[0];
