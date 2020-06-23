@@ -1,38 +1,7 @@
 <?php
+
 defined('_JEXEC') or die;
 
-/* /{DST */
-$user=JFactory::getUser();
-if($user->id<1){ 
-	exit();
-}  
-/* /}DST */
-
-//require '../vendor/autoload.php';
-require 'vendor/autoload.php';
-//require 'plugins/csviaddon/virtuemart/com_virtuemart/model/export/price.php';
-
-use PhpOffice\PhpSpreadsheet\Helper\Sample;
-use PhpOffice\PhpSpreadsheet\IOFactory;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-
-/*require_once __DIR__ . '/../Bootstrap.php';*/
-
-$helper = new Sample();
-if ($helper->isCli()) {
-    $helper->log('This example should only be run from a Web Browser' . PHP_EOL);
-
-    return;
-}
-
-/* {DST */
-/* Get data for table*/
-
-
-
-
-//$https_user 	= '191033183';
-//$https_password = '191033183BB';
 $url = 'http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export';
 
 function HttpPost ($url, $data, $json = false, $selfsigned = false, $token = '', $user = '', $pass = ''){
@@ -96,9 +65,7 @@ function HttpPost ($url, $data, $json = false, $selfsigned = false, $token = '',
         ,'headers'=>$http_response_header       
     );
 }
-?>
 
-<?php
 // api.php file
 function api(){
     if(!empty($_POST)){
@@ -107,27 +74,33 @@ function api(){
         echo file_get_contents('php://input');
     }
 }
-// Открываем файл с помощью установленных выше HTTP-заголовков
-//$file = file_get_contents('http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export', false, $context);
+
+
+/* /{DST */
+$user=JFactory::getUser();
+if($user->id<1){ 
+	exit();
+}  
+/* /}DST */
+
+//require '../vendor/autoload.php';
+require 'vendor/autoload.php';
+
+use PhpOffice\PhpSpreadsheet\Helper\Sample;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+
+/*require_once __DIR__ . '/../Bootstrap.php';*/
+
+$helper = new Sample();
+if ($helper->isCli()) {
+    $helper->log('This example should only be run from a Web Browser' . PHP_EOL);
+
+    return;
+}
 
 
 
-
-// Return array with content and headers
-$res = HttpPost($url, array('name' => 'Jombo', 'id' => 247), true);
-
-$DataTable = $res[content]; 
-
-print_r($DataTable);
-
-//$goodstable = curl_get_file_contents('http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export');
-//echo 'begin';
-//echo $goodstable;
-exit();
-
-
-
-/* }DST */
 
 // Create new Spreadsheet object
 $spreadsheet = new Spreadsheet();
@@ -141,30 +114,93 @@ $spreadsheet->getProperties()->setCreator('Kuk Sergei')
     ->setKeywords('price bat_by')
     ->setCategory('price');
 
-if ($res != '') {
-	$currentNumber = 1;
-	$element = $res[$currentNumber-1];
-	// Add some data
-$spreadsheet->setActiveSheetIndex(0)
-    ->setCellValue("A$currentNumber", "$element")
-    ->setCellValue('B2', 'world!')
-    ->setCellValue('C1', 'Hello')
-    ->setCellValue('D2', 'world!');
-}
-/*
 // Add some data
+
+$res = HttpPost($url, array('name' => 'Jombo', 'id' => 247), false);
+
+$DataTable = $res['content'];
+
+$DataArray = explode(PHP_EOL, $DataTable);
+$DataArrayCount = count($DataArray);
+
 $spreadsheet->setActiveSheetIndex(0)
-    ->setCellValue('A1', 'Hello')
-    ->setCellValue('B2', 'world!')
-    ->setCellValue('C1', 'Hello')
-    ->setCellValue('D2', 'world!');
-*/
-/*
-// Miscellaneous glyphs, UTF-8
-$spreadsheet->setActiveSheetIndex(0)
-    ->setCellValue('A4', 'Miscellaneous glyphs')
-    ->setCellValue('A5', 'Тест прайс-листа');
-*/
+    ->setCellValue("A1", "Номенклатура")
+    ->setCellValue("B1", "Артикул")
+    ->setCellValue("C1", "Бренд")
+    ->setCellValue("D1", "Продуктовая лиейка")
+    ->setCellValue("E1", "Ёмкость")
+    ->setCellValue("F1", "Высота")
+    ->setCellValue("G1", "Длина")
+    ->setCellValue("H1", "Ширина")
+    ->setCellValue("I1", "Полярность")
+    ->setCellValue("J1", "Код")
+    ->setCellValue("K1", "Пусковой ток")
+    ->setCellValue("L1", "Напряжение")
+    ->setCellValue("M1", "Объем")
+    ->setCellValue("N1", "Вес")
+    ->setCellValue("O1", "Вес2")
+    ->setCellValue("P1", "Гарантия")
+    ->setCellValue("Q1", "Цена Базовая")
+    ->setCellValue("R1", "Остаток")
+    ->setCellValue("S1", "Путь");
+
+for ($i = 1; $i <= $DataArrayCount; $i++) {
+//for ($i = 1; $i <= 5; $i++) {
+	$ArrayOfString = explode("|",  $DataArray[$i]);
+	$j = $i + 1;
+	$spreadsheet->setActiveSheetIndex(0)
+    ->setCellValue("A$j", "$ArrayOfString[0]")
+    ->setCellValue("B$j", "$ArrayOfString[1]")
+    ->setCellValue("C$j", "$ArrayOfString[2]")
+    ->setCellValue("D$j", "$ArrayOfString[3]")
+    ->setCellValue("E$j", "$ArrayOfString[4]")
+    ->setCellValue("F$j", "$ArrayOfString[5]")
+    ->setCellValue("G$j", "$ArrayOfString[6]")
+    ->setCellValue("H$j", "$ArrayOfString[7]")
+    ->setCellValue("I$j", "$ArrayOfString[8]")
+    ->setCellValue("J$j", "$ArrayOfString[9]")
+    ->setCellValue("K$j", "$ArrayOfString[10]")
+    ->setCellValue("L$j", "$ArrayOfString[11]")
+    ->setCellValue("M$j", "$ArrayOfString[12]")
+    ->setCellValue("N$j", "$ArrayOfString[13]")
+    ->setCellValue("O$j", "$ArrayOfString[14]")
+    ->setCellValue("P$j", "$ArrayOfString[15]")
+    ->setCellValue("Q$j", "$ArrayOfString[16]")
+    ->setCellValue("R$j", "$ArrayOfString[17]")
+    ->setCellValue("S$j", "$ArrayOfString[18]");	
+	
+	
+//	echo $ArrayOfString[0];
+//	echo $ArrayOfString[1];
+//	echo $ArrayOfString[2];
+//	echo $ArrayOfString[3];
+//	echo $ArrayOfString[4];
+//	echo $ArrayOfString[5];
+//	echo $ArrayOfString[6];
+//	echo $ArrayOfString[7];
+//	echo $ArrayOfString[8];
+//	echo $ArrayOfString[9];
+//	echo $ArrayOfString[10];
+//	echo $ArrayOfString[11];
+//	echo $ArrayOfString[12];
+//	echo $ArrayOfString[13];
+//	echo $ArrayOfString[14];
+//	echo $ArrayOfString[15];
+//	echo $ArrayOfString[16];
+//	echo $ArrayOfString[17];
+//	echo $ArrayOfString[18];
+}
+
+//$spreadsheet->setActiveSheetIndex(0)
+//    ->setCellValue('A1', 'Hello')
+//    ->setCellValue('B2', 'world!')
+//    ->setCellValue('C1', 'Hello')
+//    ->setCellValue('D2', 'world!');
+//
+//// Miscellaneous glyphs, UTF-8
+//$spreadsheet->setActiveSheetIndex(0)
+//    ->setCellValue('A4', 'Miscellaneous glyphs')
+//    ->setCellValue('A5', 'Тест прайс-листа');
 
 // Rename worksheet
 $spreadsheet->getActiveSheet()->setTitle('bat');
