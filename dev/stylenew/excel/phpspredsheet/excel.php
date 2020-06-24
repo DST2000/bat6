@@ -47,7 +47,7 @@ function HttpPost ($url, $data, $json = false, $selfsigned = false, $token = '',
                         'ssl' => $ssl,
                         'http'=>
                         array (
-                            'timeout' => 60,
+                            'timeout' => 20,
                             'method'=> 'POST'
                             , 'header'=>
                                     $content .
@@ -332,6 +332,17 @@ for ($i = 1; $i <= 10; $i++) {
 	
 	
 }
+
+$styleArray = [
+    'borders' => [
+        'allBorders' => [
+            'borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN,
+        ]	
+    ]
+];
+
+//$spreadsheet->getActiveSheet()->getStyle('A3')->applyFromArray($styleArray);
+$spreadsheet->getActiveSheet(0)->getStyle("A1:Q$i")->applyFromArray($styleArray);
 
 //$spreadsheet->setActiveSheetIndex(0)
 //    ->setCellValue('A1', 'Hello')
