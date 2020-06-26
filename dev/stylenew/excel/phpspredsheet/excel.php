@@ -47,7 +47,7 @@ function HttpPost ($url, $data, $json = false, $selfsigned = false, $token = '',
                         'ssl' => $ssl,
                         'http'=>
                         array (
-                            'timeout' => 20,
+                            'timeout' => 60,
                             'method'=> 'POST'
                             , 'header'=>
                                     $content .
