@@ -3,6 +3,7 @@
 defined('_JEXEC') or die;
 
 $url = 'http://bat6/index.php?option=com_csvi&view=export&csvi_template_id=80&key=batautotrade&task=export';
+//$url = 'https://bat.by/index.php?option=com_csvi&view=export&csvi_template_id=74&key=batautotrade&task=export';
 
 function HttpPost ($url, $data, $json = false, $selfsigned = false, $token = '', $user = '', $pass = ''){
    
@@ -83,8 +84,8 @@ if($user->id<1){
 }  
 /* /}DST */
 
-//require '../vendor/autoload.php';
-require 'vendor/autoload.php';
+//require '../vendor/autoload.php'; //https
+require 'vendor/autoload.php'; //http
 
 use PhpOffice\PhpSpreadsheet\Helper\Sample;
 use PhpOffice\PhpSpreadsheet\IOFactory;
