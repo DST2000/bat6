@@ -72,10 +72,19 @@ $lang->load('plg_user_profile', JPATH_ADMINISTRATOR);
 							<div class="control-group">
 								<div class="control-label">
 									<?php echo $field->label; ?>
-									<?php if (!$field->required && $field->type !== 'Spacer') : ?>
+									<?php // {DST  ?>
+									<?php //if (!$field->required && $field->type !== 'Spacer' ) : ?>
+									<?php if (!$field->required && $field->type !== 'Spacer' && $field->fieldname !== 'password1') : ?>
+									<?php // }DST  ?>
 										<span class="optional">
 											<?php echo JText::_('COM_USERS_OPTIONAL'); ?>
 										</span>
+									<?php // {DST  ?>
+									<?php elseif ($field->fieldname === 'password1') : ?>
+										<span class="optional">
+											<?php echo JText::_('JGLOBAL_PASSWORD52'); ?>
+										</span>
+									<?php // }DST  ?>
 									<?php endif; ?>
 								</div>
 								<div class="controls">

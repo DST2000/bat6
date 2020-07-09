@@ -61,6 +61,27 @@ label#jform_email2-lbl {
     z-index: 1;
 }
 
+.login {
+    display: flex;
+    position: fixed;
+    top: 55px;
+    z-index: 1;
+}
+
+label#username-lbl {
+    float: left;
+}
+
+label#password-lbl {
+	float: left;
+}
+
+form.form-validate.form-horizontal.well {
+    margin: 2px !important;
+    padding: 0px 0px 0px 5px !important;
+    border: 4px solid red;
+}
+
 #member-profile fieldset, .registration fieldset {
     margin: 0px 0 0px 0 !important;
     padding: 0px !important;

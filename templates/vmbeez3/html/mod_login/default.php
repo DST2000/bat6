@@ -45,7 +45,10 @@ JHtml::_('behavior.keepalive');
 	</p>
 	<p id="form-login-password">
 		<label for="modlgn-passwd"><?php echo JText::_('JGLOBAL_PASSWORD') ?></label>
-		<input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18" />
+		<?php // {DST  ?>
+		<?php // <input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18"/>  ?>				
+		<input id="modlgn-passwd" type="password" name="password" class="inputbox" size="30" placeholder="<?php echo JText::_('JGLOBAL_PASSWORD52') ?>"/>
+		<?php // }DST  ?>
 	</p>
 	<?php if (count($twofactormethods) > 1) : ?>
 		<div id="form-login-secretkey" class="control-group">
