@@ -487,6 +487,16 @@ yaCounter56448997.reachGoal('clicknumber');
 <a href="/optovye-pokupateli" class="user" ><i class="fas fa-user-circle"></i> Личный кабинет</a>
 <a href="/catalog/cart" class="cart" ><i class="fas fa-shopping-cart"></i> Корзина 
 	<span class="total_products_from_cart">0</span></a>
+<?php
+$user = JFactory::getUser();
+if ($user->id>0){ 	
+$username = $user->get( 'name' );	
+}  	
+?>
+<?php if ($user->id>0): ?>
+</br>
+<a href="/optovye-pokupateli" class="user">Вы зашли <i class="fas fa-user-circle"></i> как: <?php echo $username; ?></a>
+<?php endif; ?>
 </div>
 
 </div>
