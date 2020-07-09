@@ -124,11 +124,11 @@ $DataTable = $res['content'];
 $DataArray = explode(PHP_EOL, $DataTable);
 $DataArrayCount = count($DataArray);
 
-$spreadsheet->setActiveSheetIndex(0)
+/*$spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("A1", "Номенклатура")
     ->setCellValue("B1", "Артикул")
     ->setCellValue("C1", "Бренд")
-    ->setCellValue("D1", "Продуктовая лиейка")
+    ->setCellValue("D1", "Продуктовая линейка")
     ->setCellValue("E1", "Ёмкость")
     ->setCellValue("F1", "Габариты")
     ->setCellValue("G1", "Полярность")
@@ -141,7 +141,43 @@ $spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("N1", "Цена Базовая")
 	->setCellValue("O1", "Скидка")
 	->setCellValue("P1", "Цена")
-	 ->setCellValue("Q1", "Остаток");
+	 ->setCellValue("Q1", "Остаток");*/
+
+$spreadsheet->setActiveSheetIndex(0)
+    ->setCellValue("A1", "Номенклатура")
+    ->setCellValue("B1", "Остаток")
+    //->setCellValue("B1", "Артикул")
+    ->setCellValue("C1", "Габариты")
+    //->setCellValue("C1", "Бренд")
+    ->setCellValue("D1", "Ёмкость")
+    //->setCellValue("D1", "Продуктовая линейка")
+    ->setCellValue("E1", "Полярность")
+    //->setCellValue("E1", "Ёмкость")
+    ->setCellValue("F1", "Пусковой ток")
+    //->setCellValue("F1", "Габариты")
+    ->setCellValue("G1", "Вес")
+    //->setCellValue("G1", "Полярность")
+    ->setCellValue("H1", "Бренд")
+    //->setCellValue("H1", "Код")
+    ->setCellValue("I1", "Артикул")
+    //->setCellValue("I1", "Пусковой ток")
+    ->setCellValue("J1", "Цена")
+    //->setCellValue("J1", "Напряжение")
+    ->setCellValue("K1", "Скидка")
+    //->setCellValue("K1", "Объем")
+    ->setCellValue("L1", "Цена Базовая")
+    //->setCellValue("L1", "Вес")
+    ->setCellValue("M1", "Продуктовая линейка")
+    //->setCellValue("M1", "Гарантия")
+    ->setCellValue("N1", "Напряжение")
+    //->setCellValue("N1", "Цена Базовая")
+	->setCellValue("O1", "Объем")
+	//->setCellValue("O1", "Скидка")
+	->setCellValue("P1", "Гарантия")
+	//->setCellValue("P1", "Цена")
+	 ->setCellValue("Q1", "Код");
+	 //->setCellValue("Q1", "Остаток");
+
 //    ->setCellValue("Q1", "Остаток")
 //    ->setCellValue("R1", "Путь")
 //	->setCellValue("S1", "product_sku")
@@ -154,9 +190,9 @@ for ($i = 1; $i <= 10; $i++) {
 	
 	//*****
 	
-	$path = $ArrayOfString[17];
-	$product_sku  = $ArrayOfString[18];
-	$product_id = $ArrayOfString[19];
+	$path = $ArrayOfString[12];
+	$product_sku  = $ArrayOfString[13];
+	$product_id = $ArrayOfString[14];
 	
 	/* {/DST basePrice  */
 		$userid = $user->get('id');		 
@@ -291,22 +327,22 @@ for ($i = 1; $i <= 10; $i++) {
 					}
 					}
 					if ($discount_value > 0) {
-						$price_discounted = sprintf("%01.2f", $ArrayOfString[15]*((100-$discount_value)/100));
+						$price_discounted = sprintf("%01.2f", $ArrayOfString[11]*((100-$discount_value)/100));
 					}else {
-						$price_discounted = $ArrayOfString[15];
+						$price_discounted = $ArrayOfString[11];
 					}
 				}	
 	
 	//} //if ($product->get('product_discontinued') < 1) 
 
 		/* }/DST basePrice */
-	if (strlen($ArrayOfString[5]) > 0) {
-	$product_size = "$ArrayOfString[5]/$ArrayOfString[6]/$ArrayOfString[7]";
+	if (strlen($ArrayOfString[2]) > 0) {
+	$product_size = "$ArrayOfString[2]/$ArrayOfString[3]/$ArrayOfString[4]";
 	} else {
 		$product_size = '';
 	}
 	
-	$spreadsheet->setActiveSheetIndex(0)
+	/*$spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("A$j", "$ArrayOfString[0]")
     ->setCellValue("B$j", "$ArrayOfString[1]")
     ->setCellValue("C$j", "$ArrayOfString[2]")
@@ -329,7 +365,28 @@ for ($i = 1; $i <= 10; $i++) {
 //	->setCellValue("Q$j", "$ArrayOfString[16]")	
 //	->setCellValue("R$j", "$ArrayOfString[17]")
 //    ->setCellValue("S$j", "$ArrayOfString[18]")
-//	->setCellValue("T$j", "$ArrayOfString[19]");	
+//	->setCellValue("T$j", "$ArrayOfString[19]");*/
+	
+	
+	$spreadsheet->setActiveSheetIndex(0)
+    ->setCellValue("A$j", "$ArrayOfString[0]")
+    ->setCellValue("B$j", "$ArrayOfString[1]")
+    ->setCellValue("C$j", "$product_size")
+    ->setCellValue("D$j", "$ArrayOfString[5]")
+    ->setCellValue("E$j", "$ArrayOfString[6]")
+    ->setCellValue("F$j", "$ArrayOfString[7]")
+    ->setCellValue("G$j", "$ArrayOfString[8]")
+    ->setCellValue("H$j", "$ArrayOfString[9]")
+    ->setCellValue("I$j", "$ArrayOfString[10]")
+    ->setCellValue("J$j", "$price_discounted")
+    ->setCellValue("K$j", "$discount_value")
+    ->setCellValue("L$j", "$ArrayOfString[11]")
+    ->setCellValue("M$j", "$ArrayOfString[15]")
+    ->setCellValue("N$j", "$ArrayOfString[16]")
+	->setCellValue("O$j", "$ArrayOfString[17]")
+    ->setCellValue("P$j", "$ArrayOfString[18]")
+	->setCellValue("Q$j", "$ArrayOfString[19]");
+
 	
 	
 }
