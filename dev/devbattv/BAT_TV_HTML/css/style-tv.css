@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* < body */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* > body */
+
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel {
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+
+.carousel-item {
+    height: 40rem;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
