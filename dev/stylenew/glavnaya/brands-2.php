@@ -22,15 +22,19 @@
             </div>
             <div class="col-md-3 row-flex">
               <div class="mb-4 blockBorder">
-                <img src="images/logo/c7.png" alt=""/>
-                <p><strong>DELTA</strong> – линейка мото аккумуляторов и источников бесперебойного питания (ИБП)</p>
+				<a href="/brands/66-jingjiu-group-kijo">
+                <img src="images/logo/c11.png" alt=""/>
+                <p><strong>KIJO</strong> - линейка аккумуляторов для источников бесперебойного питания (ИБП), видеонаблюдения, охранных и электрических систем</p>
+				</a>
               </div>
             </div>
 
             <div class="col-md-3 row-flex">
               <div class=" mb-4 blockBorder">
-                <img src="images/logo/c8.png" alt=""/>
-                <p><strong>Q8 Oils</strong> – автомобильное масло высшего качества.</p>
+				<a href="/brands/65-q8oils-produktsiya">
+                	<img src="images/logo/c8.png" alt=""/>
+                	<p><strong>Q8 Oils</strong> – автомобильное масло высшего качества.</p>
+				</a>
               </div>
             </div>
 </div>
