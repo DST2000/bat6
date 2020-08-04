@@ -26,11 +26,11 @@ if ( count( $payables ) > 0 ) {
 				if ( $key == 'DocName' ) {
 					echo ("Ваша задолженность по договору $value ");
 				} elseif ( $key == 'AccountValue' ) {
-					echo ("составила <span class='AccountValue'> $value </span>");
+					echo ("составила <span class='AccountValue'> $value</span>");
 				}
-	//			elseif ( $key == 'ExpireAccountValue' ) {
-	//				echo ("<span class='ExpireAccountValue'> $value </span>");;
-	//			}
+				elseif ( $key == 'ExpireAccountValue' ) {
+					echo (", просроченная задолженность составляет <span class='ExpireAccountValue'> $value </span>");;
+				}
 			}
 		}
 		echo '</p></div>';

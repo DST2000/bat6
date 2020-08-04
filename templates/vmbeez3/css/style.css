@@ -98,7 +98,8 @@ p.payable {
     color: #2700ff;
 }
 
-span.AccountValue {
+span.AccountValue,
+span.ExpireAccountValue {
     color: red;
 }
 
