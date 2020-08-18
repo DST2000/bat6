@@ -141,6 +141,11 @@ jQuery(function($){
 					}
 				}
 			});	
+	$("button.filtermoduledisplay").click(
+		function() { 
+			$("#filter-module").toggleClass(" hidden-xs hidden-sm");
+		}
+	);
 //	$(document).ready(function() {
 //		var textcart = $("input.total_products_from_cart").html();
 //		if (textcart.length == 0 ) {

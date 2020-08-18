@@ -29,6 +29,16 @@ body h1 {
 	line-height: 1.2;
 }
 
+/* < mobile */
+
+@media screen and (max-width: 754px) {
+	body h1 {
+		font-size: 1.6em;
+	}
+}
+
+/* > mobile */
+
 /*body h2 {
 	margin-bottom: 0.75em;
 	font-size: 1.5em;

@@ -60,7 +60,7 @@ $this->setHtml5(true);
 $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=91');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=94');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=107');
 //$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu_half_50.css?v=115');
 //$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu_half_100.css?v=121');
@@ -72,7 +72,7 @@ $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/to
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/owl.carousel.min.css?v=1');
 // }DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/position.css?v=1', 'text/css', 'screen');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/layout.css?v=7', 'text/css', 'screen');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/layout.css?v=9', 'text/css', 'screen');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/print.css', 'text/css', 'print');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/general.css?v=1', 'text/css', 'screen');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/' . htmlspecialchars($color, ENT_COMPAT, 'UTF-8') . '.css', 'text/css', 'screen');
@@ -118,7 +118,7 @@ $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/template.js');
 // {DST
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/jui/bootstrap.min.js');
-$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=34');
+$this->addScript($this->baseurl . '/templates/' . $this->template . '/js/scripts.js?v=40');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/wow.min.js?v=1');
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/owl.carousel.min.js?v=1');
 // }DST
@@ -198,8 +198,11 @@ require __DIR__ . '/jsstrings.php';
 					<div class="container block-size">
 					<div class="row bg-grey">
 						<div class="col-xs-12 col-md-3 col-lg-2 row-flex">
-<!--							<div class="hidden-xs hidden-sm">-->
-							<div class="filter-module">
+<!--							<div class="hidden-xs hidden-sm">-->							
+							<?php if ($this->countModules('position-15')) : ?>
+								<button type="button" class="filtermoduledisplay btn btn-danger btn-lg btn-block hidden-sm hidden-md hidden-lg" >ФИЛЬТР</button>
+							<?php endif; ?>						
+							<div class="filter-module hidden-xs hidden-sm" id="filter-module">							
 							<jdoc:include type="modules" name="position-15" />
 							</div>
 <!--
