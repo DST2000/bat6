@@ -32,7 +32,7 @@ if (vRequest::getInt('dynamic',false) and vRequest::getInt('virtuemart_product_i
 // {DST
 // ******************
 ?>
-	<table class="table table-striped">
+	<table class="table table-striped table-hover table-responsive">
 		  <thead>
 			<tr>
 				<th scope="col">#</th>
