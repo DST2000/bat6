@@ -61,7 +61,7 @@ $this->addStyleSheet($this->baseurl . '/templates/system/css/system.css');
 // {DST
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/jui/bootstrap.min.css');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style.css?v=94');
-$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=107');
+$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu.css?v=108');
 //$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu_half_50.css?v=115');
 //$this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/style-newmenu_half_100.css?v=121');
 $this->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/top-menu.css?v=1');
