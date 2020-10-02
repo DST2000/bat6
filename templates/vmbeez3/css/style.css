@@ -111,7 +111,7 @@ span.warrantyElement {
 }
 /* > Гарантия */
 
-/* > Новости */
+/* < Новости */
 .news-style {
     line-height: 2em;
 	text-align: justify;
@@ -119,7 +119,23 @@ span.warrantyElement {
 .news-style>p>a {
     color: red;
 }
-/* < Новости */
+
+ul.list-news {
+    padding-left: 20px;
+}
+
+ul.list-news >li {
+    padding-left: 10px;
+    list-style: circle;
+}
+
+.figsign {
+    font: italic 1em Georgia, Times, serif;
+    color: #666;
+    text-align: center;
+    margin: 0 0 1.3em !important;
+}
+/* > Новости */
 
 
 /* < Список городов для акции */
