@@ -191,7 +191,8 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akom">Akom</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner">BANNER</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta">VARTA</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="catalog/aktex">AKTEX</a></li>	
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/aktex">AKTEX</a></li>
+	<li class="col-md-12 col-lg-12 p-0"><a href="catalog/atlant">ATLANT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt">BLT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/centra">CENTRA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot">Champion Pilot</a></li>
