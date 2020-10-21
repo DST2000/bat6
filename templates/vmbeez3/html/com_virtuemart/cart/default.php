@@ -82,7 +82,10 @@ vmJsApi::vmValidator();
 //		echo $this->loadTemplate ('address');
 		// }DST
 		// This displays the pricelist MUST be done with tables, because it is also used for the emails
-		echo $this->loadTemplate ('pricelist');
+		// {DST
+		//echo $this->loadTemplate ('pricelist');
+		echo $this->loadTemplate ('pricelistmobile');
+		// }DST
 
 		if (!empty($this->checkoutAdvertise)) {
 			?> <div id="checkout-advertise-box"> <?php
