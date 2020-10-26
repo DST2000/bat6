@@ -16,48 +16,45 @@
 defined ('_JEXEC') or die('Restricted access');
 ?>
 <fieldset class="vm-fieldset-pricelist">
-<table
-	class="cart-summary table-striped"
-	cellspacing="0"
-	cellpadding="0"
-	border="0"
-	width="100%">
-<tr>
-	<th class="vm-cart-item-name" ><?php echo vmText::_ ('COM_VIRTUEMART_CART_NAME') ?></th>
-	<?php // {DST 
-	/*<th class="vm-cart-item-sku" ><?php echo vmText::_ ('COM_VIRTUEMART_CART_SKU') ?></th> */
-	// }DST ?>
-	<th class="vm-cart-item-sku" ><?php echo vmText::_ ('COM_VIRTUEMART_STORE_FORM_DESCRIPTION') ?></th>
-	<th	class="vm-cart-item-basicprice" ><?php echo vmText::_ ('COM_VIRTUEMART_CART_PRICE') ?></th>
-	<th	class="vm-cart-item-quantity" ><?php echo vmText::_ ('COM_VIRTUEMART_CART_QUANTITY') ?></th>
-	<?php if (VmConfig::get ('show_tax')) {
-		$tax = vmText::_ ('COM_VIRTUEMART_CART_SUBTOTAL_TAX_AMOUNT');
-		if(!empty($this->cart->cartData['VatTax'])){
-			if(count($this->cart->cartData['VatTax']) < 2) {
-				reset($this->cart->cartData['VatTax']);
-				$taxd = current($this->cart->cartData['VatTax']);
-				$tax = shopFunctionsF::getTaxNameWithValue($taxd['calc_name'],$taxd['calc_value']);
-			}
-		}
-		?>
-	<th class="vm-cart-item-tax" ><?php echo "<span  class='priceColor2'>" . $tax . '</span>' ?></th>
-	<?php } ?>
-	<th class="vm-cart-item-discount" ><?php echo "<span  class='priceColor2'>" . vmText::_ ('COM_VIRTUEMART_CART_SUBTOTAL_DISCOUNT_AMOUNT') . '</span>' ?></th>
-	<?php // {DST ?>
-	<th class="vm-cart-item-discounted-price" ><?php echo "<span  class='priceColor2'>" . vmText::_ ('COM_VIRTUEMART_PRODUCT_SALESPRICE_WITH_DISCOUNT') . '</span>' ?></th>
-	<?php // }DST ?>
-	<th class="vm-cart-item-total" ><?php echo vmText::_ ('COM_VIRTUEMART_CART_TOTAL') ?></th>
-</tr>
-
+<div class="headercard">
+	<div class="row">
+		<div class="col-xs-6 cart-block">
+			<span class="vm-cart-item-name" >Наименование</span>
+		</div>
+		<div class="col-xs-3 cart-block">
+			<span class="vm-cart-item-basicprice">Цена</span>
+		</div>
+		<div class="col-xs-3 cart-block">
+			<span class="vm-cart-item-discount" >% скидки</span>
+			</br>
+			<span class="vm-cart-item-discounted-price" ><span class='priceColor2'>цена со скидкой</span></span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 cart-block">
+			<span class="vm-cart-item-sku priceColor2">Дополнительное описание</span>
+		</div>
+		<div class="col-xs-3 cart-block hidden-xs">
+			<span class="vm-cart-item-quantity">Количество</span>
+		</div>
+		<div class="col-xs-3 cart-block hidden-sm  hidden-md  hidden-lg">
+			<span class="vm-cart-item-quantity">Кол-во</span>
+		</div>
+		<div class="col-xs-3 cart-block">
+			<span class="vm-cart-item-total">Сумма</span>
+		</div>
+	</div>
+</div>
 <?php
 $i = 1;
 
 foreach ($this->cart->products as $pkey => $prow) {
 	$prow->prices = array_merge($prow->prices,$this->cart->cartPrices[$pkey]);
-?>
-
-<tr style="vertical-align: top" class="sectiontableentry<?php echo $i ?>">
-	<td class="vm-cart-item-name" >
+?>	
+<div class="sectiontableentry<?php echo $i ?>">
+<div class="row">
+	<div class="col-xs-6 cart-block">
+		<span class="vm-cart-item-name" >
 		<input type="hidden" name="cartpos[]" value="<?php echo $pkey ?>">
 		<?php if ($prow->virtuemart_media_id) { ?>
 		<span class="cart-images">
@@ -72,13 +69,10 @@ foreach ($this->cart->products as $pkey => $prow) {
 //			echo $this->customfieldsModel->CustomsFieldCartDisplay ($prow); 
 			// }DST
 			?>
-	</td>
-	<?php // {DST
-	/* <td class="vm-cart-item-sku" ><?php  echo $prow->product_sku ?></td> */
-	// {DST  
-	?>
-	<td class="vm-cart-item-sku" ><?php  echo $this->customfieldsModel->CustomsFieldCartDisplay ($prow); ?></td>
-	<td class="vm-cart-item-basicprice" >
+		</span> 
+	</div>
+	<div class="col-xs-3 cart-block">
+		<span class="vm-cart-item-basicprice" >
 		<?php
 		if (VmConfig::get ('checkout_show_origprice', 1) && $prow->prices['discountedPriceWithoutTax'] != $prow->prices['priceWithoutTax']) {
 			echo '<span class="line-through">' . $this->currencyDisplay->createPriceDiv ('basePriceVariant', '', $prow->prices, TRUE, FALSE) . '</span><br />';
@@ -88,26 +82,11 @@ foreach ($this->cart->products as $pkey => $prow) {
 		} else {
 			echo $this->currencyDisplay->createPriceDiv ('basePriceVariant', '', $prow->prices, FALSE, FALSE, 1.0, false, true);
 		} ?>
-	</td>
-	<td class="vm-cart-item-quantity" ><?php
-		if ($prow->step_order_level)
-			$step=$prow->step_order_level;
-		else
-			$step=1;
-		if($step==0)
-			$step=1;
-		?>
-		<input type="text"
-			onblur="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
-			onclick="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
-			onchange="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
-			onsubmit="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
-			title="<?php echo  vmText::_('COM_VIRTUEMART_CART_UPDATE') ?>" class="quantity-input js-recalculate" size="3" maxlength="4" name="quantity[<?php echo $pkey; ?>]" value="<?php echo $prow->quantity ?>" />
-		<button type="submit" class="vmicon vm2-add_quantity_cart" name="updatecart.<?php echo $pkey ?>" title="<?php echo  vmText::_ ('COM_VIRTUEMART_CART_UPDATE') ?>" data-dynamic-update="1" ></button>
-		<button type="submit" class="vmicon vm2-remove_from_cart" name="delete.<?php echo $pkey ?>" title="<?php echo vmText::_ ('COM_VIRTUEMART_CART_DELETE') ?>" ></button>
-	</td>
-	<?php if (VmConfig::get ('show_tax')) { ?>
-	<td class="vm-cart-item-tax" ><?php echo "<span class='priceColor2'>" . $this->currencyDisplay->createPriceDiv ('taxAmount', '', $prow->prices, FALSE, FALSE, $prow->quantity, false, true) . "</span>" ?></td>
+		</span>
+	</div>
+	<div class="col-xs-3 cart-block">
+		<?php if (VmConfig::get ('show_tax')) { ?>
+	<span class="vm-cart-item-tax" ><?php echo "<span class='priceColor2'>" . $this->currencyDisplay->createPriceDiv ('taxAmount', '', $prow->prices, FALSE, FALSE, $prow->quantity, false, true) . "</span>" ?></span>
 	<?php } ?>
 	<?php //{DST ?>
 	<?php 
@@ -123,12 +102,40 @@ foreach ($this->cart->products as $pkey => $prow) {
 //		$priceDiscount = round($prow->prices['salesPrice']*100)/100;
 //		$discountforSale = $discountforSale."</br>".$priceDiscount;
 //		}
-		$discountforSaleDisplay = ($discountforSale > 0) ? "$discountforSale %" : "";
+		$discountforSaleDisplay = ($discountforSale > 0) ? "-$discountforSale %" : "";
 	?>
-	<td class="vm-cart-item-discount" ><?php echo "<span class='priceColor2'>" . $this->currencyDisplay->createPriceDiv ('discountAmount', '', $prow->prices, FALSE, FALSE, $prow->quantity, false, true) . "</span>". $discountforSaleDisplay ?></td>
-	<td class="vm-cart-item-discounted-price" ><?php echo "<span class='priceColor2'>" .$discountedPriceforSaleDisplay. "</span>";  ?></td>
+	<span class="vm-cart-item-discount" ><?php echo "<span class='priceColor2'>" . $this->currencyDisplay->createPriceDiv ('discountAmount', '', $prow->prices, FALSE, FALSE, $prow->quantity, false, true) . "</span>". $discountforSaleDisplay ?></span>
+		</br>
+	<span class="vm-cart-item-discounted-price" ><?php echo "<span class='priceColor2'>" .$discountedPriceforSaleDisplay. "</span>";  ?></span>
 	<?php //}DST ?>
-	<td class="vm-cart-item-total">
+	
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-6 cart-block">
+		<span class="vm-cart-item-sku priceColor2" ><?php  echo $this->customfieldsModel->CustomsFieldCartDisplay ($prow); ?></span>		
+	</div>
+	<div class="col-xs-3 cart-block">
+		<span class="vm-cart-item-quantity" ><?php
+		if ($prow->step_order_level)
+			$step=$prow->step_order_level;
+		else
+			$step=1;
+		if($step==0)
+			$step=1;
+		?>
+		<input type="text"
+			onblur="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
+			onclick="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
+			onchange="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
+			onsubmit="Virtuemart.checkQuantity(this,<?php echo $step?>,'<?php echo vmText::_ ('COM_VIRTUEMART_WRONG_AMOUNT_ADDED',true)?>');"
+			title="<?php echo  vmText::_('COM_VIRTUEMART_CART_UPDATE') ?>" class="quantity-input js-recalculate" size="1" maxlength="3" name="quantity[<?php echo $pkey; ?>]" value="<?php echo $prow->quantity ?>" />
+		<button type="submit" class="vmicon vm2-add_quantity_cart" name="updatecart.<?php echo $pkey ?>" title="<?php echo  vmText::_ ('COM_VIRTUEMART_CART_UPDATE') ?>" data-dynamic-update="1" ></button>
+		<button type="submit" class="vmicon vm2-remove_from_cart" name="delete.<?php echo $pkey ?>" title="<?php echo vmText::_ ('COM_VIRTUEMART_CART_DELETE') ?>" ></button>
+		</span>		
+	</div>
+	<div class="col-xs-3 cart-block">
+		<span class="vm-cart-item-total">
 		<?php
 		if (VmConfig::get ('checkout_show_origprice', 1) && !empty($prow->prices['basePriceWithTax']) && $prow->prices['basePriceWithTax'] != $prow->prices['salesPrice']) {
 			echo '<span class="line-through">' . $this->currencyDisplay->createPriceDiv ('basePriceWithTax', '', $prow->prices, TRUE, FALSE, $prow->quantity) . '</span><br />';
@@ -136,11 +143,20 @@ foreach ($this->cart->products as $pkey => $prow) {
 		elseif (VmConfig::get ('checkout_show_origprice', 1) && empty($prow->prices['basePriceWithTax']) && !empty($prow->prices['basePriceVariant']) && $prow->prices['basePriceVariant'] != $prow->prices['salesPrice']) {
 			echo '<span class="line-through">' . $this->currencyDisplay->createPriceDiv ('basePriceVariant', '', $prow->prices, TRUE, FALSE, $prow->quantity) . '</span><br />';
 		}
-		echo $this->currencyDisplay->createPriceDiv ('salesPrice', '', $prow->prices, FALSE, FALSE, $prow->quantity) ?></td>
-</tr>
+		echo $this->currencyDisplay->createPriceDiv ('salesPrice', '', $prow->prices, FALSE, FALSE, $prow->quantity) ?>
+		</span>
+	</div>
+</div>
+</div>
 	<?php
 	$i = ($i==1) ? 2 : 1;
 } ?>
+<!-- //{ edit code -->
+	
+	
+	
+<!-- //} edit code -->	
+	
 <!--Begin of SubTotal, Tax, Shipment, Coupon Discount and Total listing -->
 <?php if (VmConfig::get ('show_tax')) {
 	$colspan = 3;

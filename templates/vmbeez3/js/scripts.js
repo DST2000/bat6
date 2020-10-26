@@ -146,6 +146,10 @@ jQuery(function($){
 			$("#filter-module").toggleClass(" hidden-xs hidden-sm");
 		}
 	);
+	$('#button-erip').click(function(e){
+       e.preventDefault(); //to prevent standard click event
+       $('#erip-info').toggle();
+});
 //	$(document).ready(function() {
 //		var textcart = $("input.total_products_from_cart").html();
 //		if (textcart.length == 0 ) {

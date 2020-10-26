@@ -82,7 +82,7 @@ vmJsApi::vmValidator();
 //		echo $this->loadTemplate ('address');
 		// }DST
 		// This displays the pricelist MUST be done with tables, because it is also used for the emails
-		// {DST
+		// {DST 
 		//echo $this->loadTemplate ('pricelist');
 		echo $this->loadTemplate ('pricelistmobile');
 		// }DST
@@ -99,7 +99,7 @@ vmJsApi::vmValidator();
 			?></div><?php
 		}
 
-		echo $this->loadTemplate ('cartfields');
+		echo $this->loadTemplate ('cartfieldsmobile');
 
 		?> <div class="checkout-button-top"> <?php
 			echo $this->checkout_link_html;
