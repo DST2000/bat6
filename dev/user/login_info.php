@@ -58,96 +58,7 @@ if ( count( $payables ) > 0 ) {
 	</tr>
 </thead>
 <tbody>		
-	<tr>
-				<td>
-					<a title="Banner P7024 (70 Ah) Asia, p" href="/catalog/akkumulators/banner/banner-p7024-70-ah-asia-p">
-						<img src="/images/virtuemart/product/resized/banner-p7024-70-ah-asia-p-1_0x90.jpg" alt="banner-p7024-70-ah-asia-p-1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/banner/banner-p7024-70-ah-asia-p">Banner P7024 (70 Ah) Asia, p</a></h2></td>
-				<td><span class="stock-level">2шт. </span></td>
-				<td>231.83				</td>
-				<td>137,22</td>
-				<td>
-					<span class="product-size">260-174-200</span>					</td>
-				<td>
-				600				</td>
-			</tr>
-	
-	<tr>
-				<td>
-					<a title="Energizer plus 560413 (60 Ah) ASIA" href="/catalog/akkumulators/energizer/energizer-plus-560413-60-ah-asia">
-						<img src="/images/virtuemart/product/resized/energizer-plus-560413-60-ah-asia-1_0x90.jpg" alt="energizer plus 560413 60 ah asia 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/energizer/energizer-plus-560413-60-ah-asia">Energizer plus 560413 (60 Ah) ASIA</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>130.9				</td>
-				<td>86,94</td>
-				<td>
-					<span class="product-size">232-173-225</span>					</td>
-				<td>
-				510				</td>	
-			</tr>
 
-	<tr>
-				<td>
-					<a title="Varta Blue Dyn (Asia) 560411 (60 Ah)р" href="/catalog/akkumulators/varta/varta-blue-dyn-asia-560411-60-ah-r">
-						<img src="/images/virtuemart/product/resized/varta-blue-dyn-asia-560411-60-ah-r-1_0x90.jpg" alt="varta blue dyn asia 560411 60 ah r 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-blue-dyn-asia-560411-60-ah-r">Varta Blue Dyn (Asia) 560411 (60 Ah)р</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>189.54				</td>
-				<td>114,13</td>
-				<td>
-					<span class="product-size">232-173-225</span>					</td>
-				<td>
-				540				</td>
-			</tr>
-
-	<tr>
-				<td>
-					<a title="Varta Blue Dyn (Asia) 565420 (65 Ah) р" href="/catalog/akkumulators/varta/varta-blue-dyn-asia-565420-65-ah-r">
-						<img src="/images/virtuemart/product/resized/varta-blue-dyn-asia-565420-65-ah-r-1_0x90.jpg" alt="varta blue dyn asia 565420 65 ah r 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-blue-dyn-asia-565420-65-ah-r">Varta Blue Dyn (Asia) 565420 (65 Ah) р</a></h2></td>
-				<td><span class="stock-level">2шт. </span></td>
-				<td>226.3				</td>
-				<td>152,65</td>
-				<td>
-					<span class="product-size">232-173-225</span>					</td>
-				<td>
-				570				</td>	
-			</tr>
-
-	<tr>
-				<td>
-					<a title="Varta Blue Dyn (Asia) 575413 (75 Ah) р" href="/catalog/akkumulators/varta/varta-blue-dyn-asia-575413-75-ah-r">
-						<img src="/images/virtuemart/product/resized/varta-blue-dyn-asia-575413-75-ah-r-1_0x90.jpg" alt="varta blue dyn asia 575413 75 ah r 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-blue-dyn-asia-575413-75-ah-r">Varta Blue Dyn (Asia) 575413 (75 Ah) р</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>238.27				</td>
-				<td>160,98</td>
-				<td>
-					<span class="product-size">261-175-220</span>					</td>
-				<td>
-				680				</td>	
-			</tr>
-
-	<tr>
-				<td>
-					<a title="Varta Blue Dyn 574013 (74 Ah) рус" href="/catalog/akkumulators/varta/varta-blue-dyn-574013-74-ah-rus-2">
-						<img src="/images/virtuemart/product/resized/varta-blue-dyn-574013-74-ah-rus-2-1_0x90.jpg" alt="varta blue dyn 574013 74 ah rus 2 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-blue-dyn-574013-74-ah-rus-2">Varta Blue Dyn 574013 (74 Ah) рус</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>235.7				</td>
-				<td>159,51</td>
-				<td>
-					<span class="product-size">278-175-190</span>					</td>
-				<td>
-				680				</td>	
-			</tr>
-	
 	<tr>
 				<td>
 					
@@ -195,29 +106,14 @@ if ( count( $payables ) > 0 ) {
 				<td>
 				30				</td>
 			</tr>
-	
-	<tr>
-				<td>
-					<a title="Varta POWERSPORTS 511013 (11 Ah)" href="/catalog/akkumulators/varta/varta-powersports-511013-11-ah-2">
-						<img src="/images/virtuemart/product/resized/varta-powersports-511013-11-ah-2-1_0x90.jpg" alt="varta powersports 511013 11 ah 2 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-511013-11-ah-2">Varta POWERSPORTS 511013 (11 Ah)</a></h2></td>
-				<td><span class="stock-level">2шт. </span></td>
-				<td>84.9				</td>
-				<td>59,95</td>
-				<td>
-					<span class="product-size">136-91-146</span>					</td>
-				<td>
-				90				</td>	
-			</tr>
-	
+		
 	<tr>
 				<td>
 					<a title="Varta POWERSPORTS AGM 503014 (3 Ah)" href="/catalog/akkumulators/varta/varta-powersports-agm-503014-3-ah-2">
 						<img src="/components/com_virtuemart/assets/images/vmgeneral/noimage.gif" alt="Не настроено изображение " class="browseProductImage-horison">					</a>
 				</td>
 				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-503014-3-ah-2">Varta POWERSPORTS AGM 503014 (3 Ah)</a></h2></td>
-				<td><span class="stock-level">4шт. </span></td>
+				<td><span class="stock-level">2шт. </span></td>
 				<td>62.95				</td>
 				<td>38,91</td>
 				<td>
@@ -232,7 +128,7 @@ if ( count( $payables ) > 0 ) {
 						<img src="/images/virtuemart/product/resized/varta-powersports-agm-503903-2-ah-2-1_0x90.jpg" alt="varta-powersports-agm-503903-2-ah-2-1" class="browseProductImage-horison">					</a>
 				</td>
 				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-503903-2-ah-2">Varta POWERSPORTS AGM 503903 (2 Ah)</a></h2></td>
-				<td><span class="stock-level">7шт. </span></td>
+				<td><span class="stock-level">5шт. </span></td>
 				<td>87.72				</td>
 				<td>43,87</td>
 				<td>
@@ -243,26 +139,11 @@ if ( count( $payables ) > 0 ) {
 	
 	<tr>
 				<td>
-					<a title="Varta POWERSPORTS AGM 508901 (8 Ah)" href="/catalog/akkumulators/varta/varta-powersports-agm-508901-8-ah-2">
-						<img src="/images/virtuemart/product/resized/varta-powersports-agm-508901-8-ah-2-1_0x90.jpg" alt="varta powersports agm 508901 8 ah 2 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-508901-8-ah-2">Varta POWERSPORTS AGM 508901 (8 Ah)</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>131.68				</td>
-				<td>87,16</td>
-				<td>
-					<span class="product-size">150-87-93</span>					</td>
-				<td>
-				150				</td>	
-			</tr>
-
-	<tr>
-				<td>
 					<a title="Varta POWERSPORTS AGM 509901 (9 Ah)" href="/catalog/akkumulators/varta/varta-powersports-agm-509901-9-ah-2">
 						<img src="/images/virtuemart/product/resized/varta-powersports-agm-509901-9-ah-2-1_0x90.jpg" alt="varta-powersports-agm-509901-9-ah-2-1" class="browseProductImage-horison">					</a>
 				</td>
 				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-509901-9-ah-2">Varta POWERSPORTS AGM 509901 (9 Ah)</a></h2></td>
-				<td><span class="stock-level">2шт. </span></td>
+				<td><span class="stock-level">3шт. </span></td>
 				<td>155.64				</td>
 				<td>100,44</td>
 				<td>
@@ -286,22 +167,7 @@ if ( count( $payables ) > 0 ) {
 				<td>
 				115				</td>
 			</tr>
-	
-	<tr>
-				<td>
-					<a title="Varta POWERSPORTS AGM 512903 (12 Ah)" href="/catalog/akkumulators/varta/varta-powersports-agm-512903-12-ah-2">
-						<img src="/images/virtuemart/product/resized/varta-powersports-agm-512903-12-ah-2-1_0x90.jpg" alt="varta powersports agm 512903 12 ah 2 1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-512903-12-ah-2">Varta POWERSPORTS AGM 512903 (12 Ah)</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>160.37				</td>
-				<td>84,18</td>
-				<td>
-					<span class="product-size">152-70-150</span>					</td>
-				<td>
-				190				</td>
-			</tr>
-		
+
 	
 </tbody>	
 	
