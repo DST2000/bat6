@@ -20,16 +20,18 @@
 defined('_JEXEC') or die('Restricted access');
 
 if(!$this->userDetails->user_is_vendor){ ?>
-<div class="buttonBar-right">
-	<button class="button" type="submit" onclick="javascript:return myValidator(userForm, true);" ><?php echo $this->button_lbl ?></button>
+<div class="buttonBar">
+	<button class="button btn btn-success" type="submit" onclick="javascript:return myValidator(userForm, true);" ><?php echo $this->button_lbl ?></button>
 	&nbsp;
-	<button class="button" type="reset" onclick="window.location.href='<?php echo JRoute::_('index.php?option=com_virtuemart&view=user', FALSE); ?>'" ><?php echo vmText::_('COM_VIRTUEMART_CANCEL'); ?></button>
+	<button class="button btn btn-info" type="reset" onclick="window.location.href='<?php echo JRoute::_('index.php?option=com_virtuemart&view=user', FALSE); ?>'" ><?php echo vmText::_('COM_VIRTUEMART_CANCEL'); ?></button>
 </div>
 <?php }
-if( $this->userDetails->virtuemart_user_id!=0) {
-    echo $this->loadTemplate('vmshopper');
-}
-
+// {DST 
+//if( $this->userDetails->virtuemart_user_id!=0) {
+//    echo $this->loadTemplate('vmshopper');
+//}
+echo "</br>";
+// }DST
 echo $this->loadTemplate('address_userfields');
 
 if ($this->userDetails->JUser->get('id') ) {

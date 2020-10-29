@@ -952,3 +952,11 @@ div[class*="-view"] .row {
 }
 
 /* > корзина */
+
+/* < данные пользователя */
+div.form-control > input {
+    padding: 0px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+/* > данные пользователя */

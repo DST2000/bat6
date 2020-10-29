@@ -133,7 +133,9 @@ class VirtuemartViewUser extends VmView {
 		if ($layoutName == 'edit') {
 
 			if ($this->_model->getId() == 0 && $this->_cuid == 0) {
-			$button_lbl = vmText::_('COM_VIRTUEMART_REGISTER');
+				// {DST
+				//$button_lbl = vmText::_('COM_VIRTUEMART_REGISTER');
+				// }DST
 			} else {
 			$button_lbl = vmText::_('COM_VIRTUEMART_SAVE');
 			}

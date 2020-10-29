@@ -106,6 +106,9 @@ if ($this->show and $user->id == 0  ) {
 
 
     // XXX style CSS id com-form-login ?>
+	<?php
+	// {DST 
+	/*
     <form id="com-form-login" action="<?php echo JUri::root(true).'/'.$url; ?>" method="post" name="com-login" >
       <fieldset class="userdata">
         <?php if (!$this->from_cart ) { ?>
@@ -133,6 +136,10 @@ if ($this->show and $user->id == 0  ) {
         <div class="clr"></div>
       </fieldset>
 
+	<?php
+	// {DST
+	*/
+	/*
       <div class="width30 floatleft">
         <a href="<?php echo JRoute::_('index.php?option=com_users&view=remind'); ?>" rel="nofollow">
         <?php echo vmText::_('COM_VIRTUEMART_ORDER_FORGOT_YOUR_USERNAME'); ?></a>
@@ -141,6 +148,9 @@ if ($this->show and $user->id == 0  ) {
         <a href="<?php echo JRoute::_('index.php?option=com_users&view=reset'); ?>" rel="nofollow">
         <?php echo vmText::_('COM_VIRTUEMART_ORDER_FORGOT_YOUR_PASSWORD'); ?></a>
       </div>
+	*/
+	// }DST
+	?>
 
       <div class="clr"></div>
 

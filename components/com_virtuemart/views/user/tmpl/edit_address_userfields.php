@@ -83,15 +83,21 @@ foreach($this->userFields['fields'] as $field) {
 		// we have to start a new table
 		if($openTable) {
 			$openTable = false;
+			// {DST
+			//<table class="adminForm user-details"> 
+			// }DST
 			?>
 
-			<table class="adminForm user-details">
+			<div class="adminForm user-details">
 
 		<?php
 		}
 		$descr = empty($field['description'])? $field['title']:$field['description'];
 		// Output: Userfields
 		?>
+				<?php
+				// {DST
+				/*
 				<tr title="<?php echo strip_tags($descr) ?>">
 					<td class="key"  >
 						<label class="<?php echo $field['name'] ?>" for="<?php echo $field['name'] ?>_field">
@@ -102,6 +108,30 @@ foreach($this->userFields['fields'] as $field) {
 						<?php echo $field['formcode'] ?>
 					</td>
 				</tr>
+				*/
+				// }DST
+				?>
+
+				<div class="input-group" title="<?php echo strip_tags($descr) ?>">
+					
+						<span class="input-group-addon">
+						<label class="<?php echo $field['name'] ?>" for="<?php echo $field['name'] ?>_field">
+							<?php echo $field['title'] . ($field['required'] ? ' <span class="asterisk">*</span>' : '') ?>
+						</label>
+						</span>
+<!--
+						<input type="<?php echo $field['type'] ?>" id="<?php echo $field['name'] ?>_field" name="<?php echo $field['name'] ?>" size="30" value="<?php echo $field['value'] ?>" class="form-control <?php echo $field['name'] ?>" 	
+						</input>
+-->
+					
+
+						<div class="form-control">
+						<?php echo $field['formcode'] ?>
+						</div>
+
+				</div>
+				<?php //print_r($field); ?>
+				</br>
 	<?php
 	}
 
@@ -115,9 +145,13 @@ if($closeDelimiter) { ?>
 }
 
 // At the end we have to close the current
-// table and delimiter ?>
+// table and delimiter 
+// {DST
+//</table>
+// }DST
+?>
 
-			</table>
+			</div>
 		</fieldset>
 
 <?php // Output: Hidden Fields
