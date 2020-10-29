@@ -100,7 +100,7 @@
 <!-- card -->
 <div class="item">
 <div class="row">
-	<a href="/catalog/akkumulators/monbat/monbat-agm-95-ah">
+	<a href="/catalog/akkumulators/blt/blt-26-ah">
 		<i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
 		<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;"><strong style=" font-size: 22px;"></strong></span>	
 		</i>
@@ -111,20 +111,20 @@
 
 		<div class="col-xs-1">
    		</div>
-		<div class="col-xs-3">
-		<img src="/images/virtuemart/product/resized/monbat-agm-95-ah-1_0x90.jpg" alt="monbat-agm-95-ah-1" style="width:100%;">
+		<div class="col-xs-5">
+		<img src="/images/virtuemart/product/resized/blt-26-ah_1_0x90.jpg" alt="blt-26-ah_1" style="width:100%;">
 		</div>
 
 
 
-		<div class="col-xs-8 py-1" style="">
+		<div class="col-xs-6 py-1" style="">
 		<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Супер цена </br> </strong>
-		<h4 style="font-weight: bold; margin-bottom: 1.0em;">Monbat AGM (95 Ah)</h4>
+		<h4 style="font-weight: bold; margin-bottom: 1.0em;">BLT 12V 26 Ah (M5)</h4>
 
 			<p>				
 			<div class="prodText">
 
-								Ёмкость (А/ч)-95<br>Ток холодной прокрутки А(EN)-860<br><span class="product-size">353x175x190 мм</span>						<span class="redPrice">
+								Ёмкость (А/ч)-26<br>Напряжение 12V<br><span class="product-size">176x167x125 мм</span>						<span class="redPrice">
 														</span>
 							</div>
 		</p>
@@ -135,7 +135,7 @@
 
 
 		<div class="col-xs-12">
-		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 31.10.2020</button>
+		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 30.11.2020</button>
 		</div>
 	</a>
 </div>
