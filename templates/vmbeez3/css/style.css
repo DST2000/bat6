@@ -960,3 +960,10 @@ div.form-control > input {
     border: 1px solid #fff;
 }
 /* > данные пользователя */
+
+/* < категории новостей */
+img.rounded.mx-auto.d-block.imgnews {
+    float: right;
+	width: 400px;
+}
+/* > категории новостей */
