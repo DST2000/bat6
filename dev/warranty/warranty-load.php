@@ -33,6 +33,8 @@ if ($user->guest) {
 }
 elseif (!$user->guest) {
 	$search_id = $user->username;
+	echo '<div>Бланк заявления для физических лиц в формате <a href='.'"'.'media/docs/zayavleniye_fiz_lic.pdf'.'"'.' target='.'"'.'_blank'.'"'.' rel='.'"'.'noopener noreferrer'.'"'.'> .pdf</a> , <a href='.'"'.'media/docs/zayavleniye_fiz_lic.doc'.'"'.' target='.'"'.'_blank'.'"'.' rel='.'"'.'noopener noreferrer'.'"'.'> .doc</a></div>';
+	echo '<br/>';
 	echo '<h3>Контактные данные для оптовых покупателей по вопросам возврата товара:</h3>';
 	echo '<p>Ф.И.О.: Микулич Ольга Геннадьевна</p>';
 	echo '<p><i class="fas fa-phone-square"></i> Телефон: <a href="tel:+375296906155" >+375 29 690 61 55</a></p>';
