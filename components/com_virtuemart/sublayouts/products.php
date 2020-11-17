@@ -101,6 +101,19 @@ foreach ($viewData['products'] as $type => $products ) {
 						?>
 						<span class="redPrice">
 						<?php // Нет в наличии
+						// {DST
+						if ($product->product_in_stock > 0) {
+							if ($product->product_in_stock < 5) {
+								echo '<div class="availability-instock">'.'в наличии < 5 шт.'.'</div>';
+							}
+							elseif (($product->product_in_stock >= 5)& ($product->product_in_stock < 20)){
+								echo '<div class="availability-instock">'.'в наличии > 5 шт.'.'</div>';
+							}
+							else {
+								echo '<div class="availability-instock">'.'в наличии > 20 шт.'.'</div>';
+							}
+						}
+						// }DST
 						echo shopFunctionsF::renderVmSubLayout('stockhandle',array('product'=>$product)); ?>
 						</span>
 					</div>
