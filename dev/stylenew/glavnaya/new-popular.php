@@ -73,16 +73,16 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-"> 	<div class="product-price" id="productPrice1679" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">165,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">170,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
 <br style="clear: both">
 						<p class="redPrice"> АКБ <span>
-							19							</span> p.
+							14							</span> p.
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 55 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 58.33 р./мес.</div>
 					
 				</div>
 				
@@ -117,7 +117,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-"> 	<div class="product-price" id="productPrice346" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">46,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">64,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right"> 
@@ -126,7 +126,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 														</span> 
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 15.33 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 21.33 р./мес.</div>
 					
 				</div>
 				
@@ -150,7 +150,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 	<div class="inc">
 				<div class=" prodImgBg">
 
-						<a title="Kijo 12V 7.2Ah" href="/catalog/akkumulators/kijo-7-2-ah">
+						<a title="Kijo 12V 7,2 Ah (F1)" href="/catalog/akkumulators/kijo-7-2-ah">
 							<img src="/images/virtuemart/product/resized/kijo-7-2-ah_1_0x90.jpg" alt="kijo-7-2-ah_1" class="browseProductImage">						</a>
 
 				</div>
@@ -159,7 +159,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 
 
 					<div class="prodTitle">
-						<a href="/catalog/akkumulators/kijo-7-2-ah">Kijo 12V 7.2Ah</a>											</div>
+						<a href="/catalog/akkumulators/kijo-7-2-ah">Kijo 12V 7,2 Ah (F1)</a>											</div>
 					<div class="prodText">
 						
 						Ёмкость (А/ч)-7,2<br>						<span class="redPrice">
@@ -170,7 +170,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-"> 	<div class="product-price" id="productPrice2584" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">38,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">45,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
@@ -179,7 +179,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 														</span> p.
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 12.67 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 15 р./мес.</div>
 					
 				</div>
 				
@@ -220,7 +220,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-"> 	<div class="product-price" id="productPrice696" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">110,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">125,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right"> 
@@ -229,7 +229,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 													</span> 
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 36.67 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 41.67 р./мес.</div>
 					
 				</div>
 				
@@ -268,7 +268,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 								<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-"> 	<div class="product-price" id="productPrice221" data-vm="product-prices"> 
-	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">535,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">715,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
@@ -277,7 +277,7 @@ echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&
 							22							</span> p.
 							</p>
 										</div>
-					<div class="textPrice col-md-12">Рассрочка:<br> от 178.33 р./мес.</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 238.33 р./мес.</div>
 					
 				</div>
 				
