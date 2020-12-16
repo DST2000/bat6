@@ -47,6 +47,94 @@ $productModel = VmModel::getModel('Product');
 //$product = $productModel->getProduct(Product_ID);
 	$product = $productModel->getProduct('346');
 echo JHTML::link(JRoute::_('index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id='.$product->virtuemart_product_id), $product->product_name, array('title' => $product->product_name)); */?>	
+
+<!-- card -->
+<div class="item productSmCart text-center blockBorder-p0">
+<div class="inc">
+				<div class=" prodImgBg">
+
+						<a title="Аккумулятор Banner 6/6 GiS 79 (12V 105/85 Ah)" href="/catalog/akkumulators/banner/banner-6-6-gis-79-12v-105-85-ah">
+							<img src="/images/virtuemart/product/resized/banner-6-6-gis-79-12v-105-85-ah-1_0x90.jpg" alt="Banner 6/6 GiS 79 (12V 105/85 Ah)" class="browseProductImage">						</a>
+
+				</div>
+
+
+
+
+					<div class="prodTitle">
+						<a href="/catalog/akkumulators/banner/banner-6-6-gis-79-12v-105-85-ah">Аккумулятор Banner 6/6 GiS 79 (12V 105/85 Ah)</a>											</div>
+					<div class="prodText">
+						
+						Ёмкость (А/ч)-105/85<br><br><span class="product-size">324x171x248 мм</span>						<span class="redPrice">
+												</span>
+					</div>
+
+
+								<div class="row prodPriceBlock">
+					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
+						<div class="vm3pr-"> 	<div class="product-price" id="productPrice70" data-vm="product-prices"> 
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">408,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
+<br style="clear: both">
+						<p class="redPrice"> АКБ <span>
+							0							</span> p.
+							</p>
+										</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 136.00 р./мес.</div>
+					
+				</div>
+				
+				<div class="details-button">
+					<a href="/catalog/akkumulators/banner/banner-6-6-gis-79-12v-105-85-ah" title="Аккумулятор Banner 6/6 GiS 79 (12V 105/85 Ah)" class="buttonAction">Описание товара</a>				</div>
+						</div>
+</div>
+<!--//-------> 
+	
+<!-- card -->
+<div class="item productSmCart text-center blockBorder-p0">
+<div class="inc">
+				<div class=" prodImgBg">
+
+						<a title="Аккумулятор Banner 6/8 GiS 109 (12V 130/105 Ah)" href="https://bat.by/catalog/akkumulators/banner/banner-6-8-gis-109-12v-130-105-ah">
+							<img src="/images/virtuemart/product/resized/banner-6-8-gis-109-12v-130-105-ah-1_0x90.jpg" alt="Аккумулятор Banner 6/8 GiS 109 (12V 130/105 Ah)" class="browseProductImage">						</a>
+
+				</div>
+
+
+
+
+					<div class="prodTitle">
+						<a href="https://bat.by/catalog/akkumulators/banner/banner-6-8-gis-109-12v-130-105-ah">Аккумулятор Banner 6/8 GiS 109 (12V 130/105 Ah)</a>											</div>
+					<div class="prodText">
+						
+						Ёмкость (А/ч)-130/105<br><br><span class="product-size">355x171x256 мм</span>						<span class="redPrice">
+												</span>
+					</div>
+
+
+								<div class="row prodPriceBlock">
+					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
+						<div class="vm3pr-"> 	<div class="product-price" id="productPrice70" data-vm="product-prices"> 
+	<span class="price-crossed"></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc">Цена: </span><span class="PricesalesPrice">468,00 p.</span></div><div class="PricediscountAmount vm-nodisplay"><span class="vm-price-desc">Скидка: </span><span class="PricediscountAmount"></span></div><div class="PriceunitPrice vm-nodisplay"><span class="vm-price-desc">Цена / кг: </span><span class="PriceunitPrice"></span></div></div>							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
+<br style="clear: both">
+						<p class="redPrice"> АКБ <span>
+							0							</span> p.
+							</p>
+										</div>
+					<div class="textPrice col-md-12">Рассрочка:<br> от 156.00 р./мес.</div>
+					
+				</div>
+				
+				<div class="details-button">
+					<a href="https://bat.by/catalog/akkumulators/banner/banner-6-8-gis-109-12v-130-105-ah" title="Аккумулятор Banner 6/8 GiS 109 (12V 130/105 Ah)" class="buttonAction">Описание товара</a>				</div>
+						</div>
+</div>
+<!--//------->
 	
 <!-- card -->
 <div class="item productSmCart text-center blockBorder-p0">
