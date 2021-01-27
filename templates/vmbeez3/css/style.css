@@ -103,6 +103,42 @@ span.ExpireAccountValue {
     color: red;
 }
 
+.auth-input__helper_visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.auth-input__helper {
+    box-sizing: border-box;
+    position: absolute;
+    width: 34px;
+    padding: 0 10px;
+    line-height: 38px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: color .2s ease,opacity .2s ease,visible .2s ease;
+    transition: color .2s ease,opacity .2s ease,visible .2s ease;
+    z-index: 1;
+}
+
+.auth-input__helper_insecure:before {
+    background-image: url(/images/auth/i-eye-open-black.png);
+    background-size: 16px 11px;
+}
+
+.auth-input__helper_secure:before {
+    background-image: url(/images/auth/i-eye-close-black.png);
+    background-size: 16px 13px;
+}
+
 /* > login */
 
 /* < Гарантия */
@@ -127,6 +163,10 @@ ul.list-news {
 ul.list-news >li {
     padding-left: 10px;
     list-style: circle;
+}
+
+thead.panel-heading {
+    background: #f3f5f6;
 }
 
 .figsign {
