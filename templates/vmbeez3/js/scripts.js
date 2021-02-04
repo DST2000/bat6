@@ -150,6 +150,17 @@ jQuery(function($){
        e.preventDefault(); //to prevent standard click event
        $('#erip-info').toggle();
 });
+	$('body').on('click', '.password-control', function(){
+	if ($('#modlgn-passwd').attr('type') == 'password'){
+		$(this).addClass('view');
+		$('#modlgn-passwd').attr('type', 'text');
+	} else {
+		$(this).removeClass('view');
+		$('#modlgn-passwd').attr('type', 'password');
+	}
+	return false;
+});
+	
 //	$(document).ready(function() {
 //		var textcart = $("input.total_products_from_cart").html();
 //		if (textcart.length == 0 ) {

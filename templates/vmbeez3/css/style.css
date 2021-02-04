@@ -103,40 +103,26 @@ span.ExpireAccountValue {
     color: red;
 }
 
-.auth-input__helper_visible {
-    visibility: visible;
-    opacity: 1;
+.password {
+	position: relative;
 }
-
-.auth-input__helper {
-    box-sizing: border-box;
-    position: absolute;
-    width: 34px;
-    padding: 0 10px;
-    line-height: 38px;
-    right: 1px;
-    top: 1px;
-    bottom: 1px;
-    background-color: #fff;
-    background-position: center center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    text-align: center;
-    visibility: hidden;
-    opacity: 0;
-    -o-transition: color .2s ease,opacity .2s ease,visible .2s ease;
-    transition: color .2s ease,opacity .2s ease,visible .2s ease;
-    z-index: 1;
+.password-control {
+	/*position: absolute;*/
+	top: 11px;
+	margin: 0px 0px -4px -30px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(/images/view.svg) 0 0 no-repeat;
 }
-
-.auth-input__helper_insecure:before {
-    background-image: url(/images/auth/i-eye-open-black.png);
-    background-size: 16px 11px;
+.password-control.view {
+	background: url(/images/no-view.svg) 0 0 no-repeat;
 }
-
-.auth-input__helper_secure:before {
-    background-image: url(/images/auth/i-eye-close-black.png);
-    background-size: 16px 13px;
+@media screen and (max-width: 600px) and (orientation: portrait) {
+	.password-control { 
+		margin: 0px 0px 0px 200px;
+	}
 }
 
 /* > login */

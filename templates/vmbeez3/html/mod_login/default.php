@@ -48,8 +48,7 @@ JHtml::_('behavior.keepalive');
 		<?php // {DST  ?>
 		<?php // <input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18"/>  ?>				
 		<input id="modlgn-passwd" type="password" name="password" class="inputbox" size="30" placeholder="<?php echo JText::_('JGLOBAL_PASSWORD52') ?>"/>
-		<div class="auth-input__helper auth-input__helper_visible auth-form__input-helper auth-input__helper_secure"></div>
-		<span id="showpas">Показать пароль</span>
+		<a href="#" class="password-control"></a>
 		<?php // }DST  ?>
 	</p>
 	<?php if (count($twofactormethods) > 1) : ?>

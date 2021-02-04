@@ -100,7 +100,7 @@
 <!-- card -->
 <div class="item">
 <div class="row">
-	<a href="/catalog/akkumulators/banner/banner-6-8-gis-109-12v-130-105-ah">
+	<a href="/catalog/zaryadnye-ustrojstva/banner-jump-starter-lithium-12v-2">
 		<i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
 		<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;"><strong style=" font-size: 22px;"></strong></span>	
 		</i>
@@ -112,19 +112,19 @@
 		<div class="col-xs-1">
    		</div>
 		<div class="col-xs-5">
-		<img src="/images/virtuemart/product/resized/banner-6-8-gis-109-12v-130-105-ah-1_0x90.jpg" alt="Аккумулятор Banner 6/8 GiS 109 (12V 130/105 Ah)" style="width:100%;">
+		<img src="/images/virtuemart/product/resized/_DSC08584_0x90.jpg" alt="Banner Jump Starter Lithium 12V" style="width:100%;">
 		</div>
 
 
 
 		<div class="col-xs-6 py-1" style="">
-		<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Супер цена 468,00 Р.</br> </strong>
-		<h4 style="font-weight: bold; margin-bottom: 1.0em;">Аккумулятор Banner 6/8 GiS 109 (12V 130/105 Ah)</h4>
+		<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Супер цена 290,00 Р.</br> </strong>
+		<h4 style="font-weight: bold; margin-bottom: 1.0em;">Banner Jump Starter Lithium 12V</h4>
 
 			<p>				
 			<div class="prodText">
 
-								Ёмкость (А/ч)-130/105<br>Напряжение 12V<br><span class="product-size">355x171x256 мм</span>						<span class="redPrice">
+								<br>Напряжение 12V<br><span class="product-size"></span>						<span class="redPrice">
 														</span>
 							</div>
 		</p>
@@ -135,7 +135,7 @@
 
 
 		<div class="col-xs-12">
-		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 31.01.2021</button>
+		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 28.02.2021</button>
 		</div>
 	</a>
 </div>
