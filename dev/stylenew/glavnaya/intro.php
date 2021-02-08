@@ -16,7 +16,7 @@
 <div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
 
 <div class="row">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cfSOxTHAh30?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cfSOxTHAh30?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 </div>	
 	
