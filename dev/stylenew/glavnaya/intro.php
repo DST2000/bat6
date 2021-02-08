@@ -16,6 +16,14 @@
 <div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
 
 <div class="row">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cfSOxTHAh30?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</div>	
+	
+<!-- card -->
+<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
+
+<div class="row">
 <div class="col-xs-12 col-7 slideText">
 <h2><a href="/roznichnaya-set?view=article&amp;id=39&amp;catid=17">Аккумуляторы от первого поставщика</a><br>
 20 лет продаж</h2>

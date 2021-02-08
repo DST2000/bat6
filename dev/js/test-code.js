@@ -1,3 +1,16 @@
+$('body').on('click', '.password-control', function(){
+	if ($('#password-input').attr('type') == 'password'){
+		$(this).addClass('view');
+		$('#password-input').attr('type', 'text');
+	} else {
+		$(this).removeClass('view');
+		$('#password-input').attr('type', 'password');
+	}
+	return false;
+});
+
+
+
 t._v(" "), t.isClearHelperVisible ? r("div", {
 				staticClass: "auth-input__helper auth-input__helper_clear auth-input__helper_visible auth-form__input-helper",
 				on: {
