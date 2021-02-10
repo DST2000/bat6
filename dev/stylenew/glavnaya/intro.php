@@ -108,6 +108,8 @@
 <!-- card -->
 <div class="item">
 <div class="row">
+	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/QgXCZle953U?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<!--
 	<a href="/catalog/zaryadnye-ustrojstva/banner-jump-starter-lithium-12v-2">
 		<i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
 		<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;"><strong style=" font-size: 22px;"></strong></span>	
@@ -146,6 +148,7 @@
 		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 28.02.2021</button>
 		</div>
 	</a>
+-->
 </div>
 </div>
 

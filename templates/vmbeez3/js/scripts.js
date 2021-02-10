@@ -37,7 +37,8 @@ jQuery(function($){
 				margin:0,
 				nav: true,
 				center: true,
-				autoplay: false,
+				autoplay: true,
+				autoplayHoverPause:true,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
