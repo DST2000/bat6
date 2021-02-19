@@ -16,6 +16,30 @@
 <div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
 
 <div class="row">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/itgAyv76HQo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</div>
+	
+<!-- card -->
+<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
+
+<div class="row">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6wWQ4FgMpes?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</div>	
+	
+<!-- card -->
+<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
+
+<div class="row">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ch4f0r1kqFo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</div>	
+	
+<!-- card -->
+<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
+
+<div class="row">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QgXCZle953U?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 </div>	
