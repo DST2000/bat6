@@ -16,9 +16,11 @@
 <a href="/catalog/delta">
 <div class="item hidden-xs">
 	<img class="img-fluid" alt="delta moto" src="/images/slider/slider_delta_0.jpg">
+	
 </div>
 <div class="item hidden-md hidden-lg">
 	<img class="img-fluid" alt="delta moto" src="/images/slider/slider_delta_xs.jpg">
+	
 </div>
 </a>
 	
