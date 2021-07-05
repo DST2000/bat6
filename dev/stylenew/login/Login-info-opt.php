@@ -87,24 +87,6 @@ if ( count( $payables ) > 0 ) {
 	</tr>
 </thead>
 <tbody>		
-
-	<tr>
-				<td>
-					
-						<img class="browseProductImage-horison" src="/components/com_virtuemart/assets/images/vmgeneral/noimage.gif" alt="Не настроено изображение ">					
-				</td>
-				<td><h2 class="horizon-name">Varta Funstart 530034 (30 Ah)</h2></td>
-				<td><span class="stock-level">1 шт. </span></td>
-				<td>				</td>
-				<td>65,50</td>
-				<td>
-					<span class="product-size"></span>					</td>
-				<td>
-								</td>
-				<td>
-					
-				</td>	
-			</tr>
 		
 	<tr>
 				<td>
@@ -150,39 +132,8 @@ if ( count( $payables ) > 0 ) {
 				<td>
 				30				</td>	
 			</tr>
-	
-	<tr>
-				<td>
-					<a title="Varta POWERSPORTS AGM 509901 (9 Ah)" href="/catalog/akkumulators/varta/varta-powersports-agm-509901-9-ah-2">
-						<img src="/images/virtuemart/product/resized/varta-powersports-agm-509901-9-ah-2-1_0x90.jpg" alt="varta-powersports-agm-509901-9-ah-2-1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-509901-9-ah-2">Varta POWERSPORTS AGM 509901 (9 Ah)</a></h2></td>
-				<td><span class="stock-level">3шт. </span></td>
-				<td>155.64				</td>
-				<td>100,44</td>
-				<td>
-					<span class="product-size">150-87-110</span>					</td>
-				<td>
-				200				</td>	
-			</tr>
-	
-	<tr>
-				<td>
-					<a title="Varta POWERSPORTS AGM 509902 (8 Ah)" href="/catalog/akkumulators/varta/varta-powersports-agm-509902-8-ah-2">
-						<img src="/images/virtuemart/product/resized/varta-powersports-agm-509902-8-ah-2-1_0x90.jpg" alt="varta-powersports-agm-509902-8-ah-2-1" class="browseProductImage-horison">					</a>
-				</td>
-				<td><h2 class="horizon-name"><a href="/catalog/akkumulators/varta/varta-powersports-agm-509902-8-ah-2">Varta POWERSPORTS AGM 509902 (8 Ah)</a></h2></td>
-				<td><span class="stock-level">1шт. </span></td>
-				<td>131.01				</td>
-				<td>87,74</td>
-				<td>
+		
 
-					<span class="product-size">149-70-105</span>					</td>
-				<td>
-				115				</td>
-			</tr>
-
-	
 </tbody>	
 	
 </table>
