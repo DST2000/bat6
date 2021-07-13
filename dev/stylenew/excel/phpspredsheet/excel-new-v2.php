@@ -392,8 +392,8 @@ for ($i = 1; $i <= $DataArrayCount-2; $i++) {
 	
 	$spreadsheet->setActiveSheetIndex(0)
     ->setCellValue("A$j", "$ArrayOfString[0]")
-    ->setCellValue("B$j", "$ArrayOfString[1]")
-    ->setCellValue("C$j", "$ArrayOfString[2]")
+    ->setCellValue("B$j", "$ArrayOfString[2]")
+    ->setCellValue("C$j", "$ArrayOfString[1]")
     ->setCellValue("D$j", "$ArrayOfString[3]")
     ->setCellValue("E$j", "$ArrayOfString[4]")
     ->setCellValue("F$j", "$ArrayOfString[5]")
