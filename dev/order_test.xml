@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <channel>
 
 <item>
+
 <virtuemart_order_id><![CDATA[10833]]></virtuemart_order_id>
+	
 <username><![CDATA[290478313]]></username>
+	
 <user_uid><![CDATA[]]></user_uid>
 <order_total><![CDATA[163.63]]></order_total>
+
 <product_price_total><![CDATA[218.17]]></product_price_total>
+	
 <product_sku><![CDATA[03927c1f-13e4-11e4-a289-001e6713d724]]></product_sku>
+
 <product_quantity><![CDATA[1]]></product_quantity>
 <product_final_price><![CDATA[163.63]]></product_final_price>
 <customer_note><![CDATA[]]></customer_note>
