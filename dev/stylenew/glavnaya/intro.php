@@ -24,37 +24,7 @@
 </div>
 </a>
 	
-<!-- card -->
-<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
 
-<div class="row">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/itgAyv76HQo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-</div>
-	
-<!-- card -->
-<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
-
-<div class="row">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6wWQ4FgMpes?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-</div>	
-	
-<!-- card -->
-<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
-
-<div class="row">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ch4f0r1kqFo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-</div>	
-	
-<!-- card -->
-<div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
-
-<div class="row">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/QgXCZle953U?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-</div>	
 	
 <!-- card -->
 <div class="item" style="background: url(images/slider/slider1.jpg) 0% 0% / cover no-repeat;">
@@ -145,59 +115,38 @@
 <div class="item">
 <div class="row">
 	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/QgXCZle953U?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-<!--
-	<a href="/catalog/zaryadnye-ustrojstva/banner-jump-starter-lithium-12v-2">
-		<i class="fas fa-certificatehtml" style="position: absolute; color:#E9522C; right: 20px; top: 20px; font-size:65px;">
-		<span style="position: absolute; top:22px; right:15px; color: #FFFFFF; font-size: 14px; font-family:Arial; letter-spacing: -1px;"><strong style=" font-size: 22px;"></strong></span>	
-		</i>
-		<div class="col-xs-12">
-		<h4 style="font-size: 1.4rem; text-transform:uppercase; font-weight: bold">Купи прямо сейчас!</h4> 
-		</div>
-		<br style="clear:both">
 
-		<div class="col-xs-1">
-   		</div>
-		<div class="col-xs-5">
-		<img src="/images/virtuemart/product/resized/_DSC08584_0x90.jpg" alt="Banner Jump Starter Lithium 12V" style="width:100%;">
-		</div>
-
-
-
-		<div class="col-xs-6 py-1" style="">
-		<strong style="color: #fff; background: #E9522C; padding:1px 2px;">Супер цена 290,00 Р.</br> </strong>
-		<h4 style="font-weight: bold; margin-bottom: 1.0em;">Banner Jump Starter Lithium 12V</h4>
-
-			<p>				
-			<div class="prodText">
-
-								<br>Напряжение 12V<br><span class="product-size"></span>						<span class="redPrice">
-														</span>
-							</div>
-		</p>
-	
-		</div>
-
-
-
-
-		<div class="col-xs-12">
-		<button type="submit" class="btn btn-default text-center bg-red" style="border:0; color: #FFFFFF; text-shadow:0">Предложение действительно до 28.02.2021</button>
-		</div>
-	</a>
--->
 </div>
 </div>
 
 
+<div class="item">
+<div class="row">
+	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/6wWQ4FgMpes?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-
-
-                
 </div>
+</div>
+    
+<div class="item">
+<div class="row">
+	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/Ch4f0r1kqFo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+</div>
+</div>
+        
+<div class="item">
+<div class="row">
+	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/itgAyv76HQo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+</div>
+</div>
+    
+</div>
+             
 <!-------->
 
 </div>
-<!--//banner2------------------------------------------->                       
+<!--//banner2------------------------------------------->               
 </div>
 <!--большой слайдер-------------------------------------------------->         
          

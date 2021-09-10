@@ -47,13 +47,13 @@ jQuery(function($){
 					0: {
 						items: 1
 					},
-					4000: {
+					1200: {
 						items: 1
 					},
-					8000: {
+					1500: {
 						items: 1
 					},
-					12000: {
+					2000: {
 						items: 1
 					}
 				}
@@ -66,6 +66,7 @@ jQuery(function($){
 				nav: true,
 				center: true,
 				autoplay: true,
+                autoplayHoverPause:true,
 				navText: [
 					'<i class="fa fa-angle-left"></i>',
 					'<i class="fa fa-angle-right"></i>'
