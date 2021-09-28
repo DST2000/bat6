@@ -192,6 +192,8 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/banner">BANNER</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta">VARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/aktex">AKTEX</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akku">Akku</a></li>
+
 	<li class="col-md-12 col-lg-12 p-0"><a href="catalog/atlant">ATLANT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt">BLT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/centra">CENTRA</a></li>
@@ -443,12 +445,21 @@
 <?php
 $user = JFactory::getUser();
 if ($user->id>0){ 	
-$username = $user->get( 'name' );	
+$username = $user->get( 'name' );
+ 
+/* {/DST manager  */
+$userid = $user->get( 'id' );
+$db = JFactory::getDBO();
+$query = 'SELECT `manager` ' . ' FROM `#__virtuemart_userinfos` ' . ' WHERE `virtuemart_user_id` = ' . $userid;
+$db->setQuery( $query );
+$usermanager = $db->LoadResult();
+/* }/DST manager  */  
+
 }  	
 ?>
 <?php if ($user->id>0): ?>
 </br>
-<a href="/optovye-pokupateli" class="user">Вы зашли <i class="fas fa-user-circle"></i> как: <?php echo $username; ?></a>
+<a href="/optovye-pokupateli" class="user">Вы зашли <i class="fas fa-user-circle"></i> как: <?php echo $username; ?> </br> Менеджер: <?php echo $usermanager ?></a>
 <?php endif; ?>
 </div>
 
