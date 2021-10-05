@@ -193,8 +193,7 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/varta">VARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/aktex">AKTEX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akku">Akku</a></li>
-
-	<li class="col-md-12 col-lg-12 p-0"><a href="catalog/atlant">ATLANT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/atlant">ATLANT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt">BLT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/centra">CENTRA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot">Champion Pilot</a></li>
@@ -206,6 +205,7 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima">Optima</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/red-energy">Red Energy</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh">REO NI-MH</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/sparta">SPARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft">Startcraft</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse">SECURITY FORCE</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax">TENAX</a></li>
@@ -372,7 +372,7 @@
 
 <ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
 <h3 style="color: #FFFFFF;font-weight: bolder;text-transform: uppercase;/* font-size: 0; *//* margin-bottom: 8px; */padding-left:15px;padding-right:15px;margin: 14px 0;">
-<a href="/catalog/q8" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла Q8</a>
+<a href="/catalog/oils" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла Q8</a>
 </h3>   
 </ul>
 
