@@ -77,8 +77,16 @@ JHtml::_('behavior.keepalive');
 	<input type="hidden" name="task" value="user.login" />
 	<input type="hidden" name="return" value="<?php echo $return; ?>" />
 	<?php echo JHtml::_('form.token'); ?>
+    <?php // {DST ?>
+    <ul>
+        <li>
+            <a href="<?php echo JRoute::_('index.php?option=com_users&view=reset'); ?>">
+			<?php echo JText::_('MOD_LOGIN_FORGOT_YOUR_PASSWORD'); ?></a>
+        </li>
+    </ul>
+    <?php // }DST ?>
 	<?php // {DST ?>
-	<?php if (JComponentHelper::getParams('com_users')->get('allowUserRegistration')) : ?>	
+	    <?php if (JComponentHelper::getParams('com_users')->get('allowUserRegistration')) : ?>	
 	<?php // }DST ?>
 	<ul>
 		<li>

@@ -24,6 +24,34 @@ body {
 }
 /* > Тестовые страницы */
 
+/* <password */
+
+.reset-confirm , .reset, .reset-complete{
+    position: fixed;
+    top: 60px;
+    z-index: 20;
+}
+
+.well {
+    background-image: -webkit-linear-gradient(top,#fff 0,#fff 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#fff 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#fff));
+    background-image: linear-gradient(to bottom,#fff 0,#fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#fff', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #fff;
+}
+
+form#user-registration .control-label  {
+    text-align: left !important;
+}
+
+.reset-confirm .control-label  {
+    text-align: left !important;
+}
+
+/* >password */
+
 /* < login */
 
 .profile-edit {
