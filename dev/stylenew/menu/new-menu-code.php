@@ -207,7 +207,6 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/reo-ni-mh">REO NI-MH</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/sparta">SPARTA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/startcraft">Startcraft</a></li>
-<li class="col-md-12 col-lg-12 p-0"><a href="/catalog/security-forse">SECURITY FORCE</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/tenax">TENAX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/vega">VEGA</a></li>	
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/winmaxx">WINMAXX</a></li>
