@@ -114,6 +114,13 @@
 <!-- card -->
 <div class="item">
 <div class="row">
+	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/itgAyv76HQo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+</div>
+</div>    
+    
+<div class="item">
+<div class="row">
 	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/QgXCZle953U?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 </div>
@@ -134,12 +141,7 @@
 </div>
 </div>
         
-<div class="item">
-<div class="row">
-	<iframe width="400px" height="240px" src="https://www.youtube.com/embed/itgAyv76HQo?controls=0&amp;rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-</div>
-</div>
     
 </div>
              
