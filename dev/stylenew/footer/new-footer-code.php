@@ -116,7 +116,6 @@
                 <p>Наше представительство в соцсетях</p>
                 <div class="social-icons">
                     <i class="fab fa-vk"></i>
-                    <i class="fab fa-facebook"></i>
                 </div>
             </div>
             
