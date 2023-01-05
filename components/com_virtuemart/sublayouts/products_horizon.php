@@ -92,6 +92,8 @@ foreach ($viewData['products'] as $type => $products ) {
 			vmdebug('$product is not object or link empty',$product);
 			continue;
 		}
+        // {DST
+        if ($product->product_in_stock > 0):
 		?>
 		
 			<tr>
@@ -149,9 +151,9 @@ foreach ($viewData['products'] as $type => $products ) {
 					</div>
 				</td>	
 			</tr>
-
+        <?php endif; ?>
 		<?php
-		
+        
 		// Show the horizontal seperator
 		// {DST
 		if (false) {

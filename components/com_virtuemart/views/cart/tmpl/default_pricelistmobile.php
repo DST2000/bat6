@@ -330,10 +330,15 @@ if (VmConfig::get('oncheckout_opc',true) or
 	// }DST
 	?>
 	<td colspan="5" style="align:left;vertical-align:top;">
-		<?php echo '<h4>'.vmText::_ ('COM_VIRTUEMART_CART_SELECTED_SHIPMENT').'</h4>'; ?>
+		<?php echo '<h3>'.vmText::_ ('COM_VIRTUEMART_CART_SELECTED_SHIPMENT').'</h3>'; ?>
 		<?php echo $this->cart->cartData['shipmentName'];
 		echo '<span class="floatright">' . $this->currencyDisplay->createPriceDiv ('shipmentValue', '', $this->cart->cartPrices['shipmentValue'], FALSE) . '</span>';
 		?>
+        <?php 
+        //{DST
+        echo '<div class="spaceCart"><div>';    
+        //}DST
+        ?>
 	</td>
 	<?php } ?>
 

@@ -161,7 +161,7 @@
 </div>
 <div class="col-sm-4">
 
-<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/q8">Моторные масла Q8</a></h3> 
+<h3 class="invert-h3" ><a class="a-bh3" href="/catalog/oils">Моторные масла</a></h3> 
 <div class="colorInvert col-md-5 col-lg-4">
 <span class="h3-span-subheader">класс / вязкость</span>
 <hr class="span-line">
@@ -194,12 +194,14 @@
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/aktex">AKTEX</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/akku">Akku</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/atlant">ATLANT</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/blizzaro">BLIZZARO</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/blt">BLT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/centra">CENTRA</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/champion-pilot">Champion Pilot</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/start-bat">CтартБат</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/delta">Delta</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="catalog/exide">EXIDE</a></li>
+<li class="col-md-12 col-lg-12 p-0"><a href="catalog/kainar">KAINAR</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/kijo">Kijo</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/monbat">MONBAT</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/optima">Optima</a></li>
@@ -256,22 +258,21 @@
 <div id="maslo" class="">
 <ul class="colorInvert col-md-5 col-lg-4" style="list-style: none; padding-left: 0; padding-top: 15px;">
 
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=30572d3330">0W-30</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=35572d3330">5W-30</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=35572d3430">5W-40</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3330">10W-30</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3430">10W-40</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3735572d3830">75W-80</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=30572d3330">0W-30</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=35572d3330">5W-30</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=35572d3430">5W-40</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3130572d3330">10W-30</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3130572d3430">10W-40</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3735572d3830">75W-80</a></li>
 <a data-toggle="collapse" data-target="#toggleOilType" style="padding:2px 0px; border: 0; color: #000; border-radius: 1.8px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все <span>›</span></a>
 
 <div id="toggleOilType" class="collapse">
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3130572d3530">10W-50</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3135572d3430">15W-40</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3735572d3930">75W-90</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=3830572d313430">80W-140</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=534145203330">SAE 30</a></li>
-<li><a href="/catalog/filter/q8/?custom_f_320[0]=534145203430">SAE 40</a></li>
-
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3130572d3530">10W-50</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3135572d3430">15W-40</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3735572d3930">75W-90</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3830572d3930">80W-90</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=3830572d313430">80W-140</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_320[0]=534145203330">SAE 30</a></li>
 <br style="clear:both;">
 <br>
 
@@ -279,13 +280,12 @@
 
 <ul class="colorInvert col-md-7 col-lg-8" style="list-style: none; padding-left: 0; padding-top: 15px;">
 
-<li><a href="/catalog/oils/q8/motornye-masla-dlya-legkovykh-avtomobilej">Моторные масла для легковых автомобилей</a></li>
-<li><a href="/catalog/oils/q8/motornye-masla-dlya-gruzovykh-avtomobilej">Моторные масла для грузовых автомобилей</a></li>
-<li><a href="/catalog/oils/q8/masla-dlya-moto-i-sadovoj-tekhniki">Масла для мото и садовой техники</a></li>
-<li><a href="/catalog/oils/q8/masla-dlya-gazovykh-dvigatelej">Масла для газовых двигателей</a></li>
-<li><a href="/catalog/oils/q8/antifrizy-i-tekhnicheskie-zhidkosti">Антифризы и технические жидкости</a></li>
-<li><a href="/catalog/oils/q8/gidravlicheskie-masla">Гидравлические масла</a></li>
-<li><a href="/catalog/oils/q8/transmissionnye-masla">Трансмиссионные масла</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_25[0]=d0b4d0bbd18f20d0bbd0b5d0b3d0bad0bed0b2d18bd18520d0b0d0b2d182d0bed0bcd0bed0b1d0b8d0bbd0b5d0b9">Моторные масла для легковых автомобилей</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_25[0]=d0b4d0bbd18f20d0b3d180d183d0b7d0bed0b2d18bd18520d0b0d0b2d182d0bed0bcd0bed0b1d0b8d0bbd0b5d0b9">Моторные масла для грузовых автомобилей</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_25[0]=d0b4d0bbd18f20d0bcd0bed182d0be20d0b820d181d0b0d0b4d0bed0b2d0bed0b920d182d0b5d185d0bdd0b8d0bad0b8">Масла для мото и садовой техники</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_25[0]=d090d0bdd182d0b8d184d180d0b8d0b7d18b20d0b820d182d0b5d185d0bdd0b8d187d0b5d181d0bad0b8d0b520d0b6d0b8d0b4d0bad0bed181d182d0b8">Антифризы и технические жидкости</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_25[0]=d093d0b8d0b4d180d0b0d0b2d0bbd0b8d187d0b5d181d0bad0b8d0b520d0bcd0b0d181d0bbd0b0">Гидравлические масла</a></li>
+<li><a href="/catalog/filter/oils/?custom_f_25[0]=d0a2d180d0b0d0bdd181d0bcd0b8d181d181d0b8d0bed0bdd0bdd18bd0b520d0bcd0b0d181d0bbd0b0">Трансмиссионные масла</a></li>
 <li><a href="/catalog/oils/q8/smazki">Смазки</a></li>
 <li class="col-md-12 col-lg-12 p-0"><a href="/catalog/oils" style="padding:2px 0px; border: 0; color: #E9522C !important; border-radius: 2px; background: #fff; font-size:1rem; text-transform: none; padding: 2px;">Показать все </a></li>
 <?php /*
@@ -371,7 +371,7 @@
 
 <ul style="margin: 0px !important; padding: 0; border-bottom: 1px solid #EF655B;">
 <h3 style="color: #FFFFFF;font-weight: bolder;text-transform: uppercase;/* font-size: 0; *//* margin-bottom: 8px; */padding-left:15px;padding-right:15px;margin: 14px 0;">
-<a href="/catalog/oils" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла Q8</a>
+<a href="/catalog/oils" style="color: #FFFFFF; text-transform: uppercase; font-size:1.0rem; padding-right:15px;">Моторные масла</a>
 </h3>   
 </ul>
 
@@ -408,6 +408,7 @@
           
      
 </div>
+
 </header>
 												
 						

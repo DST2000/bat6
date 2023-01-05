@@ -120,6 +120,10 @@ foreach ($viewData['products'] as $type => $products ) {
 
 
 				<?php //echo $rowsHeight[$row]['price'] ?>
+                <?php // Нет в наличии (цены не отображаем)
+				// {DST
+                if ($product->product_in_stock > 0):
+                ?>    
 				<div class="row prodPriceBlock">
 					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
 						<div class="vm3pr-<?php echo $rowsHeight[$row]['price'] ?>"> <?php
@@ -153,6 +157,41 @@ foreach ($viewData['products'] as $type => $products ) {
 					<div class="textPrice col-md-12">Рассрочка:</br> от <?php echo round((($product->prices[product_price])/3), 2) ?> р./мес.</div>
 					
 				</div>
+                <?php else: ?>
+                <div class="row prodPriceBlock">
+					<div class="prodPrice-black priceLeft col-md-5 col-xs-6">
+						<div class="vm3pr-<?php echo $rowsHeight[$row]['price'] ?>"> <?php
+							echo (' '); ?>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<?php
+					if (($product->product_weight > 0) && ((int)$product->product_length > 0)) :
+					?>
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">Скидка за старый 
+<br style="clear: both">
+						<p class="redPrice"> АКБ <span>
+							<?php 
+							if (($product->product_weight > 0) && ((int)$product->product_length > 0)) {
+							//echo (int)round(($product->product_weight)*100)/100;
+							// скидка за акб
+							echo (' ');
+							}
+							?>
+							</span>
+							</p>
+					</div>
+					<?php // {DST
+					else:
+					// }DST
+					?>
+					<div class="prodPrice priceRight col-md-7 col-xs-6 text-right">
+					</div>
+					<?php endif; ?>
+					
+					<div class="textPrice col-md-12">Рассрочка:</br> от <?php echo (' ') ?> </div>
+				</div> 
+                <?php endif; ?>
 				<?php //echo $rowsHeight[$row]['customs'] ?>
 
 				<div class="details-button">

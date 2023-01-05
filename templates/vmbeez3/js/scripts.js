@@ -152,6 +152,10 @@ jQuery(function($){
        e.preventDefault(); //to prevent standard click event
        $('#erip-info').toggle();
 });
+	$('#button-personaldata').click(function(e){
+       e.preventDefault(); //to prevent standard click event
+       $('#personaldata-info').toggle();
+});
 	$('body').on('click', '.password-control', function(){
 	if ($('#modlgn-passwd').attr('type') == 'password'){
 		$(this).addClass('view');
